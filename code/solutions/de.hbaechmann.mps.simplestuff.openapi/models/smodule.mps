@@ -1543,7 +1543,7 @@
     <node concept="3UR2Jj" id="5abIGi4fcZW" role="lGtFl">
       <node concept="TZ5HA" id="5abIGi4fcZX" role="TZ5H$">
         <node concept="1dT_AC" id="5abIGi4fcZY" role="1dT_Ay">
-          <property role="1dT_AB" value="Represents a SModule, which could not be resolved via SModule::resolve()" />
+          <property role="1dT_AB" value="Represents a SModule, which could not be resolved via SModuleRference::resolve()" />
         </node>
       </node>
     </node>
