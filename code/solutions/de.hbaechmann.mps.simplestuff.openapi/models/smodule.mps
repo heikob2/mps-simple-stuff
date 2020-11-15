@@ -12,6 +12,11 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="c6m4" ref="r:ae8cd326-b7e1-497d-808e-0a2c5203930b(de.hbaechmann.mps.simplestuff.util.utils)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
+    <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -40,6 +45,12 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -47,9 +58,13 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -57,9 +72,14 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -76,6 +96,8 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -87,6 +109,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -106,6 +129,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -122,7 +146,14 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
       </concept>
@@ -163,6 +194,7 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -391,6 +423,41 @@
                                 <ref role="3cqZAo" node="1xIgfUFTexb" resolve="repo" />
                               </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="5abIGi48Sso" role="3cqZAp">
+                        <node concept="3SKdUq" id="5abIGi48Ssq" role="3SKWNk">
+                          <property role="3SKdUp" value="it is possible, that a depending SModule cannot be resolved" />
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="5abIGi49r8L" role="3cqZAp">
+                        <node concept="3clFbS" id="5abIGi49r8N" role="3clFbx">
+                          <node concept="3clFbF" id="5abIGi49sWm" role="3cqZAp">
+                            <node concept="37vLTI" id="5abIGi49trt" role="3clFbG">
+                              <node concept="2ShNRf" id="5abIGi49tN2" role="37vLTx">
+                                <node concept="1pGfFk" id="5abIGi49vh1" role="2ShVmc">
+                                  <ref role="37wK5l" node="5abIGi498uV" resolve="SModuleNull" />
+                                  <node concept="2OqwBi" id="5abIGi49we$" role="37wK5m">
+                                    <node concept="2GrUjf" id="5abIGi49vIA" role="2Oq$k0">
+                                      <ref role="2Gs0qQ" node="1xIgfUFTewi" resolve="dep" />
+                                    </node>
+                                    <node concept="liA8E" id="5abIGi49O87" role="2OqNvi">
+                                      <ref role="37wK5l" to="lui2:~SDependency.getTargetModule():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getTargetModule" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="5abIGi49sWk" role="37vLTJ">
+                                <ref role="3cqZAo" node="1xIgfUFTewo" resolve="depTarget" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="5abIGi49s8v" role="3clFbw">
+                          <node concept="10Nm6u" id="5abIGi49sy3" role="3uHU7w" />
+                          <node concept="37vLTw" id="5abIGi49rCi" role="3uHU7B">
+                            <ref role="3cqZAo" node="1xIgfUFTewo" resolve="depTarget" />
                           </node>
                         </node>
                       </node>
@@ -1366,6 +1433,120 @@
       <node concept="3Tm1VV" id="1xIgfUFT6vz" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="5abIGi3YxAu" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="5abIGi4928C">
+    <property role="TrG5h" value="SModuleNull" />
+    <node concept="2tJIrI" id="5abIGi492aV" role="jymVt" />
+    <node concept="312cEg" id="5abIGi497ca" role="jymVt">
+      <property role="TrG5h" value="unresolveableModuleReference" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="5abIGi495SW" role="1B3o_S" />
+      <node concept="3uibUv" id="5abIGi49bbf" role="1tU5fm">
+        <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5abIGi495yq" role="jymVt" />
+    <node concept="3clFbW" id="5abIGi498uV" role="jymVt">
+      <node concept="3cqZAl" id="5abIGi498uX" role="3clF45" />
+      <node concept="3Tm1VV" id="5abIGi498uY" role="1B3o_S" />
+      <node concept="3clFbS" id="5abIGi498uZ" role="3clF47">
+        <node concept="3clFbF" id="5abIGi49cy7" role="3cqZAp">
+          <node concept="37vLTI" id="5abIGi49d87" role="3clFbG">
+            <node concept="37vLTw" id="5abIGi49drh" role="37vLTx">
+              <ref role="3cqZAo" node="5abIGi498PR" resolve="unresolveableModuleReference" />
+            </node>
+            <node concept="2OqwBi" id="5abIGi49cAl" role="37vLTJ">
+              <node concept="Xjq3P" id="5abIGi49cy6" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5abIGi49cJA" role="2OqNvi">
+                <ref role="2Oxat5" node="5abIGi497ca" resolve="unresolveableModuleReference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5abIGi498PR" role="3clF46">
+        <property role="TrG5h" value="unresolveableModuleReference" />
+        <node concept="3uibUv" id="5abIGi49btP" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5abIGi4988h" role="jymVt" />
+    <node concept="3Tm1VV" id="5abIGi4928D" role="1B3o_S" />
+    <node concept="3clFb_" id="5abIGi492bt" role="jymVt">
+      <property role="TrG5h" value="getModuleId" />
+      <node concept="3Tm1VV" id="5abIGi492bu" role="1B3o_S" />
+      <node concept="3uibUv" id="5abIGi492bw" role="3clF45">
+        <ref role="3uigEE" to="lui2:~SModuleId" resolve="SModuleId" />
+      </node>
+      <node concept="3clFbS" id="5abIGi492bx" role="3clF47">
+        <node concept="3clFbF" id="5abIGi49dsU" role="3cqZAp">
+          <node concept="2OqwBi" id="5abIGi49dKW" role="3clFbG">
+            <node concept="37vLTw" id="5abIGi49dsR" role="2Oq$k0">
+              <ref role="3cqZAo" node="5abIGi497ca" resolve="unresolveableModuleReference" />
+            </node>
+            <node concept="liA8E" id="5abIGi49e4o" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5abIGi4eyOH" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5abIGi492b_" role="jymVt">
+      <property role="TrG5h" value="getModuleName" />
+      <node concept="3Tm1VV" id="5abIGi492bA" role="1B3o_S" />
+      <node concept="3uibUv" id="5abIGi492bC" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="5abIGi492bD" role="3clF47">
+        <node concept="3clFbF" id="5abIGi49e6O" role="3cqZAp">
+          <node concept="2OqwBi" id="5abIGi49eqQ" role="3clFbG">
+            <node concept="37vLTw" id="5abIGi49e6L" role="2Oq$k0">
+              <ref role="3cqZAo" node="5abIGi497ca" resolve="unresolveableModuleReference" />
+            </node>
+            <node concept="liA8E" id="5abIGi49eIq" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5abIGi4eyOF" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5abIGi492bH" role="jymVt">
+      <property role="TrG5h" value="getModuleReference" />
+      <node concept="3Tm1VV" id="5abIGi492bI" role="1B3o_S" />
+      <node concept="2AHcQZ" id="5abIGi492bK" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="5abIGi492bL" role="3clF45">
+        <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+      </node>
+      <node concept="3clFbS" id="5abIGi492bM" role="3clF47">
+        <node concept="3clFbF" id="5abIGi49eKU" role="3cqZAp">
+          <node concept="37vLTw" id="5abIGi49eKR" role="3clFbG">
+            <ref role="3cqZAo" node="5abIGi497ca" resolve="unresolveableModuleReference" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5abIGi4eyOG" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3uibUv" id="5abIGi4eNqt" role="1zkMxy">
+      <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+    </node>
+    <node concept="3UR2Jj" id="5abIGi4fcZW" role="lGtFl">
+      <node concept="TZ5HA" id="5abIGi4fcZX" role="TZ5H$">
+        <node concept="1dT_AC" id="5abIGi4fcZY" role="1dT_Ay">
+          <property role="1dT_AB" value="Represents a SModule, which could not be resolved via SModule::resolve()" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

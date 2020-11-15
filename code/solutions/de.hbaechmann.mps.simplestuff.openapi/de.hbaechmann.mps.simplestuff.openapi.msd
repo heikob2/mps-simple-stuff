@@ -7,8 +7,8 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="true">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="true">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">4e30c06f-98c8-4593-9045-e61414d3dd74(de.hbaechmann.mps.simplestuff.util)</dependency>
   </dependencies>
   <languageVersions>
