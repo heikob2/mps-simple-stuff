@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="MPSProject">
-    <projectModules />
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.openapi/de.hbaechmann.mps.simplestuff.openapi.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.util/de.hbaechmann.mps.simplestuff.util.msd" folder="" />
+    </projectModules>
   </component>
 </project>
