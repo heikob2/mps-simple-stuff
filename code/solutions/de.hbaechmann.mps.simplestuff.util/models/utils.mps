@@ -52,6 +52,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -136,6 +139,36 @@
     <node concept="2tJIrI" id="4bwufpu48RS" role="jymVt" />
     <node concept="312cEu" id="4bwufpu48TN" role="jymVt">
       <property role="TrG5h" value="AllowedTargetsFilter" />
+      <node concept="2tJIrI" id="4bwufpukdCj" role="jymVt" />
+      <node concept="2YIFZL" id="4bwufpuke8x" role="jymVt">
+        <property role="TrG5h" value="noFiltering" />
+        <node concept="3clFbS" id="4bwufpuke8$" role="3clF47">
+          <node concept="3clFbF" id="4bwufpukeKA" role="3cqZAp">
+            <node concept="1bVj0M" id="4bwufpukeK$" role="3clFbG">
+              <node concept="3clFbS" id="4bwufpukeK_" role="1bW5cS">
+                <node concept="3clFbF" id="4bwufpukePS" role="3cqZAp">
+                  <node concept="3clFbT" id="4bwufpukePR" role="3clFbG">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTG" id="4bwufpukf1Z" role="1bW2Oz">
+                <property role="TrG5h" value="dependencyModule" />
+                <node concept="3uibUv" id="4bwufpukf1Y" role="1tU5fm">
+                  <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Tm1VV" id="4bwufpukdTy" role="1B3o_S" />
+        <node concept="1ajhzC" id="4bwufpukems" role="3clF45">
+          <node concept="10P_77" id="4bwufpukerK" role="1ajl9A" />
+          <node concept="3uibUv" id="4bwufpukfsW" role="1ajw0F">
+            <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+          </node>
+        </node>
+      </node>
       <node concept="2tJIrI" id="4bwufpu492c" role="jymVt" />
       <node concept="3Tm1VV" id="4bwufpu48SQ" role="1B3o_S" />
       <node concept="312cEu" id="4bwufpu3KYy" role="jymVt">
