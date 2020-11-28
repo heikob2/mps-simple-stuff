@@ -140,6 +140,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="1xIgfUFBIYd" role="3cqZAp" />
+        <node concept="3SKdUt" id="4bwufpuzERT" role="3cqZAp">
+          <node concept="3SKdUq" id="4bwufpuzERV" role="3SKWNk">
+            <property role="3SKdUp" value="todo: compute explicit namespaces" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4bwufpv1URI" role="3cqZAp" />
         <node concept="3SKdUt" id="4bwufpuKdNf" role="3cqZAp">
           <node concept="3SKdUq" id="4bwufpuKdNh" role="3SKWNk">
             <property role="3SKdUp" value="add nodes as puml-classes (+ styling)" />
