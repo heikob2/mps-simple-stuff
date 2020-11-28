@@ -61,7 +61,6 @@
   </registry>
   <node concept="312cEu" id="4bwufpu_5x2">
     <property role="TrG5h" value="PumlCreator" />
-    <node concept="2tJIrI" id="4bwufpu_5CE" role="jymVt" />
     <node concept="2tJIrI" id="4bwufpu_5CI" role="jymVt" />
     <node concept="2YIFZL" id="4bwufpu_Ezq" role="jymVt">
       <property role="TrG5h" value="startUml" />
