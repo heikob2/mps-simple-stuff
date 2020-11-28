@@ -968,6 +968,12 @@
         </node>
         <node concept="3clFbS" id="1xIgfUFA2PZ" role="3clF47">
           <node concept="3clFbH" id="4bwufpugHNN" role="3cqZAp" />
+          <node concept="3SKdUt" id="4bwufpuzACf" role="3cqZAp">
+            <node concept="3SKdUq" id="4bwufpuzACh" role="3SKWNk">
+              <property role="3SKdUp" value="todo: compute explicit namespaces" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuzA3H" role="3cqZAp" />
           <node concept="3cpWs8" id="1xIgfUFA9Aa" role="3cqZAp">
             <node concept="3cpWsn" id="1xIgfUFA9Ad" role="3cpWs9">
               <property role="TrG5h" value="classes" />
@@ -1321,6 +1327,24 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3cpWs8" id="4bwufpuy1C5" role="3cqZAp">
+                      <node concept="3cpWsn" id="4bwufpuy1C8" role="3cpWs9">
+                        <property role="TrG5h" value="iconStyle" />
+                        <node concept="17QB3L" id="4bwufpuy1C3" role="1tU5fm" />
+                        <node concept="2YIFZM" id="4bwufpuy2Wj" role="33vP2m">
+                          <ref role="37wK5l" to="c6m4:4bwufpuxZJC" resolve="from" />
+                          <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconStyle" />
+                          <node concept="3EllGN" id="4bwufpuy37Y" role="37wK5m">
+                            <node concept="37vLTw" id="4bwufpuy37Z" role="3ElVtu">
+                              <ref role="3cqZAo" node="1xIgfUFBMqw" resolve="it" />
+                            </node>
+                            <node concept="37vLTw" id="4bwufpuy380" role="3ElQJh">
+                              <ref role="3cqZAo" node="1xIgfUFNrFt" resolve="wrappedTargetsMap" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3clFbF" id="1xIgfUFBMyf" role="3cqZAp">
                       <node concept="d57v9" id="1xIgfUFBMWT" role="3clFbG">
                         <node concept="3cpWs3" id="1xIgfUFOAEI" role="37vLTx">
@@ -1332,15 +1356,25 @@
                               <ref role="3cqZAo" node="1xIgfUFOoCp" resolve="color" />
                             </node>
                             <node concept="3cpWs3" id="1xIgfUFBRVZ" role="3uHU7B">
-                              <node concept="3cpWs3" id="1xIgfUFBQzy" role="3uHU7B">
-                                <node concept="Xl_RD" id="1xIgfUFBPIG" role="3uHU7B">
-                                  <property role="Xl_RC" value="class " />
+                              <node concept="3cpWs3" id="4bwufpuy4tK" role="3uHU7B">
+                                <node concept="37vLTw" id="4bwufpuy4L8" role="3uHU7w">
+                                  <ref role="3cqZAo" node="4bwufpuy1C8" resolve="iconStyle" />
                                 </node>
-                                <node concept="2YIFZM" id="4bwufpujSds" role="3uHU7w">
-                                  <ref role="37wK5l" to="c6m4:4bwufpujHYz" resolve="replaceSharpAndAt" />
-                                  <ref role="1Pybhc" to="c6m4:4bwufpujHtq" resolve="StringUtils" />
-                                  <node concept="37vLTw" id="4bwufpujSsT" role="37wK5m">
-                                    <ref role="3cqZAo" node="1xIgfUFBMqw" resolve="it" />
+                                <node concept="3cpWs3" id="4bwufpuy3Fi" role="3uHU7B">
+                                  <node concept="3cpWs3" id="1xIgfUFBQzy" role="3uHU7B">
+                                    <node concept="Xl_RD" id="1xIgfUFBPIG" role="3uHU7B">
+                                      <property role="Xl_RC" value="class " />
+                                    </node>
+                                    <node concept="2YIFZM" id="4bwufpujSds" role="3uHU7w">
+                                      <ref role="37wK5l" to="c6m4:4bwufpujHYz" resolve="replaceSharpAndAt" />
+                                      <ref role="1Pybhc" to="c6m4:4bwufpujHtq" resolve="StringUtils" />
+                                      <node concept="37vLTw" id="4bwufpujSsT" role="37wK5m">
+                                        <ref role="3cqZAo" node="1xIgfUFBMqw" resolve="it" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="4bwufpuy3US" role="3uHU7w">
+                                    <property role="Xl_RC" value=" " />
                                   </node>
                                 </node>
                               </node>
@@ -1586,7 +1620,7 @@
             <node concept="3cpWs6" id="4bwufpudJ3y" role="3cqZAp">
               <node concept="2ShNRf" id="4bwufpudJ5i" role="3cqZAk">
                 <node concept="1pGfFk" id="4bwufpudJKE" role="2ShVmc">
-                  <ref role="37wK5l" node="4bwufpucCxL" resolve="SModelDependencyTargetWrapper.WrappedSModelBase" />
+                  <ref role="37wK5l" node="4bwufpucCxL" resolve="SModelDependencyTargetWrapper.WrappedSModel" />
                   <node concept="0kSF2" id="4bwufpudK0h" role="37wK5m">
                     <node concept="3uibUv" id="4bwufpugdua" role="0kSFW">
                       <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
@@ -1818,7 +1852,7 @@
     </node>
     <node concept="2tJIrI" id="4bwufpucztE" role="jymVt" />
     <node concept="312cEu" id="4bwufpucz0f" role="jymVt">
-      <property role="TrG5h" value="WrappedSModelBase" />
+      <property role="TrG5h" value="WrappedSModel" />
       <node concept="312cEg" id="4bwufpucCp4" role="jymVt">
         <property role="TrG5h" value="target" />
         <property role="3TUv4t" value="true" />

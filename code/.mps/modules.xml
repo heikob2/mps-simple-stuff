@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.openapi/de.hbaechmann.mps.simplestuff.openapi.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.util/de.hbaechmann.mps.simplestuff.util.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/todos/todos.msd" folder="" />
     </projectModules>
   </component>
 </project>
