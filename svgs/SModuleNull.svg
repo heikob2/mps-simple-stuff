@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" contentStyleType="text/css" height="435" preserveAspectRatio="xMidYMid meet" style="stroke-dasharray:none; shape-rendering:auto; font-family:&amp;apos;Dialog&amp;apos;; &#10;text-rendering:auto; fill-opacity:1; color-interpolation:auto; color-rendering:auto; font-size:12; &#10;fill:black; stroke:black; image-rendering:auto; stroke-miterlimit:10; stroke-linecap:square; &#10;stroke-linejoin:miter; font-style:normal; stroke-width:1; stroke-dashoffset:0; font-weight:normal; stroke-opacity:1;" version="1.0" width="571" zoomAndPan="magnify">
+  <defs id="genericDefs"/>
+  <g cell_Id="Collection_uj0cpq_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840">
+    <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/Collection_4j2lax_a">
+      <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188841" stroke="navy">
+        <text stroke="none" x="15" xml:space="preserve" y="74">public</text>
+      </g>
+    </g>
+    <g cell_Id="classKeyword" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/classKeyword" stroke="navy">
+      <text stroke="none" x="71" xml:space="preserve" y="74">class</text>
+    </g>
+    <g cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/property_name">
+      <text stroke="none" x="119" xml:space="preserve" y="74">SModuleNull</text>
+    </g>
+    <g cell_Id="extendsCollection" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/extendsCollection">
+      <g cell_Id="Constant_uj0cpq_a9a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/Constant_uj0cpq_a9a" stroke="navy">
+        <text stroke="none" x="215" xml:space="preserve" y="74">extends</text>
+      </g>
+      <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067701405">
+        <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=6ed54515-acc8-4d1e-a16c-9fd6cfe951ea%2Fjava%3Ajetbrains.mps.project%28MPS.Core%2F%29%2F%7EAbstractModule">
+          <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067701405/ReferencePresentation_91bvrs_a0a0">
+            <text stroke="none" x="279" xml:space="preserve" y="74">AbstractModule</text>
+          </g>
+        </a>
+      </g>
+    </g>
+    <g cell_Id="Collection_uj0cpq_l0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/Collection_uj0cpq_l0">
+      <g cell_Id="OpenBraceClassCell" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/OpenBraceClassCell">
+        <text stroke="none" x="399" xml:space="preserve" y="74">{</text>
+      </g>
+      <g cell_Id="Collection_eavk2k_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/Collection_eavk2k_a">
+        <g cell_Id="CMAC_refNodeList_member" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/CMAC_refNodeList_member">
+          <g cell_Id="Constant_s96plr_a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188987" stroke="gray">
+            <text stroke="none" x="31" xml:space="preserve" y="91"/>
+          </g>
+          <g cell_Id="Collection_2sbeba_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546">
+            <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546/Collection_4j2lax_a">
+              <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066204220" stroke="navy">
+                <text stroke="none" x="31" xml:space="preserve" y="108">private</text>
+              </g>
+            </g>
+            <g cell_Id="finalModifier" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546/finalModifier" stroke="navy">
+              <text stroke="none" x="95" xml:space="preserve" y="108">final</text>
+            </g>
+            <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066225871">
+              <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleReference">
+                <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066225871/ReferencePresentation_91bvrs_a0a0">
+                  <text stroke="none" x="143" xml:space="preserve" y="108">SModuleReference</text>
+                </g>
+              </a>
+            </g>
+            <g cell_Id="VDNCC_property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="rgb(102,14,122)" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546/VDNCC_property_name" stroke="rgb(102,14,122)">
+              <text stroke="none" x="279" xml:space="preserve" y="108">unresolveableModuleReference</text>
+            </g>
+            <g cell_Id="Constant_2sbeba_j0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546/Constant_2sbeba_j0">
+              <text stroke="none" x="503" xml:space="preserve" y="108">;</text>
+            </g>
+          </g>
+          <g cell_Id="Constant_s96plr_a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066202778" stroke="gray">
+            <text stroke="none" x="31" xml:space="preserve" y="125"/>
+          </g>
+          <g cell_Id="Collection_1x071y_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843">
+            <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/Collection_4j2lax_a">
+              <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214846" stroke="navy">
+                <text stroke="none" x="31" xml:space="preserve" y="142">public</text>
+              </g>
+            </g>
+            <g cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/property_name">
+              <text stroke="none" x="87" xml:space="preserve" y="142">SModuleNull</text>
+            </g>
+            <g cell_Id="leftParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/leftParen">
+              <text stroke="none" x="175" xml:space="preserve" y="142">(</text>
+            </g>
+            <g cell_Id="refNodeList_parameter" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/refNodeList_parameter">
+              <g cell_Id="Collection_vsmugd_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066216311">
+                <g cell_Id="Collection_vsmugd_a0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066216311/Collection_vsmugd_a0">
+                  <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066227061">
+                    <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleReference">
+                      <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066227061/ReferencePresentation_91bvrs_a0a0">
+                        <text stroke="none" x="183" xml:space="preserve" y="142">SModuleReference</text>
+                      </g>
+                    </a>
+                  </g>
+                  <g cell_Id="VDNCC_property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066216311/VDNCC_property_name">
+                    <text stroke="none" x="319" xml:space="preserve" y="142">unresolveableModuleReference</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g cell_Id="rightParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/rightParen">
+              <text stroke="none" x="543" xml:space="preserve" y="142">)</text>
+            </g>
+            <g cell_Id="Collection_fao2ea_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/Collection_fao2ea_a">
+              <g cell_Id="Constant_fao2ea_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/Constant_fao2ea_a0">
+                <text stroke="none" x="559" xml:space="preserve" y="142">{</text>
+              </g>
+              <g cell_Id="Collection_u338ov_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214847">
+                <g cell_Id="refNodeList_statement" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214847/refNodeList_statement">
+                  <g cell_Id="Collection_zedcwq_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066231431">
+                    <g cell_Id="Collection_89tgy3_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066233863">
+                      <g cell_Id="Collection_t2jtrp_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066231701">
+                        <g cell_Id="Constant_xaaxob_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066231430" stroke="navy">
+                          <text stroke="none" x="47" xml:space="preserve" y="159">this</text>
+                        </g>
+                        <g cell_Id="dot" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066231701/dot">
+                          <text stroke="none" x="79" xml:space="preserve" y="159">.</text>
+                        </g>
+                        <g cell_Id="Collection_i6724r_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066232294">
+                          <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="/Users/Shared/tmp/node2svg/SModuleNull.svg#r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546">
+                            <g fill="rgb(102,14,122)" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066232294/property_name" stroke="rgb(102,14,122)">
+                              <text stroke="none" x="87" xml:space="preserve" y="159">unresolveableModuleReference</text>
+                            </g>
+                          </a>
+                        </g>
+                      </g>
+                      <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066233863/ALIAS_EDITOR_COMPONENT">
+                        <text stroke="none" x="319" xml:space="preserve" y="159">=</text>
+                      </g>
+                      <g cell_Id="Collection_ge17fi_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235089">
+                        <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="/Users/Shared/tmp/node2svg/SModuleNull.svg#r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066216311">
+                          <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235089/property_name">
+                            <text stroke="none" x="335" xml:space="preserve" y="159">unresolveableModuleReference</text>
+                          </g>
+                        </a>
+                      </g>
+                    </g>
+                    <g cell_Id="Constant_zedcwq_b0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066231431/Constant_zedcwq_b0">
+                      <text stroke="none" x="559" xml:space="preserve" y="159">;</text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g cell_Id="Constant_fao2ea_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066214843/Constant_fao2ea_c0">
+                <text stroke="none" x="31" xml:space="preserve" y="176">}</text>
+              </g>
+            </g>
+          </g>
+          <g cell_Id="Constant_s96plr_a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066213393" stroke="gray">
+            <text stroke="none" x="31" xml:space="preserve" y="193"/>
+          </g>
+          <g cell_Id="Collection_359zr8_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021">
+            <g cell_Id="HAAC_refNodeList_annotation" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/HAAC_refNodeList_annotation">
+              <g cell_Id="Collection_d5p1uc_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633453">
+                <g cell_Id="Constant_d5p1uc_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633453/Constant_d5p1uc_a0" stroke="olive">
+                  <text stroke="none" x="31" xml:space="preserve" y="210">@</text>
+                </g>
+                <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=6354ebe7-c22a-4a0f-ac54-50b52ab9b065%2Fjava%3Ajava.lang%28JDK%2F%29%2F%7EOverride">
+                  <g fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633453/property_name" stroke="olive">
+                    <text stroke="none" x="39" xml:space="preserve" y="210">Override</text>
+                  </g>
+                </a>
+              </g>
+            </g>
+            <g cell_Id="Collection_359zr8_c0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Collection_359zr8_c0">
+              <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Collection_4j2lax_a">
+                <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189022" stroke="navy">
+                  <text stroke="none" x="31" xml:space="preserve" y="227">public</text>
+                </g>
+              </g>
+            </g>
+            <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189024">
+              <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleId">
+                <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189024/ReferencePresentation_91bvrs_a0a0">
+                  <text stroke="none" x="87" xml:space="preserve" y="227">SModuleId</text>
+                </g>
+              </a>
+            </g>
+            <g cell_Id="Collection_8989zw_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Collection_8989zw_a">
+              <g cell_Id="methodName" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/methodName">
+                <text stroke="none" x="167" xml:space="preserve" y="227">getModuleId</text>
+              </g>
+            </g>
+            <g cell_Id="leftParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/leftParen">
+              <text stroke="none" x="255" xml:space="preserve" y="227">(</text>
+            </g>
+            <g cell_Id="refNodeList_parameter" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/refNodeList_parameter">
+              <g cell_Id="Constant_359zr8_a8a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Constant_359zr8_a8a" stroke="gray">
+                <text stroke="none" x="263" xml:space="preserve" y="227"/>
+              </g>
+            </g>
+            <g cell_Id="rightParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/rightParen">
+              <text stroke="none" x="265" xml:space="preserve" y="227">)</text>
+            </g>
+            <g cell_Id="Collection_fao2ea_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Collection_fao2ea_a">
+              <g cell_Id="Constant_fao2ea_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Constant_fao2ea_a0">
+                <text stroke="none" x="281" xml:space="preserve" y="227">{</text>
+              </g>
+              <g cell_Id="Collection_u338ov_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189025">
+                <g cell_Id="refNodeList_statement" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189025/refNodeList_statement">
+                  <g cell_Id="Collection_zedcwq_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235194">
+                    <g cell_Id="Collection_t2jtrp_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066236476">
+                      <g cell_Id="Collection_ge17fi_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235191">
+                        <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="/Users/Shared/tmp/node2svg/SModuleNull.svg#r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546">
+                          <g fill="rgb(102,14,122)" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235191/property_name" stroke="rgb(102,14,122)">
+                            <text stroke="none" x="47" xml:space="preserve" y="244">unresolveableModuleReference</text>
+                          </g>
+                        </a>
+                      </g>
+                      <g cell_Id="dot" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066236476/dot">
+                        <text stroke="none" x="271" xml:space="preserve" y="244">.</text>
+                      </g>
+                      <g cell_Id="Collection_jyer24_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720">
+                        <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleReference.getModuleId%2528%2529%3Aorg.jetbrains.mps.openapi.module.SModuleId">
+                          <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/property_name">
+                            <text stroke="none" x="279" xml:space="preserve" y="244">getModuleId</text>
+                          </g>
+                        </a>
+                        <g cell_Id="Collection_arlg9k_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/Collection_arlg9k_a">
+                          <g cell_Id="Constant_arlg9k_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/Constant_arlg9k_a0">
+                            <text stroke="none" x="367" xml:space="preserve" y="244">(</text>
+                          </g>
+                          <g cell_Id="IMCA_refNodeList_actualArgument" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/IMCA_refNodeList_actualArgument">
+                            <g cell_Id="EMPTY_PARAMETER_LIST" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/EMPTY_PARAMETER_LIST" stroke="gray">
+                              <text stroke="none" x="375" xml:space="preserve" y="244"/>
+                            </g>
+                          </g>
+                          <g cell_Id="Constant_arlg9k_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237720/Constant_arlg9k_c0">
+                            <text stroke="none" x="377" xml:space="preserve" y="244">)</text>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g cell_Id="Constant_zedcwq_b0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066235194/Constant_zedcwq_b0">
+                      <text stroke="none" x="385" xml:space="preserve" y="244">;</text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g cell_Id="Constant_fao2ea_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189021/Constant_fao2ea_c0">
+                <text stroke="none" x="31" xml:space="preserve" y="261">}</text>
+              </g>
+            </g>
+          </g>
+          <g cell_Id="Collection_359zr8_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029">
+            <g cell_Id="HAAC_refNodeList_annotation" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/HAAC_refNodeList_annotation">
+              <g cell_Id="Collection_d5p1uc_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633451">
+                <g cell_Id="Constant_d5p1uc_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633451/Constant_d5p1uc_a0" stroke="olive">
+                  <text stroke="none" x="31" xml:space="preserve" y="278">@</text>
+                </g>
+                <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=6354ebe7-c22a-4a0f-ac54-50b52ab9b065%2Fjava%3Ajava.lang%28JDK%2F%29%2F%7EOverride">
+                  <g fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633451/property_name" stroke="olive">
+                    <text stroke="none" x="39" xml:space="preserve" y="278">Override</text>
+                  </g>
+                </a>
+              </g>
+            </g>
+            <g cell_Id="Collection_359zr8_c0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Collection_359zr8_c0">
+              <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Collection_4j2lax_a">
+                <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189030" stroke="navy">
+                  <text stroke="none" x="31" xml:space="preserve" y="295">public</text>
+                </g>
+              </g>
+            </g>
+            <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189032">
+              <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=6354ebe7-c22a-4a0f-ac54-50b52ab9b065%2Fjava%3Ajava.lang%28JDK%2F%29%2F%7EString">
+                <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189032/ReferencePresentation_91bvrs_a0a0">
+                  <text stroke="none" x="87" xml:space="preserve" y="295">String</text>
+                </g>
+              </a>
+            </g>
+            <g cell_Id="Collection_8989zw_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Collection_8989zw_a">
+              <g cell_Id="methodName" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/methodName">
+                <text stroke="none" x="143" xml:space="preserve" y="295">getModuleName</text>
+              </g>
+            </g>
+            <g cell_Id="leftParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/leftParen">
+              <text stroke="none" x="247" xml:space="preserve" y="295">(</text>
+            </g>
+            <g cell_Id="refNodeList_parameter" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/refNodeList_parameter">
+              <g cell_Id="Constant_359zr8_a8a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Constant_359zr8_a8a" stroke="gray">
+                <text stroke="none" x="255" xml:space="preserve" y="295"/>
+              </g>
+            </g>
+            <g cell_Id="rightParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/rightParen">
+              <text stroke="none" x="257" xml:space="preserve" y="295">)</text>
+            </g>
+            <g cell_Id="Collection_fao2ea_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Collection_fao2ea_a">
+              <g cell_Id="Constant_fao2ea_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Constant_fao2ea_a0">
+                <text stroke="none" x="273" xml:space="preserve" y="295">{</text>
+              </g>
+              <g cell_Id="Collection_u338ov_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189033">
+                <g cell_Id="refNodeList_statement" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189033/refNodeList_statement">
+                  <g cell_Id="Collection_zedcwq_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237876">
+                    <g cell_Id="Collection_t2jtrp_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066239158">
+                      <g cell_Id="Collection_ge17fi_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237873">
+                        <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="/Users/Shared/tmp/node2svg/SModuleNull.svg#r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546">
+                          <g fill="rgb(102,14,122)" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237873/property_name" stroke="rgb(102,14,122)">
+                            <text stroke="none" x="47" xml:space="preserve" y="312">unresolveableModuleReference</text>
+                          </g>
+                        </a>
+                      </g>
+                      <g cell_Id="dot" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066239158/dot">
+                        <text stroke="none" x="271" xml:space="preserve" y="312">.</text>
+                      </g>
+                      <g cell_Id="Collection_jyer24_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410">
+                        <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleReference.getModuleName%2528%2529%3Ajava.lang.String">
+                          <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/property_name">
+                            <text stroke="none" x="279" xml:space="preserve" y="312">getModuleName</text>
+                          </g>
+                        </a>
+                        <g cell_Id="Collection_arlg9k_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/Collection_arlg9k_a">
+                          <g cell_Id="Constant_arlg9k_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/Constant_arlg9k_a0">
+                            <text stroke="none" x="383" xml:space="preserve" y="312">(</text>
+                          </g>
+                          <g cell_Id="IMCA_refNodeList_actualArgument" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/IMCA_refNodeList_actualArgument">
+                            <g cell_Id="EMPTY_PARAMETER_LIST" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/EMPTY_PARAMETER_LIST" stroke="gray">
+                              <text stroke="none" x="391" xml:space="preserve" y="312"/>
+                            </g>
+                          </g>
+                          <g cell_Id="Constant_arlg9k_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240410/Constant_arlg9k_c0">
+                            <text stroke="none" x="393" xml:space="preserve" y="312">)</text>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g cell_Id="Constant_zedcwq_b0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066237876/Constant_zedcwq_b0">
+                      <text stroke="none" x="401" xml:space="preserve" y="312">;</text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g cell_Id="Constant_fao2ea_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189029/Constant_fao2ea_c0">
+                <text stroke="none" x="31" xml:space="preserve" y="329">}</text>
+              </g>
+            </g>
+          </g>
+          <g cell_Id="Collection_359zr8_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037">
+            <g cell_Id="HAAC_refNodeList_annotation" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/HAAC_refNodeList_annotation">
+              <g cell_Id="Collection_d5p1uc_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040">
+                <g cell_Id="Constant_d5p1uc_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/Constant_d5p1uc_a0" stroke="olive">
+                  <text stroke="none" x="31" xml:space="preserve" y="346">@</text>
+                </g>
+                <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=3f233e7f-b8a6-46d2-a57f-795d56775243%2Fjava%3Aorg.jetbrains.annotations%28Annotations%2F%29%2F%7ENotNull">
+                  <g fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/property_name" stroke="olive">
+                    <text stroke="none" x="39" xml:space="preserve" y="346">NotNull</text>
+                  </g>
+                </a>
+                <g cell_Id="Collection_d5p1uc_c0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/Collection_d5p1uc_c0">
+                  <g cell_Id="Constant_d5p1uc_a2a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/Constant_d5p1uc_a2a">
+                    <text stroke="none" x="95" xml:space="preserve" y="346">(</text>
+                  </g>
+                  <g cell_Id="refNodeList_value" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/refNodeList_value">
+                    <g cell_Id="Constant_d5p1uc_a1c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/Constant_d5p1uc_a1c0" stroke="gray">
+                      <text stroke="none" x="103" xml:space="preserve" y="346"/>
+                    </g>
+                  </g>
+                  <g cell_Id="Constant_d5p1uc_c2a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189040/Constant_d5p1uc_c2a">
+                    <text stroke="none" x="105" xml:space="preserve" y="346">)</text>
+                  </g>
+                </g>
+              </g>
+              <g cell_Id="Collection_d5p1uc_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633452">
+                <g cell_Id="Constant_d5p1uc_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633452/Constant_d5p1uc_a0" stroke="olive">
+                  <text stroke="none" x="31" xml:space="preserve" y="363">@</text>
+                </g>
+                <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=6354ebe7-c22a-4a0f-ac54-50b52ab9b065%2Fjava%3Ajava.lang%28JDK%2F%29%2F%7EOverride">
+                  <g fill="olive" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086067633452/property_name" stroke="olive">
+                    <text stroke="none" x="39" xml:space="preserve" y="363">Override</text>
+                  </g>
+                </a>
+              </g>
+            </g>
+            <g cell_Id="Collection_359zr8_c0" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Collection_359zr8_c0">
+              <g cell_Id="Collection_4j2lax_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Collection_4j2lax_a">
+                <g cell_Id="ALIAS_EDITOR_COMPONENT" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" fill="navy" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189038" stroke="navy">
+                  <text stroke="none" x="31" xml:space="preserve" y="380">public</text>
+                </g>
+              </g>
+            </g>
+            <g cell_Id="Collection_91bvrs_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189041">
+              <a cell_Id="ReferencePresentation_91bvrs_a0a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.module%28MPS.OpenAPI%2F%29%2F%7ESModuleReference">
+                <g font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189041/ReferencePresentation_91bvrs_a0a0">
+                  <text stroke="none" x="87" xml:space="preserve" y="380">SModuleReference</text>
+                </g>
+              </a>
+            </g>
+            <g cell_Id="Collection_8989zw_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Collection_8989zw_a">
+              <g cell_Id="methodName" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/methodName">
+                <text stroke="none" x="223" xml:space="preserve" y="380">getModuleReference</text>
+              </g>
+            </g>
+            <g cell_Id="leftParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/leftParen">
+              <text stroke="none" x="367" xml:space="preserve" y="380">(</text>
+            </g>
+            <g cell_Id="refNodeList_parameter" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/refNodeList_parameter">
+              <g cell_Id="Constant_359zr8_a8a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" fill="gray" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Constant_359zr8_a8a" stroke="gray">
+                <text stroke="none" x="375" xml:space="preserve" y="380"/>
+              </g>
+            </g>
+            <g cell_Id="rightParen" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/rightParen">
+              <text stroke="none" x="377" xml:space="preserve" y="380">)</text>
+            </g>
+            <g cell_Id="Collection_fao2ea_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Collection_fao2ea_a">
+              <g cell_Id="Constant_fao2ea_a0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Constant_fao2ea_a0">
+                <text stroke="none" x="393" xml:space="preserve" y="380">{</text>
+              </g>
+              <g cell_Id="Collection_u338ov_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189042">
+                <g cell_Id="refNodeList_statement" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189042/refNodeList_statement">
+                  <g cell_Id="Collection_zedcwq_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240570">
+                    <g cell_Id="Collection_ge17fi_a" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240567">
+                      <a cell_Id="property_name" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Property" href="/Users/Shared/tmp/node2svg/SModuleNull.svg#r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066209546">
+                        <g fill="rgb(102,14,122)" font-family="monospace" font-size="13" font-weight="bold" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240567/property_name" stroke="rgb(102,14,122)">
+                          <text stroke="none" x="47" xml:space="preserve" y="397">unresolveableModuleReference</text>
+                        </g>
+                      </a>
+                    </g>
+                    <g cell_Id="Constant_zedcwq_b0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066240570/Constant_zedcwq_b0">
+                      <text stroke="none" x="271" xml:space="preserve" y="397">;</text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g cell_Id="Constant_fao2ea_c0" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066189037/Constant_fao2ea_c0">
+                <text stroke="none" x="31" xml:space="preserve" y="414">}</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g cell_Id="Constant_uj0cpq_d11a" debug-cell-type="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" font-family="monospace" font-size="13" id="r:720e9f40-0956-4dcd-9d62-382f475cdfc0/5948053086066188840/Constant_uj0cpq_d11a">
+        <text stroke="none" x="15" xml:space="preserve" y="431">}</text>
+      </g>
+    </g>
+  </g>
+</svg>
