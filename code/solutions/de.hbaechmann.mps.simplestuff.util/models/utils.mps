@@ -852,7 +852,7 @@
                   <node concept="3clFbS" id="4bwufpuY4Fg" role="3clFbx">
                     <node concept="3cpWs6" id="4bwufpuY4Fh" role="3cqZAp">
                       <node concept="Xl_RD" id="4bwufpuY4Fi" role="3cqZAk">
-                        <property role="Xl_RC" value="&lt;&lt; (M, #d9c1ff) &gt;&gt;" />
+                        <property role="Xl_RC" value="&lt;&lt; (m, #d9c1ff) &gt;&gt;" />
                       </node>
                     </node>
                   </node>
@@ -869,7 +869,7 @@
                   <node concept="3clFbS" id="4bwufpuY4Fn" role="3clFbx">
                     <node concept="3cpWs6" id="4bwufpuY4Fo" role="3cqZAp">
                       <node concept="Xl_RD" id="4bwufpuY4Fp" role="3cqZAk">
-                        <property role="Xl_RC" value="&lt;Java-Class-Stub&gt; &lt;&lt; (M, white) &gt;&gt;" />
+                        <property role="Xl_RC" value="&lt;Java-Class-Stub&gt; &lt;&lt; (m, white) &gt;&gt;" />
                       </node>
                     </node>
                   </node>
@@ -1022,7 +1022,7 @@
             <node concept="3clFbS" id="4bwufpuyQYQ" role="3clFbx">
               <node concept="3cpWs6" id="4bwufpuyRPs" role="3cqZAp">
                 <node concept="Xl_RD" id="4bwufpuyRQ9" role="3cqZAk">
-                  <property role="Xl_RC" value="&lt;&lt; (M, #d9c1ff) &gt;&gt;" />
+                  <property role="Xl_RC" value="&lt;&lt; (m, #d9c1ff) &gt;&gt;" />
                 </node>
               </node>
             </node>
@@ -1039,7 +1039,7 @@
             <node concept="3clFbS" id="4bwufpuzfma" role="3clFbx">
               <node concept="3cpWs6" id="4bwufpuzfmb" role="3cqZAp">
                 <node concept="Xl_RD" id="4bwufpuzfmc" role="3cqZAk">
-                  <property role="Xl_RC" value="&lt;Java-Class-Stub&gt; &lt;&lt; (M, white) &gt;&gt;" />
+                  <property role="Xl_RC" value="&lt;Java-Class-Stub&gt; &lt;&lt; (m, white) &gt;&gt;" />
                 </node>
               </node>
             </node>
