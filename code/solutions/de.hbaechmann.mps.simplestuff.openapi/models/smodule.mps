@@ -78,9 +78,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
@@ -1217,10 +1214,104 @@
       <node concept="2YIFZL" id="4bwufpuWaKG" role="jymVt">
         <property role="TrG5h" value="registerStyling" />
         <node concept="3clFbS" id="4bwufpuWaKJ" role="3clF47">
-          <node concept="YS8fn" id="4bwufpuWf5q" role="3cqZAp">
-            <node concept="2ShNRf" id="4bwufpuWfrh" role="YScLw">
-              <node concept="1pGfFk" id="4bwufpuWfJ9" role="2ShVmc">
-                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+          <node concept="3clFbH" id="4bwufpuXWgq" role="3cqZAp" />
+          <node concept="3cpWs8" id="4bwufpuXWmr" role="3cqZAp">
+            <node concept="3cpWsn" id="4bwufpuXWmu" role="3cpWs9">
+              <property role="TrG5h" value="stylingMapper" />
+              <node concept="1ajhzC" id="4bwufpuXWmn" role="1tU5fm">
+                <node concept="17QB3L" id="4bwufpuXWo1" role="1ajl9A" />
+                <node concept="3uibUv" id="4bwufpuXWpb" role="1ajw0F">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+              <node concept="1bVj0M" id="4bwufpuXX7W" role="33vP2m">
+                <node concept="3clFbS" id="4bwufpuXX7Y" role="1bW5cS">
+                  <node concept="3cpWs8" id="4bwufpuXXMc" role="3cqZAp">
+                    <node concept="3cpWsn" id="4bwufpuXXMd" role="3cpWs9">
+                      <property role="TrG5h" value="color" />
+                      <node concept="17QB3L" id="4bwufpuXXMe" role="1tU5fm" />
+                      <node concept="Xl_RD" id="4bwufpuXXMf" role="33vP2m">
+                        <property role="Xl_RC" value="#white" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="4bwufpuXXMg" role="3cqZAp">
+                    <node concept="3clFbS" id="4bwufpuXXMh" role="3clFbx">
+                      <node concept="3clFbF" id="4bwufpuXXMi" role="3cqZAp">
+                        <node concept="37vLTI" id="4bwufpuXXMj" role="3clFbG">
+                          <node concept="Xl_RD" id="4bwufpuXXMk" role="37vLTx">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                          <node concept="37vLTw" id="4bwufpuXXMl" role="37vLTJ">
+                            <ref role="3cqZAo" node="4bwufpuXXMd" resolve="color" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4bwufpuXXMm" role="3clFbw">
+                      <node concept="0kSF2" id="4bwufpuXXMn" role="2Oq$k0">
+                        <node concept="3uibUv" id="4bwufpuXXMo" role="0kSFW">
+                          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+                        </node>
+                        <node concept="37vLTw" id="4bwufpuXYgK" role="0kSFX">
+                          <ref role="3cqZAo" node="4bwufpuXX9M" resolve="o" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4bwufpuXXMt" role="2OqNvi">
+                        <ref role="37wK5l" to="lui2:~SModule.isPackaged():boolean" resolve="isPackaged" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4bwufpuY1Gn" role="3cqZAp">
+                    <node concept="37vLTw" id="4bwufpuY1Gl" role="3clFbG">
+                      <ref role="3cqZAo" node="4bwufpuXXMd" resolve="color" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTG" id="4bwufpuXX9M" role="1bW2Oz">
+                  <property role="TrG5h" value="o" />
+                  <node concept="3uibUv" id="4bwufpuXX9L" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuXWgR" role="3cqZAp" />
+          <node concept="3clFbF" id="4bwufpuY0$e" role="3cqZAp">
+            <node concept="2YIFZM" id="4bwufpuY0W8" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:4bwufpuU_Fk" resolve="registerStyleMapping" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuUwQS" resolve="StyleUtils.PumlClassColorStyle" />
+              <node concept="37vLTw" id="4bwufpuY14c" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuY1fl" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuWfMi" resolve="graphType" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuY9Wm" role="3cqZAp" />
+          <node concept="3clFbF" id="4bwufpuYay$" role="3cqZAp">
+            <node concept="37vLTI" id="4bwufpuYaE7" role="3clFbG">
+              <node concept="2YIFZM" id="4bwufpuYaT9" role="37vLTx">
+                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultModelAndModuleStyles" />
+                <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuYayy" role="37vLTJ">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuYaoN" role="3cqZAp" />
+          <node concept="3clFbF" id="4bwufpuYa7q" role="3cqZAp">
+            <node concept="2YIFZM" id="4bwufpuYahk" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:4bwufpuWx1g" resolve="registerStyleMapping" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+              <node concept="37vLTw" id="4bwufpuYaZJ" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuYba1" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuWfMi" resolve="graphType" />
               </node>
             </node>
           </node>

@@ -94,6 +94,10 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
@@ -146,6 +150,9 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -191,6 +198,10 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+        <child id="1199542501692" name="parameterType" index="1ajw0F" />
+      </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -1370,10 +1381,192 @@
       <node concept="2YIFZL" id="4bwufpuWaKG" role="jymVt">
         <property role="TrG5h" value="registerStyling" />
         <node concept="3clFbS" id="4bwufpuWaKJ" role="3clF47">
-          <node concept="YS8fn" id="4bwufpuWf5q" role="3cqZAp">
-            <node concept="2ShNRf" id="4bwufpuWfrh" role="YScLw">
-              <node concept="1pGfFk" id="4bwufpuWfJ9" role="2ShVmc">
-                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+          <node concept="3cpWs8" id="4bwufpuXWmr" role="3cqZAp">
+            <node concept="3cpWsn" id="4bwufpuXWmu" role="3cpWs9">
+              <property role="TrG5h" value="stylingMapper" />
+              <node concept="1ajhzC" id="4bwufpuXWmn" role="1tU5fm">
+                <node concept="17QB3L" id="4bwufpuXWo1" role="1ajl9A" />
+                <node concept="3uibUv" id="4bwufpuXWpb" role="1ajw0F">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+              <node concept="1bVj0M" id="4bwufpuXX7W" role="33vP2m">
+                <node concept="3clFbS" id="4bwufpuXX7Y" role="1bW5cS">
+                  <node concept="3cpWs8" id="4bwufpuXXMc" role="3cqZAp">
+                    <node concept="3cpWsn" id="4bwufpuXXMd" role="3cpWs9">
+                      <property role="TrG5h" value="color" />
+                      <node concept="17QB3L" id="4bwufpuXXMe" role="1tU5fm" />
+                      <node concept="Xl_RD" id="4bwufpuXXMf" role="33vP2m">
+                        <property role="Xl_RC" value="#white" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="4bwufpuXXMg" role="3cqZAp">
+                    <node concept="3clFbS" id="4bwufpuXXMh" role="3clFbx">
+                      <node concept="3clFbF" id="4bwufpuXXMi" role="3cqZAp">
+                        <node concept="37vLTI" id="4bwufpuXXMj" role="3clFbG">
+                          <node concept="Xl_RD" id="4bwufpuXXMk" role="37vLTx">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                          <node concept="37vLTw" id="4bwufpuXXMl" role="37vLTJ">
+                            <ref role="3cqZAo" node="4bwufpuXXMd" resolve="color" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4bwufpuXXMm" role="3clFbw">
+                      <node concept="0kSF2" id="4bwufpuXXMn" role="2Oq$k0">
+                        <node concept="3uibUv" id="4bwufpuYdh5" role="0kSFW">
+                          <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
+                        </node>
+                        <node concept="37vLTw" id="4bwufpuXYgK" role="0kSFX">
+                          <ref role="3cqZAo" node="4bwufpuXX9M" resolve="o" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4bwufpuXXMt" role="2OqNvi">
+                        <ref role="37wK5l" node="4bwufpuhUb_" resolve="isPackaged" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4bwufpuY1Gn" role="3cqZAp">
+                    <node concept="37vLTw" id="4bwufpuY1Gl" role="3clFbG">
+                      <ref role="3cqZAo" node="4bwufpuXXMd" resolve="color" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTG" id="4bwufpuXX9M" role="1bW2Oz">
+                  <property role="TrG5h" value="o" />
+                  <node concept="3uibUv" id="4bwufpuXX9L" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4bwufpuY0$e" role="3cqZAp">
+            <node concept="2YIFZM" id="4bwufpuY0W8" role="3clFbG">
+              <ref role="1Pybhc" to="c6m4:4bwufpuUwQS" resolve="StyleUtils.PumlClassColorStyle" />
+              <ref role="37wK5l" to="c6m4:4bwufpuU_Fk" resolve="registerStyleMapping" />
+              <node concept="37vLTw" id="4bwufpuY14c" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuY1fl" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuWfMi" resolve="graphType" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuY9Wm" role="3cqZAp" />
+          <node concept="3cpWs8" id="4bwufpuYe4c" role="3cqZAp">
+            <node concept="3cpWsn" id="4bwufpuYe4f" role="3cpWs9">
+              <property role="TrG5h" value="transformer" />
+              <node concept="1ajhzC" id="4bwufpuYe48" role="1tU5fm">
+                <node concept="3uibUv" id="4bwufpuYedd" role="1ajl9A">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+                <node concept="3uibUv" id="4bwufpuYeVU" role="1ajw0F">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+              <node concept="1bVj0M" id="4bwufpuYfQ7" role="33vP2m">
+                <node concept="3clFbS" id="4bwufpuYfQ9" role="1bW5cS">
+                  <node concept="3cpWs8" id="4bwufpuYn7k" role="3cqZAp">
+                    <node concept="3cpWsn" id="4bwufpuYn7l" role="3cpWs9">
+                      <property role="TrG5h" value="concrete" />
+                      <node concept="3uibUv" id="4bwufpuYn7m" role="1tU5fm">
+                        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                      </node>
+                      <node concept="37vLTw" id="4bwufpuYoiP" role="33vP2m">
+                        <ref role="3cqZAo" node="4bwufpuYfSo" resolve="o" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="4bwufpuy_dx" role="3cqZAp">
+                    <node concept="3clFbS" id="4bwufpuy_dz" role="3clFbx">
+                      <node concept="3SKdUt" id="4bwufpuyDgj" role="3cqZAp">
+                        <node concept="3SKdUq" id="4bwufpuyDgl" role="3SKWNk">
+                          <property role="3SKdUp" value="unwrap" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="4bwufpuyCaY" role="3cqZAp">
+                        <node concept="37vLTI" id="4bwufpuyCdm" role="3clFbG">
+                          <node concept="2OqwBi" id="4bwufpuyCTu" role="37vLTx">
+                            <node concept="1eOMI4" id="4bwufpuyCft" role="2Oq$k0">
+                              <node concept="10QFUN" id="4bwufpuyCfq" role="1eOMHV">
+                                <node concept="3uibUv" id="4bwufpuyCnl" role="10QFUM">
+                                  <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
+                                </node>
+                                <node concept="37vLTw" id="4bwufpuYoSr" role="10QFUP">
+                                  <ref role="3cqZAo" node="4bwufpuYn7l" resolve="concrete" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="4bwufpuyCXH" role="2OqNvi">
+                              <ref role="37wK5l" node="4bwufpuc$vU" resolve="getTarget" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="4bwufpuYoFH" role="37vLTJ">
+                            <ref role="3cqZAo" node="4bwufpuYn7l" resolve="concrete" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ZW3vV" id="4bwufpuy_L5" role="3clFbw">
+                      <node concept="3uibUv" id="4bwufpuyANn" role="2ZW6by">
+                        <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
+                      </node>
+                      <node concept="37vLTw" id="4bwufpuYouR" role="2ZW6bz">
+                        <ref role="3cqZAo" node="4bwufpuYn7l" resolve="concrete" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4bwufpuYpaH" role="3cqZAp">
+                    <node concept="37vLTw" id="4bwufpuYpaF" role="3clFbG">
+                      <ref role="3cqZAo" node="4bwufpuYn7l" resolve="concrete" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTG" id="4bwufpuYfSo" role="1bW2Oz">
+                  <property role="TrG5h" value="o" />
+                  <node concept="3uibUv" id="4bwufpuYfSn" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4bwufpuYpNO" role="3cqZAp">
+            <node concept="2YIFZM" id="4bwufpuYq9L" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:4bwufpuUy4c" resolve="registerTransformer" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+              <node concept="37vLTw" id="4bwufpuYqn$" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuYe4f" resolve="transformer" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuYq$o" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuWfMi" resolve="graphType" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4bwufpuYdPS" role="3cqZAp" />
+          <node concept="3clFbF" id="4bwufpuYay$" role="3cqZAp">
+            <node concept="37vLTI" id="4bwufpuYaE7" role="3clFbG">
+              <node concept="2YIFZM" id="4bwufpuYaT9" role="37vLTx">
+                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultModelAndModuleStyles" />
+                <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuYayy" role="37vLTJ">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4bwufpuYa7q" role="3cqZAp">
+            <node concept="2YIFZM" id="4bwufpuYahk" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:4bwufpuWx1g" resolve="registerStyleMapping" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+              <node concept="37vLTw" id="4bwufpuYaZJ" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuXWmu" resolve="stylingMapper" />
+              </node>
+              <node concept="37vLTw" id="4bwufpuYba1" role="37wK5m">
+                <ref role="3cqZAo" node="4bwufpuWfMi" resolve="graphType" />
               </node>
             </node>
           </node>
