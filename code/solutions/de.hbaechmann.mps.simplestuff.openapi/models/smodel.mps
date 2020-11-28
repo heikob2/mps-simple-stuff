@@ -18,6 +18,7 @@
     <import index="ends" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.persistence(MPS.Core/)" />
     <import index="2542" ref="r:720e9f40-0956-4dcd-9d62-382f475cdfc0(de.hbaechmann.mps.simplestuff.openapi.smodule)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="6jws" ref="r:a430190b-b5c8-49b7-a719-88effd86e31f(de.hbaechmann.mps.simplestuff.util.puml)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -207,13 +208,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -296,7 +290,7 @@
             <property role="TrG5h" value="dependencyByUsage" />
             <node concept="3rvAFt" id="4bwufpu4i8T" role="1tU5fm">
               <node concept="3uibUv" id="4bwufpueibe" role="3rvQeY">
-                <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
               </node>
               <node concept="_YKpA" id="4bwufpu4i8V" role="3rvSg0">
                 <node concept="1LlUBW" id="4bwufpu4i8W" role="_ZDj9">
@@ -313,7 +307,7 @@
             <node concept="2ShNRf" id="4bwufpu4ihp" role="33vP2m">
               <node concept="3rGOSV" id="4bwufpu4igK" role="2ShVmc">
                 <node concept="3uibUv" id="4bwufpueiVr" role="3rHrn6">
-                  <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                  <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
                 </node>
                 <node concept="_YKpA" id="4bwufpu4igM" role="3rHtpV">
                   <node concept="1LlUBW" id="4bwufpu4igN" role="_ZDj9">
@@ -643,7 +637,7 @@
       <node concept="3Tm1VV" id="4bwufpu4hYB" role="1B3o_S" />
       <node concept="3rvAFt" id="4bwufpu4hZQ" role="3clF45">
         <node concept="3uibUv" id="4bwufpuf51u" role="3rvQeY">
-          <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+          <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
         </node>
         <node concept="_YKpA" id="4bwufpu4i2i" role="3rvSg0">
           <node concept="1LlUBW" id="4bwufpu4i2j" role="_ZDj9">
@@ -680,7 +674,7 @@
           <node concept="3cpWsn" id="4bwufpudSHj" role="3cpWs9">
             <property role="TrG5h" value="wrappedTarget" />
             <node concept="3uibUv" id="4bwufpudSHk" role="1tU5fm">
-              <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+              <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
             </node>
           </node>
         </node>
@@ -688,7 +682,7 @@
         <node concept="3clFbF" id="4bwufpudWzn" role="3cqZAp">
           <node concept="37vLTI" id="4bwufpudX4j" role="3clFbG">
             <node concept="2YIFZM" id="4bwufpudYCa" role="37vLTx">
-              <ref role="1Pybhc" node="4bwufpucynx" resolve="SModelDependencyTargetWrapper" />
+              <ref role="1Pybhc" node="4bwufpucynx" resolve="DependencyTargetWrapper" />
               <ref role="37wK5l" node="4bwufpudGNM" resolve="from" />
               <node concept="37vLTw" id="4bwufpuv9vK" role="37wK5m">
                 <ref role="3cqZAo" node="4bwufpuuU9s" resolve="depTargetToBeWrapped" />
@@ -822,7 +816,7 @@
         <property role="TrG5h" value="dependencyByUsage" />
         <node concept="3rvAFt" id="4bwufpuuWtI" role="1tU5fm">
           <node concept="3uibUv" id="4bwufpuuWtJ" role="3rvQeY">
-            <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+            <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
           </node>
           <node concept="_YKpA" id="4bwufpuuWtK" role="3rvSg0">
             <node concept="1LlUBW" id="4bwufpuuWtL" role="_ZDj9">
@@ -899,7 +893,7 @@
           <property role="TrG5h" value="targetForSourcesMap" />
           <node concept="3rvAFt" id="1xIgfUFUACb" role="1tU5fm">
             <node concept="3uibUv" id="4bwufpugyRB" role="3rvQeY">
-              <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+              <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
             </node>
             <node concept="_YKpA" id="1xIgfUFUACd" role="3rvSg0">
               <node concept="1LlUBW" id="5abIGi40u5L" role="_ZDj9">
@@ -951,7 +945,7 @@
           <property role="TrG5h" value="targetForSourcesMap" />
           <node concept="3rvAFt" id="1xIgfUFA4rN" role="1tU5fm">
             <node concept="3uibUv" id="4bwufpugznX" role="3rvQeY">
-              <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+              <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
             </node>
             <node concept="_YKpA" id="1xIgfUFA4rP" role="3rvSg0">
               <node concept="1LlUBW" id="5abIGi40h6w" role="_ZDj9">
@@ -993,14 +987,14 @@
               <node concept="3rvAFt" id="1xIgfUFNrFk" role="1tU5fm">
                 <node concept="17QB3L" id="1xIgfUFNrOw" role="3rvQeY" />
                 <node concept="3uibUv" id="4bwufpugIp9" role="3rvSg0">
-                  <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                  <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
                 </node>
               </node>
               <node concept="2ShNRf" id="1xIgfUFNswA" role="33vP2m">
                 <node concept="3rGOSV" id="1xIgfUFNstQ" role="2ShVmc">
                   <node concept="17QB3L" id="1xIgfUFNstR" role="3rHrn6" />
                   <node concept="3uibUv" id="4bwufpugJpB" role="3rHtpV">
-                    <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                    <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
                   </node>
                 </node>
               </node>
@@ -1055,7 +1049,7 @@
                                     <node concept="37vLTI" id="1xIgfUFNMuw" role="3clFbG">
                                       <node concept="2YIFZM" id="4bwufpuhhv1" role="37vLTx">
                                         <ref role="37wK5l" node="4bwufpudGNM" resolve="from" />
-                                        <ref role="1Pybhc" node="4bwufpucynx" resolve="SModelDependencyTargetWrapper" />
+                                        <ref role="1Pybhc" node="4bwufpucynx" resolve="DependencyTargetWrapper" />
                                         <node concept="1LFfDK" id="4bwufpuhiuz" role="37wK5m">
                                           <node concept="3cmrfG" id="4bwufpuhiQD" role="1LF_Uc">
                                             <property role="3cmrfH" value="1" />
@@ -1220,62 +1214,9 @@
             <node concept="3cpWsn" id="1xIgfUFB_ye" role="3cpWs9">
               <property role="TrG5h" value="puml" />
               <node concept="17QB3L" id="1xIgfUFB_y9" role="1tU5fm" />
-              <node concept="Xl_RD" id="1xIgfUFB_MP" role="33vP2m">
-                <property role="Xl_RC" value="@startuml\n" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1xIgfUFTm7T" role="3cqZAp">
-            <node concept="d57v9" id="1xIgfUFTm_U" role="3clFbG">
-              <node concept="Xl_RD" id="1xIgfUFTmDz" role="37vLTx">
-                <property role="Xl_RC" value="' Copy the content to file e.g. \&quot;test.puml\&quot; located in the folder of your plantuml.jar\n" />
-              </node>
-              <node concept="37vLTw" id="1xIgfUFTm7R" role="37vLTJ">
-                <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1xIgfUFTqnp" role="3cqZAp">
-            <node concept="d57v9" id="1xIgfUFTqLl" role="3clFbG">
-              <node concept="Xl_RD" id="1xIgfUFTqOY" role="37vLTx">
-                <property role="Xl_RC" value="' Call \&quot;rm ./test.puml\&quot;\n" />
-              </node>
-              <node concept="37vLTw" id="1xIgfUFTqnn" role="37vLTJ">
-                <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1xIgfUFTt1b" role="3cqZAp">
-            <node concept="d57v9" id="1xIgfUFTt1c" role="3clFbG">
-              <node concept="Xl_RD" id="1xIgfUFTt1d" role="37vLTx">
-                <property role="Xl_RC" value="' Call \&quot;java -jar plantuml.jar ./test.puml -tsvg\&quot;\n" />
-              </node>
-              <node concept="37vLTw" id="1xIgfUFTt1e" role="37vLTJ">
-                <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1xIgfUFTv9t" role="3cqZAp">
-            <node concept="d57v9" id="1xIgfUFTv9u" role="3clFbG">
-              <node concept="Xl_RD" id="1xIgfUFTv9v" role="37vLTx">
-                <property role="Xl_RC" value="' Open the test.svg file with your preferred Browser e.g. Firefox\n" />
-              </node>
-              <node concept="37vLTw" id="1xIgfUFTv9w" role="37vLTJ">
-                <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
-              </node>
-            </node>
-          </node>
-          <node concept="1X3_iC" id="1xIgfUFKGDz" role="lGtFl">
-            <property role="3V$3am" value="statement" />
-            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-            <node concept="3clFbF" id="1xIgfUFGm$n" role="8Wnug">
-              <node concept="d57v9" id="1xIgfUFGnld" role="3clFbG">
-                <node concept="Xl_RD" id="1xIgfUFGnsc" role="37vLTx">
-                  <property role="Xl_RC" value="set namespaceSeparator ::\n" />
-                </node>
-                <node concept="37vLTw" id="1xIgfUFGm$l" role="37vLTJ">
-                  <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
-                </node>
+              <node concept="2YIFZM" id="4bwufpu_K8m" role="33vP2m">
+                <ref role="37wK5l" to="6jws:4bwufpu_Ezq" resolve="startUml" />
+                <ref role="1Pybhc" to="6jws:4bwufpu_5x2" resolve="PumlCreator" />
               </node>
             </node>
           </node>
@@ -1333,7 +1274,7 @@
                         <node concept="17QB3L" id="4bwufpuy1C3" role="1tU5fm" />
                         <node concept="2YIFZM" id="4bwufpuy2Wj" role="33vP2m">
                           <ref role="37wK5l" to="c6m4:4bwufpuxZJC" resolve="from" />
-                          <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconStyle" />
+                          <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
                           <node concept="3EllGN" id="4bwufpuy37Y" role="37wK5m">
                             <node concept="37vLTw" id="4bwufpuy37Z" role="3ElVtu">
                               <ref role="3cqZAo" node="1xIgfUFBMqw" resolve="it" />
@@ -1569,8 +1510,9 @@
           <node concept="3clFbH" id="1xIgfUFBSzn" role="3cqZAp" />
           <node concept="3clFbF" id="1xIgfUFBSHS" role="3cqZAp">
             <node concept="d57v9" id="1xIgfUFBT7Y" role="3clFbG">
-              <node concept="Xl_RD" id="1xIgfUFBTeL" role="37vLTx">
-                <property role="Xl_RC" value="@enduml" />
+              <node concept="2YIFZM" id="4bwufpu_NJ3" role="37vLTx">
+                <ref role="37wK5l" to="6jws:4bwufpu_E_V" resolve="endUml" />
+                <ref role="1Pybhc" to="6jws:4bwufpu_5x2" resolve="PumlCreator" />
               </node>
               <node concept="37vLTw" id="1xIgfUFBSHQ" role="37vLTJ">
                 <ref role="3cqZAo" node="1xIgfUFB_ye" resolve="puml" />
@@ -1610,7 +1552,7 @@
     <node concept="3Tm1VV" id="4bwufpu4gNb" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="4bwufpucynx">
-    <property role="TrG5h" value="SModelDependencyTargetWrapper" />
+    <property role="TrG5h" value="DependencyTargetWrapper" />
     <node concept="2tJIrI" id="4bwufpucyJP" role="jymVt" />
     <node concept="2YIFZL" id="4bwufpudGNM" role="jymVt">
       <property role="TrG5h" value="from" />
@@ -1620,7 +1562,7 @@
             <node concept="3cpWs6" id="4bwufpudJ3y" role="3cqZAp">
               <node concept="2ShNRf" id="4bwufpudJ5i" role="3cqZAk">
                 <node concept="1pGfFk" id="4bwufpudJKE" role="2ShVmc">
-                  <ref role="37wK5l" node="4bwufpucCxL" resolve="SModelDependencyTargetWrapper.WrappedSModel" />
+                  <ref role="37wK5l" node="4bwufpucCxL" resolve="DependencyTargetWrapper.WrappedSModel" />
                   <node concept="0kSF2" id="4bwufpudK0h" role="37wK5m">
                     <node concept="3uibUv" id="4bwufpugdua" role="0kSFW">
                       <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
@@ -1647,7 +1589,7 @@
             <node concept="3cpWs6" id="4bwufpuwVbS" role="3cqZAp">
               <node concept="2ShNRf" id="4bwufpuwVdL" role="3cqZAk">
                 <node concept="1pGfFk" id="4bwufpuwVJO" role="2ShVmc">
-                  <ref role="37wK5l" node="4bwufpucFeb" resolve="SModelDependencyTargetWrapper.WrappedLanguage" />
+                  <ref role="37wK5l" node="4bwufpucFeb" resolve="DependencyTargetWrapper.WrappedLanguage" />
                   <node concept="0kSF2" id="4bwufpuwWiX" role="37wK5m">
                     <node concept="3uibUv" id="4bwufpuwWj0" role="0kSFW">
                       <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
@@ -1674,7 +1616,7 @@
             <node concept="3cpWs6" id="4bwufpuwW$3" role="3cqZAp">
               <node concept="2ShNRf" id="4bwufpuwW$4" role="3cqZAk">
                 <node concept="1pGfFk" id="4bwufpuwW$5" role="2ShVmc">
-                  <ref role="37wK5l" node="4bwufpucHYu" resolve="SModelDependencyTargetWrapper.WrappedDevkit" />
+                  <ref role="37wK5l" node="4bwufpucHYu" resolve="DependencyTargetWrapper.WrappedDevkit" />
                   <node concept="0kSF2" id="4bwufpuwW$6" role="37wK5m">
                     <node concept="3uibUv" id="4bwufpuwX03" role="0kSFW">
                       <ref role="3uigEE" to="z1c3:~DevKit" resolve="DevKit" />
@@ -1730,7 +1672,7 @@
       </node>
       <node concept="3Tm1VV" id="4bwufpudF68" role="1B3o_S" />
       <node concept="3uibUv" id="4bwufpudFBI" role="3clF45">
-        <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+        <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
       </node>
       <node concept="37vLTG" id="4bwufpudHgS" role="3clF46">
         <property role="TrG5h" value="unwrappedTarget" />
@@ -1742,7 +1684,7 @@
     <node concept="2tJIrI" id="4bwufpudEIn" role="jymVt" />
     <node concept="3HP615" id="4bwufpuczCg" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="WrappedSModelDependencyTarget" />
+      <property role="TrG5h" value="WrappedDependencyTarget" />
       <node concept="3clFb_" id="4bwufpuc$vU" role="jymVt">
         <property role="TrG5h" value="getTarget" />
         <node concept="3clFbS" id="4bwufpuc$vX" role="3clF47" />
@@ -1814,7 +1756,7 @@
                     <node concept="2OqwBi" id="4bwufpud$6q" role="37wK5m">
                       <node concept="0kSF2" id="4bwufpud$6r" role="2Oq$k0">
                         <node concept="3uibUv" id="4bwufpud$6s" role="0kSFW">
-                          <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                          <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
                         </node>
                         <node concept="37vLTw" id="4bwufpud$6t" role="0kSFX">
                           <ref role="3cqZAo" node="4bwufpudv2D" resolve="other" />
@@ -1830,7 +1772,7 @@
             </node>
             <node concept="2ZW3vV" id="4bwufpudx06" role="3clFbw">
               <node concept="3uibUv" id="4bwufpudxmV" role="2ZW6by">
-                <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+                <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
               </node>
               <node concept="37vLTw" id="4bwufpudwLE" role="2ZW6bz">
                 <ref role="3cqZAo" node="4bwufpudv2D" resolve="other" />
@@ -1847,7 +1789,7 @@
       </node>
       <node concept="3Tm1VV" id="4bwufpudtvb" role="1B3o_S" />
       <node concept="3uibUv" id="4bwufpuduEQ" role="EKbjA">
-        <ref role="3uigEE" node="4bwufpuczCg" resolve="SModelDependencyTargetWrapper.WrappedSModelDependencyTarget" />
+        <ref role="3uigEE" node="4bwufpuczCg" resolve="DependencyTargetWrapper.WrappedDependencyTarget" />
       </node>
     </node>
     <node concept="2tJIrI" id="4bwufpucztE" role="jymVt" />
@@ -1907,7 +1849,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="4bwufpudAOD" role="1zkMxy">
-        <ref role="3uigEE" node="4bwufpudtO4" resolve="SModelDependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
+        <ref role="3uigEE" node="4bwufpudtO4" resolve="DependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
       </node>
       <node concept="3clFb_" id="4bwufpugDaK" role="jymVt">
         <property role="TrG5h" value="getName" />
@@ -2017,7 +1959,7 @@
       </node>
       <node concept="3Tm1VV" id="4bwufpucEm$" role="1B3o_S" />
       <node concept="3uibUv" id="4bwufpudAcB" role="1zkMxy">
-        <ref role="3uigEE" node="4bwufpudtO4" resolve="SModelDependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
+        <ref role="3uigEE" node="4bwufpudtO4" resolve="DependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
       </node>
       <node concept="3clFb_" id="4bwufpugDYl" role="jymVt">
         <property role="TrG5h" value="getName" />
@@ -2117,7 +2059,7 @@
       </node>
       <node concept="3Tm1VV" id="4bwufpucGOi" role="1B3o_S" />
       <node concept="3uibUv" id="4bwufpud_nV" role="1zkMxy">
-        <ref role="3uigEE" node="4bwufpudtO4" resolve="SModelDependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
+        <ref role="3uigEE" node="4bwufpudtO4" resolve="DependencyTargetWrapper.AbstractWrappedSModelDependencyTarget" />
       </node>
       <node concept="3clFb_" id="4bwufpugEIn" role="jymVt">
         <property role="TrG5h" value="getName" />
