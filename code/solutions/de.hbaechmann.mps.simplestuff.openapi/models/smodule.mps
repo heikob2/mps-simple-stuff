@@ -2,7 +2,7 @@
 <model ref="r:720e9f40-0956-4dcd-9d62-382f475cdfc0(de.hbaechmann.mps.simplestuff.openapi.smodule)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
@@ -148,11 +148,8 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -204,6 +201,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -421,8 +426,37 @@
                         </node>
                       </node>
                       <node concept="3SKdUt" id="5abIGi48Sso" role="3cqZAp">
-                        <node concept="3SKdUq" id="5abIGi48Ssq" role="3SKWNk">
-                          <property role="3SKdUp" value="it is possible, that a depending SModule cannot be resolved" />
+                        <node concept="1PaTwC" id="5SduKb6Q9Md" role="3ndbpf">
+                          <node concept="3oM_SD" id="5SduKb6Q9Me" role="1PaTwD">
+                            <property role="3oM_SC" value="it" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mf" role="1PaTwD">
+                            <property role="3oM_SC" value="is" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mg" role="1PaTwD">
+                            <property role="3oM_SC" value="possible," />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mh" role="1PaTwD">
+                            <property role="3oM_SC" value="that" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mi" role="1PaTwD">
+                            <property role="3oM_SC" value="a" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mj" role="1PaTwD">
+                            <property role="3oM_SC" value="depending" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mk" role="1PaTwD">
+                            <property role="3oM_SC" value="SModule" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Ml" role="1PaTwD">
+                            <property role="3oM_SC" value="cannot" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mm" role="1PaTwD">
+                            <property role="3oM_SC" value="be" />
+                          </node>
+                          <node concept="3oM_SD" id="5SduKb6Q9Mn" role="1PaTwD">
+                            <property role="3oM_SC" value="resolved" />
+                          </node>
                         </node>
                       </node>
                       <node concept="3clFbJ" id="5abIGi49r8L" role="3cqZAp">
@@ -1196,8 +1230,13 @@
       <node concept="3clFbS" id="4bwufpuA3Fh" role="3clF47">
         <node concept="3clFbH" id="4bwufpuAaN7" role="3cqZAp" />
         <node concept="3SKdUt" id="4bwufpuHZ7x" role="3cqZAp">
-          <node concept="3SKdUq" id="4bwufpuHZ7z" role="3SKWNk">
-            <property role="3SKdUp" value="create nodes" />
+          <node concept="1PaTwC" id="5SduKb6Q9Mo" role="3ndbpf">
+            <node concept="3oM_SD" id="5SduKb6Q9Mp" role="1PaTwD">
+              <property role="3oM_SC" value="create" />
+            </node>
+            <node concept="3oM_SD" id="5SduKb6Q9Mq" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="4bwufpuA3N5" role="3cqZAp">
@@ -1405,8 +1444,13 @@
         </node>
         <node concept="3clFbH" id="4bwufpuAd8m" role="3cqZAp" />
         <node concept="3SKdUt" id="4bwufpuI2NW" role="3cqZAp">
-          <node concept="3SKdUq" id="4bwufpuI2NY" role="3SKWNk">
-            <property role="3SKdUp" value="create connections" />
+          <node concept="1PaTwC" id="5SduKb6Q9Mr" role="3ndbpf">
+            <node concept="3oM_SD" id="5SduKb6Q9Ms" role="1PaTwD">
+              <property role="3oM_SC" value="create" />
+            </node>
+            <node concept="3oM_SD" id="5SduKb6Q9Mt" role="1PaTwD">
+              <property role="3oM_SC" value="connections" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="4bwufpuAh97" role="3cqZAp">
