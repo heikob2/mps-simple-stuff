@@ -534,6 +534,33 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="3Uddx9ekSdT" role="3cqZAp">
+              <node concept="2OqwBi" id="3Uddx9ekT5F" role="3clFbG">
+                <node concept="2OqwBi" id="3Uddx9ekSr4" role="2Oq$k0">
+                  <node concept="37vLTw" id="3Uddx9ekSdR" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Uddx9e83qz" resolve="buildModule" />
+                  </node>
+                  <node concept="3TrcHB" id="3Uddx9ekSL9" role="2OqNvi">
+                    <ref role="3TsBF5" to="kdzh:hS0KzPOSqb" resolve="uuid" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="3Uddx9ekTvI" role="2OqNvi">
+                  <node concept="2OqwBi" id="3Uddx9ekUcN" role="tz02z">
+                    <node concept="2OqwBi" id="3Uddx9ekTPW" role="2Oq$k0">
+                      <node concept="37vLTw" id="3Uddx9ekTC8" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3Uddx9dO5_q" resolve="module" />
+                      </node>
+                      <node concept="liA8E" id="3Uddx9ekTY$" role="2OqNvi">
+                        <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3Uddx9ekUsR" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="3Uddx9e88ZG" role="3cqZAp">
               <node concept="2OqwBi" id="3Uddx9e89$u" role="3clFbG">
                 <node concept="2OqwBi" id="3Uddx9e8901" role="2Oq$k0">
