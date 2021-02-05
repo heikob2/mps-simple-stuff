@@ -34,8 +34,12 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
     </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
@@ -131,6 +135,15 @@
         </node>
         <node concept="3clFbS" id="3Uddx9dNBqw" role="3clFbx">
           <node concept="2MkqsV" id="3Uddx9dNDME" role="3cqZAp">
+            <node concept="3Cnw8n" id="3Uddx9eeuy5" role="1urrFz">
+              <ref role="QpYPw" node="3Uddx9eerTU" resolve="DoTheMagic" />
+              <node concept="3CnSsL" id="3Uddx9eeuDG" role="3Coj4f">
+                <ref role="QkamJ" node="3Uddx9eerU5" resolve="moduleMagic" />
+                <node concept="1YBJjd" id="3Uddx9eeuK_" role="3CoRuB">
+                  <ref role="1YBMHb" node="3Uddx9dNBqc" resolve="moduleMagic" />
+                </node>
+              </node>
+            </node>
             <node concept="Xl_RD" id="3Uddx9dNDMQ" role="2MkJ7o">
               <property role="Xl_RC" value="Do the magic" />
             </node>
@@ -138,7 +151,7 @@
               <ref role="1YBMHb" node="3Uddx9dNBqc" resolve="moduleMagic" />
             </node>
             <node concept="3Cnw8n" id="3Uddx9dNG1J" role="1urrFz">
-              <ref role="QpYPw" node="3Uddx9dNDND" resolve="DoTheMagic" />
+              <ref role="QpYPw" node="3Uddx9dNDND" resolve="DoTheMagicAndReload" />
               <node concept="3CnSsL" id="3Uddx9dNGee" role="3Coj4f">
                 <ref role="QkamJ" node="3Uddx9dNGdr" resolve="moduleMagic" />
                 <node concept="1YBJjd" id="3Uddx9dNGet" role="3CoRuB">
@@ -156,7 +169,7 @@
     </node>
   </node>
   <node concept="Q5z_Y" id="3Uddx9dNDND">
-    <property role="TrG5h" value="DoTheMagic" />
+    <property role="TrG5h" value="DoTheMagicAndReload" />
     <node concept="Q5ZZ6" id="3Uddx9dNDNE" role="Q6x$H">
       <node concept="3clFbS" id="3Uddx9dNDNF" role="2VODD2">
         <node concept="3clFbF" id="3Uddx9e1uaV" role="3cqZAp">
@@ -166,6 +179,9 @@
             </node>
             <node concept="2qgKlT" id="3Uddx9e1uF7" role="2OqNvi">
               <ref role="37wK5l" to="tpm6:3Uddx9dO2C7" resolve="transform" />
+              <node concept="3clFbT" id="3Uddx9eetfS" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
@@ -175,7 +191,7 @@
       <node concept="3clFbS" id="3Uddx9dNDNZ" role="2VODD2">
         <node concept="3clFbF" id="3Uddx9dNDSB" role="3cqZAp">
           <node concept="Xl_RD" id="3Uddx9dNDSA" role="3clFbG">
-            <property role="Xl_RC" value="Do the magic" />
+            <property role="Xl_RC" value="build-util: Do the magic and reload" />
           </node>
         </node>
       </node>
@@ -183,6 +199,39 @@
     <node concept="Q6JDH" id="3Uddx9dNGdr" role="Q6Id_">
       <property role="TrG5h" value="moduleMagic" />
       <node concept="3Tqbb2" id="3Uddx9dNGe0" role="Q6QK4">
+        <ref role="ehGHo" to="5lwt:3Uddx9dMbBV" resolve="BuildMps_ModuleMagic" />
+      </node>
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="3Uddx9eerTU">
+    <property role="TrG5h" value="DoTheMagic" />
+    <node concept="Q5ZZ6" id="3Uddx9eerTV" role="Q6x$H">
+      <node concept="3clFbS" id="3Uddx9eerTW" role="2VODD2">
+        <node concept="3clFbF" id="3Uddx9eerTX" role="3cqZAp">
+          <node concept="2OqwBi" id="3Uddx9eerTY" role="3clFbG">
+            <node concept="QwW4i" id="3Uddx9eerTZ" role="2Oq$k0">
+              <ref role="QwW4h" node="3Uddx9eerU5" resolve="moduleMagic" />
+            </node>
+            <node concept="2qgKlT" id="3Uddx9eerU0" role="2OqNvi">
+              <ref role="37wK5l" to="tpm6:3Uddx9dO2C7" resolve="transform" />
+              <node concept="3clFbT" id="3Uddx9eetEz" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="3Uddx9eerU1" role="QzAvj">
+      <node concept="3clFbS" id="3Uddx9eerU2" role="2VODD2">
+        <node concept="3clFbF" id="3Uddx9eerU3" role="3cqZAp">
+          <node concept="Xl_RD" id="3Uddx9eerU4" role="3clFbG">
+            <property role="Xl_RC" value="build-util: Do the magic" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Q6JDH" id="3Uddx9eerU5" role="Q6Id_">
+      <property role="TrG5h" value="moduleMagic" />
+      <node concept="3Tqbb2" id="3Uddx9eerU6" role="Q6QK4">
         <ref role="ehGHo" to="5lwt:3Uddx9dMbBV" resolve="BuildMps_ModuleMagic" />
       </node>
     </node>
