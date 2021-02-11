@@ -92,7 +92,7 @@ tasks {
 
     val allScripts by creating(BuildLanguages::class) {
         dependsOn(resolveMps)
-        script = File(projectDir, "scripts/build-allscripts.xml")
+        script = File(projectDir, "build/scripts/build-allScripts.xml")
         scriptArgs = variables
         scriptClasspath = defaultClasspath
     }

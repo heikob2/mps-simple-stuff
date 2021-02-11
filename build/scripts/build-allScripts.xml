@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/allScripts" />
   <property name="build.layout" location="${build.dir}/artifacts/allScripts" />
   <property name="simplestuff.home" location="${basedir}/../.." />
-  <property name="mps_home" location="${simplestuff.home}/build/mps" />
+  <property name="mps_home" location="${simplestuff.home}/build/artifacts/mps" />
   <property name="simplestuff.code" location="${simplestuff.home}/code" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />

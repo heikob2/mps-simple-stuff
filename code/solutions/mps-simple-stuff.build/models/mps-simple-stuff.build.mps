@@ -29,6 +29,7 @@
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="927724900262033862" name="copyResources" index="2_Ic$B" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -112,6 +113,9 @@
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="4297162197620964123" name="jetbrains.mps.build.mps.structure.BuildMps_GeneratorOptions" flags="ng" index="1wNqPr">
         <property id="4297162197620978188" name="strict" index="1wNuhc" />
         <property id="4297162197620978190" name="parallel" index="1wNuhe" />
@@ -172,8 +176,11 @@
         <ref role="398BVh" node="FgkhL35smT" resolve="simplestuff.home" />
         <node concept="2Ry0Ak" id="FgkhL36y_L" role="iGT6I">
           <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="FgkhL36y_O" role="2Ry0An">
-            <property role="2Ry0Am" value="mps" />
+          <node concept="2Ry0Ak" id="FgkhL38nTN" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="FgkhL38o0w" role="2Ry0An">
+              <property role="2Ry0Am" value="mps" />
+            </node>
           </node>
         </node>
       </node>
@@ -202,9 +209,13 @@
         </node>
         <node concept="m$_wl" id="FgkhL35snE" role="39821P">
           <ref role="m_rDy" node="FgkhL35snp" resolve="de.hbaechmann.mps.simplestuff" />
-          <node concept="pUk6x" id="FgkhL35snF" role="pUk7w" />
+          <node concept="pUk6x" id="2q6qq3bZX4w" role="pUk7w" />
         </node>
       </node>
+    </node>
+    <node concept="2_Ic$z" id="1plXQEkoo_L" role="3989C9">
+      <property role="2_Ic$$" value="true" />
+      <property role="2_Ic$B" value="true" />
     </node>
     <node concept="m$_wf" id="FgkhL35snp" role="3989C9">
       <property role="m$_wk" value="de.hbaechmann.mps.simplestuff" />
@@ -322,6 +333,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="2q6qq3bZX3X" role="3bR31x">
+          <node concept="3LXTmp" id="2q6qq3bZX3Y" role="3rtmxm">
+            <node concept="3qWCbU" id="2q6qq3bZX3Z" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2q6qq3bZX40" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="2q6qq3bZX41" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2q6qq3bZX42" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.remofdi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="FgkhL36e4j" role="2G$12L">
         <property role="TrG5h" value="de.hbaechmann.mps.simplestuff.util" />
@@ -378,6 +405,22 @@
             </node>
             <node concept="3qWCbU" id="FgkhL36eqn" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2q6qq3bZX44" role="3bR31x">
+          <node concept="3LXTmp" id="2q6qq3bZX45" role="3rtmxm">
+            <node concept="3qWCbU" id="2q6qq3bZX46" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2q6qq3bZX47" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="2q6qq3bZX48" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2q6qq3bZX49" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.util" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -495,6 +538,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="2q6qq3bZX4p" role="3bR31x">
+          <node concept="3LXTmp" id="2q6qq3bZX4q" role="3rtmxm">
+            <node concept="3qWCbU" id="2q6qq3bZX4r" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2q6qq3bZX4s" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="2q6qq3bZX4t" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2q6qq3bZX4u" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.buildlangUtil" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="FgkhL36dj_" role="2G$12L">
         <property role="TrG5h" value="de.hbaechmann.mps.simplestuff.openapi" />
@@ -557,6 +616,22 @@
             <ref role="3bR37D" node="FgkhL36e4j" resolve="de.hbaechmann.mps.simplestuff.util" />
           </node>
         </node>
+        <node concept="3rtmxn" id="2q6qq3bZX4b" role="3bR31x">
+          <node concept="3LXTmp" id="2q6qq3bZX4c" role="3rtmxm">
+            <node concept="3qWCbU" id="2q6qq3bZX4d" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2q6qq3bZX4e" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="2q6qq3bZX4f" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2q6qq3bZX4g" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.openapi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -581,8 +656,11 @@
         <ref role="398BVh" node="FgkhL36IRl" resolve="simplestuff.home" />
         <node concept="2Ry0Ak" id="FgkhL36IRr" role="iGT6I">
           <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="FgkhL36IRs" role="2Ry0An">
-            <property role="2Ry0Am" value="mps" />
+          <node concept="2Ry0Ak" id="FgkhL3853E" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="FgkhL385an" role="2Ry0An">
+              <property role="2Ry0Am" value="mps" />
+            </node>
           </node>
         </node>
       </node>
@@ -658,6 +736,22 @@
             </node>
             <node concept="3qWCbU" id="FgkhL36SLh" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2q6qq3bZX4i" role="3bR31x">
+          <node concept="3LXTmp" id="2q6qq3bZX4j" role="3rtmxm">
+            <node concept="3qWCbU" id="2q6qq3bZX4k" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="2q6qq3bZX4l" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL36IRt" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="2q6qq3bZX4m" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2q6qq3bZX4n" role="2Ry0An">
+                  <property role="2Ry0Am" value="mps-simple-stuff.build" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
