@@ -246,6 +246,9 @@
       <node concept="m$_yC" id="1ZxHn9Kgmq" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
+      <node concept="m$_yC" id="3O7c8NnPod8" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:1jjxZP6JyD_" resolve="jetbrains.mps.console" />
+      </node>
     </node>
     <node concept="2G$12M" id="FgkhL35sno" role="3989C9">
       <property role="TrG5h" value="mps-simple-stuff" />
@@ -361,6 +364,31 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3O7c8NnPeQA" role="3bR37C">
+          <node concept="3bR9La" id="3O7c8NnPeQB" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lfd" resolve="jetbrains.mps.findUsages.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3O7c8NnPeQC" role="3bR37C">
+          <node concept="3bR9La" id="3O7c8NnPeQD" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7gQEwkA7nSV" resolve="jetbrains.mps.console" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3O7c8NnPeQE" role="3bR37C">
+          <node concept="3bR9La" id="3O7c8NnPeQF" role="1SiIV1">
+            <ref role="3bR37D" node="FgkhL36dj_" resolve="de.hbaechmann.mps.simplestuff.openapi" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3O7c8NnPeQG" role="3bR37C">
+          <node concept="3bR9La" id="3O7c8NnPeQH" role="1SiIV1">
+            <ref role="3bR37D" node="1ZxHn9Kgre" resolve="de.hbaechmann.mps.simplestuff.buildlangUtil.rt" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3O7c8NnPeQI" role="3bR37C">
+          <node concept="3bR9La" id="3O7c8NnPeQJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
           </node>
         </node>
       </node>

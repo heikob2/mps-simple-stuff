@@ -20,9 +20,11 @@
     <dependency reexport="false">d1a7ce0c-f229-4882-9f84-ab6f0d2a84e2(de.hbaechmann.mps.simplestuff.buildlangUtil.rt)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
     <dependency reexport="false">a8de7923-dc6f-4aa1-b8a9-2d19ffee3edd(jetbrains.mps.console)</dependency>
+    <dependency reexport="false">6b8feac2-9ea6-4adb-8e81-df5543975ae1(de.hbaechmann.mps.simplestuff.openapi)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
+    <language slang="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
@@ -45,7 +47,9 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="d1a7ce0c-f229-4882-9f84-ab6f0d2a84e2(de.hbaechmann.mps.simplestuff.buildlangUtil.rt)" version="0" />
+    <module reference="6b8feac2-9ea6-4adb-8e81-df5543975ae1(de.hbaechmann.mps.simplestuff.openapi)" version="0" />
     <module reference="39792a16-b386-468e-b4b8-827496af03c6(de.hbaechmann.mps.simplestuff.remofdi)" version="0" />
+    <module reference="4e30c06f-98c8-4593-9045-e61414d3dd74(de.hbaechmann.mps.simplestuff.util)" version="0" />
     <module reference="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" version="0" />
     <module reference="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" version="0" />
     <module reference="698a8d22-a104-47a0-ba8d-10e3ec237f13(jetbrains.mps.build.workflow)" version="0" />

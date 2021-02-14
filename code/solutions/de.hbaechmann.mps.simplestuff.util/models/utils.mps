@@ -1813,17 +1813,21 @@
                     </node>
                     <node concept="3clFbS" id="1ZxHn9zMqP" role="3clFbx">
                       <node concept="3cpWs6" id="1ZxHn9zSyB" role="3cqZAp">
-                        <node concept="2OqwBi" id="1ZxHn9zUDc" role="3cqZAk">
-                          <node concept="2OqwBi" id="1ZxHn9zTt$" role="2Oq$k0">
-                            <node concept="2GrUjf" id="1ZxHn9zT3H" role="2Oq$k0">
-                              <ref role="2Gs0qQ" node="1ZxHn9zMqG" resolve="sourceFile" />
+                        <node concept="2YIFZM" id="3O7c8NnP3QR" role="3cqZAk">
+                          <ref role="37wK5l" node="57H18gRaaqM" resolve="removePathNoise" />
+                          <ref role="1Pybhc" node="26XSujCymmG" resolve="FilePathUtils" />
+                          <node concept="2OqwBi" id="1ZxHn9zUDc" role="37wK5m">
+                            <node concept="2OqwBi" id="1ZxHn9zTt$" role="2Oq$k0">
+                              <node concept="2GrUjf" id="1ZxHn9zT3H" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="1ZxHn9zMqG" resolve="sourceFile" />
+                              </node>
+                              <node concept="liA8E" id="1ZxHn9zTZS" role="2OqNvi">
+                                <ref role="37wK5l" to="3ju5:~IFile.getQualifiedPath()" resolve="getQualifiedPath" />
+                              </node>
                             </node>
-                            <node concept="liA8E" id="1ZxHn9zTZS" role="2OqNvi">
-                              <ref role="37wK5l" to="3ju5:~IFile.getQualifiedPath()" resolve="getQualifiedPath" />
+                            <node concept="liA8E" id="1ZxHn9zVjP" role="2OqNvi">
+                              <ref role="37wK5l" to="3ju5:~QualifiedPath.getPath()" resolve="getPath" />
                             </node>
-                          </node>
-                          <node concept="liA8E" id="1ZxHn9zVjP" role="2OqNvi">
-                            <ref role="37wK5l" to="3ju5:~QualifiedPath.getPath()" resolve="getPath" />
                           </node>
                         </node>
                       </node>
