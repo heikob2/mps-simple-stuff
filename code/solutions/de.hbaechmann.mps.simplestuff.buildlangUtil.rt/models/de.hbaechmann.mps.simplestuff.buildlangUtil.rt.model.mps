@@ -195,6 +195,20 @@
       <property role="TrG5h" value="findPluginFor" />
       <node concept="3clFbS" id="1ZxHn9DoDG" role="3clF47">
         <node concept="3clFbH" id="1ZxHn9DBKt" role="3cqZAp" />
+        <node concept="3cpWs8" id="3O7c8NnMy_o" role="3cqZAp">
+          <node concept="3cpWsn" id="3O7c8NnMy_r" role="3cpWs9">
+            <property role="TrG5h" value="allNodes" />
+            <node concept="2I9FWS" id="3O7c8NnMy_m" role="1tU5fm" />
+            <node concept="2YIFZM" id="3O7c8NnMyZR" role="33vP2m">
+              <ref role="37wK5l" to="c6m4:1ZxHn9Dpn0" resolve="allNodesInRepo" />
+              <ref role="1Pybhc" to="c6m4:1ZxHn9Dplr" resolve="RepositoryUtils" />
+              <node concept="37vLTw" id="3O7c8NnMz0O" role="37wK5m">
+                <ref role="3cqZAo" node="1ZxHn9DoGh" resolve="repo" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3O7c8NnMxIA" role="3cqZAp" />
         <node concept="3cpWs8" id="1ZxHn9DBMo" role="3cqZAp">
           <node concept="3cpWsn" id="1ZxHn9DBMr" role="3cpWs9">
             <property role="TrG5h" value="matchingAbstractModules" />
@@ -214,12 +228,8 @@
             <node concept="X8dFx" id="1ZxHn9DDTr" role="2OqNvi">
               <node concept="2OqwBi" id="1ZxHn9Efxw" role="25WWJ7">
                 <node concept="2OqwBi" id="1ZxHn9DENC" role="2Oq$k0">
-                  <node concept="2YIFZM" id="1ZxHn9DEND" role="2Oq$k0">
-                    <ref role="1Pybhc" to="c6m4:1ZxHn9Dplr" resolve="RepositoryUtils" />
-                    <ref role="37wK5l" to="c6m4:1ZxHn9Dpn0" resolve="allNodesInRepo" />
-                    <node concept="37vLTw" id="1ZxHn9DENE" role="37wK5m">
-                      <ref role="3cqZAo" node="1ZxHn9DoGh" resolve="repo" />
-                    </node>
+                  <node concept="37vLTw" id="3O7c8NnMzh0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3O7c8NnMy_r" resolve="allNodes" />
                   </node>
                   <node concept="v3k3i" id="1ZxHn9DENF" role="2OqNvi">
                     <node concept="chp4Y" id="1ZxHn9DENG" role="v3oSu">
@@ -314,12 +324,8 @@
             <node concept="2OqwBi" id="1ZxHn9Eer1" role="2Oq$k0">
               <node concept="2OqwBi" id="1ZxHn9DGez" role="2Oq$k0">
                 <node concept="2OqwBi" id="1ZxHn9DA$i" role="2Oq$k0">
-                  <node concept="2YIFZM" id="1ZxHn9D_qr" role="2Oq$k0">
-                    <ref role="37wK5l" to="c6m4:1ZxHn9Dpn0" resolve="allNodesInRepo" />
-                    <ref role="1Pybhc" to="c6m4:1ZxHn9Dplr" resolve="RepositoryUtils" />
-                    <node concept="37vLTw" id="1ZxHn9D__T" role="37wK5m">
-                      <ref role="3cqZAo" node="1ZxHn9DoGh" resolve="repo" />
-                    </node>
+                  <node concept="37vLTw" id="3O7c8NnM$RS" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3O7c8NnMy_r" resolve="allNodes" />
                   </node>
                   <node concept="v3k3i" id="1ZxHn9DBr_" role="2OqNvi">
                     <node concept="chp4Y" id="1ZxHn9DG1L" role="v3oSu">
