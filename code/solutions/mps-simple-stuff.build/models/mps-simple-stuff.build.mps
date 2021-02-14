@@ -424,6 +424,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="1ZxHn9D5YS" role="3bR37C">
+          <node concept="3bR9La" id="1ZxHn9D5YT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiHrmy" resolve="jetbrains.mps.java.stub" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="FgkhL36eij" role="2G$12L">
         <property role="TrG5h" value="de.hbaechmann.mps.simplestuff.buildlangUtil" />
