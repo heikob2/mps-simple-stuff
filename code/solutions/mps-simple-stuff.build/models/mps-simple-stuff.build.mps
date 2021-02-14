@@ -252,6 +252,23 @@
     </node>
     <node concept="2G$12M" id="FgkhL35sno" role="3989C9">
       <property role="TrG5h" value="mps-simple-stuff" />
+      <node concept="3LEwk6" id="1ZxHn9Dg73" role="2G$12L">
+        <property role="TrG5h" value="simplestuff.devkit" />
+        <property role="3LESm3" value="981b99d3-855d-4b61-8005-7ddfcca9d0ae" />
+        <property role="BnDLt" value="true" />
+        <node concept="398BVA" id="1ZxHn9Dg6Z" role="3LF7KH">
+          <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+          <node concept="2Ry0Ak" id="1ZxHn9Dg72" role="iGT6I">
+            <property role="2Ry0Am" value="devkits" />
+            <node concept="2Ry0Ak" id="1ZxHn9Dg71" role="2Ry0An">
+              <property role="2Ry0Am" value="simplestuff.devkit" />
+              <node concept="2Ry0Ak" id="1ZxHn9Dg70" role="2Ry0An">
+                <property role="2Ry0Am" value="simplestuff.devkit.devkit" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3LEwk6" id="FgkhL367ay" role="2G$12L">
         <property role="TrG5h" value="simplestuff.buildlangUtil.devkit" />
         <property role="3LESm3" value="eb8bf399-0a0e-4013-8185-3701d9c4b232" />
