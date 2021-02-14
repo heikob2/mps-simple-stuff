@@ -158,15 +158,10 @@
       <node concept="3clFbS" id="57H18gRbfjR" role="3clF47">
         <node concept="3clFbF" id="57H18gRbgkC" role="3cqZAp">
           <node concept="2YIFZM" id="57H18gRbgnT" role="3clFbG">
-            <ref role="37wK5l" to="c6m4:57H18gR91aK" resolve="containingFilePath" />
             <ref role="1Pybhc" to="c6m4:55oiYMkjssk" resolve="SModelUtils" />
-            <node concept="2OqwBi" id="57H18gRbg$e" role="37wK5m">
-              <node concept="37vLTw" id="57H18gRbgol" role="2Oq$k0">
-                <ref role="3cqZAo" node="57H18gRbggA" resolve="snode" />
-              </node>
-              <node concept="liA8E" id="57H18gRbgK_" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-              </node>
+            <ref role="37wK5l" to="c6m4:1ZxHn9zMq5" resolve="containingFilePath" />
+            <node concept="37vLTw" id="57H18gRbgol" role="37wK5m">
+              <ref role="3cqZAo" node="57H18gRbggA" resolve="snode" />
             </node>
           </node>
         </node>
