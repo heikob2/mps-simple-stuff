@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.buildlangUtil.devkit/simplestuff.buildlangUtil.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.devkit/simplestuff.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.simplestuff.buildlangUtil/de.hbaechmann.mps.simplestuff.buildlangUtil.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.buildlangUtil.rt/de.hbaechmann.mps.simplestuff.buildlangUtil.rt.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.openapi/de.hbaechmann.mps.simplestuff.openapi.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.remofdi/de.hbaechmann.mps.simplestuff.remofdi.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.util/de.hbaechmann.mps.simplestuff.util.msd" folder="" />

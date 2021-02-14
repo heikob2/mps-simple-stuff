@@ -3630,5 +3630,93 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="1ZxHn9Dplr">
+    <property role="TrG5h" value="RepositoryUtils" />
+    <node concept="2tJIrI" id="1ZxHn9Dpm5" role="jymVt" />
+    <node concept="2YIFZL" id="1ZxHn9Dpn0" role="jymVt">
+      <property role="TrG5h" value="allNodesInRepo" />
+      <node concept="3clFbS" id="1ZxHn9Dpn3" role="3clF47">
+        <node concept="3cpWs8" id="1ZxHn9DpoU" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZxHn9DpoX" role="3cpWs9">
+            <property role="TrG5h" value="allNodes" />
+            <node concept="2I9FWS" id="1ZxHn9DpoT" role="1tU5fm" />
+            <node concept="2ShNRf" id="1ZxHn9DppX" role="33vP2m">
+              <node concept="2T8Vx0" id="1ZxHn9DppJ" role="2ShVmc">
+                <node concept="2I9FWS" id="1ZxHn9DppK" role="2T96Bj" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="1ZxHn9DpBl" role="3cqZAp">
+          <node concept="2GrKxI" id="1ZxHn9DpBq" role="2Gsz3X">
+            <property role="TrG5h" value="smodule" />
+          </node>
+          <node concept="2OqwBi" id="1ZxHn9DpIQ" role="2GsD0m">
+            <node concept="37vLTw" id="1ZxHn9DpCF" role="2Oq$k0">
+              <ref role="3cqZAo" node="1ZxHn9DpnL" resolve="repo" />
+            </node>
+            <node concept="liA8E" id="1ZxHn9DpNi" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~SRepository.getModules()" resolve="getModules" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="1ZxHn9DpB$" role="2LFqv$">
+            <node concept="2Gpval" id="1ZxHn9DpR0" role="3cqZAp">
+              <node concept="2GrKxI" id="1ZxHn9DpR1" role="2Gsz3X">
+                <property role="TrG5h" value="smodel" />
+              </node>
+              <node concept="2OqwBi" id="1ZxHn9DpSw" role="2GsD0m">
+                <node concept="2GrUjf" id="1ZxHn9DpRW" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="1ZxHn9DpBq" resolve="smodule" />
+                </node>
+                <node concept="liA8E" id="1ZxHn9Dqdf" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~SModule.getModels()" resolve="getModels" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="1ZxHn9DpR3" role="2LFqv$">
+                <node concept="3cpWs8" id="1ZxHn9DuOI" role="3cqZAp">
+                  <node concept="3cpWsn" id="1ZxHn9DuOL" role="3cpWs9">
+                    <property role="TrG5h" value="m" />
+                    <node concept="H_c77" id="1ZxHn9DuOG" role="1tU5fm" />
+                    <node concept="2GrUjf" id="1ZxHn9DuPO" role="33vP2m">
+                      <ref role="2Gs0qQ" node="1ZxHn9DpR1" resolve="smodel" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1ZxHn9DqjN" role="3cqZAp">
+                  <node concept="2OqwBi" id="1ZxHn9Dr19" role="3clFbG">
+                    <node concept="37vLTw" id="1ZxHn9DqjM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1ZxHn9DpoX" resolve="allNodes" />
+                    </node>
+                    <node concept="X8dFx" id="1ZxHn9DrRF" role="2OqNvi">
+                      <node concept="2OqwBi" id="1ZxHn9DyTy" role="25WWJ7">
+                        <node concept="37vLTw" id="1ZxHn9DxSb" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1ZxHn9DuOL" resolve="m" />
+                        </node>
+                        <node concept="2SmgA7" id="1ZxHn9D$EQ" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1ZxHn9D_7m" role="3cqZAp">
+          <node concept="37vLTw" id="1ZxHn9D_7k" role="3clFbG">
+            <ref role="3cqZAo" node="1ZxHn9DpoX" resolve="allNodes" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1ZxHn9Dpmm" role="1B3o_S" />
+      <node concept="2I9FWS" id="1ZxHn9DpmP" role="3clF45" />
+      <node concept="37vLTG" id="1ZxHn9DpnL" role="3clF46">
+        <property role="TrG5h" value="repo" />
+        <node concept="3uibUv" id="1ZxHn9DpnK" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1ZxHn9Dpls" role="1B3o_S" />
+  </node>
 </model>
 
