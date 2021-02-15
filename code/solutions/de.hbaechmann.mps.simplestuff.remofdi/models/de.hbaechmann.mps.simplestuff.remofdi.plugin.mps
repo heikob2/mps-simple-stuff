@@ -2720,5 +2720,188 @@
       <property role="1iqoE4" value="${module}/icons/lamp.png" />
     </node>
   </node>
+  <node concept="sE7Ow" id="3O7c8NnTN$9">
+    <property role="TrG5h" value="ProjectDependenciesAsPumlStringToClipboard" />
+    <property role="2uzpH1" value="Project Module Dependencies as PUML to Clipboard" />
+    <property role="1WHSii" value="draw with e.g. liveuml.com" />
+    <node concept="tnohg" id="3O7c8NnTN$a" role="tncku">
+      <node concept="3clFbS" id="3O7c8NnTN$b" role="2VODD2">
+        <node concept="3clFbF" id="3O7c8NnTN$P" role="3cqZAp">
+          <node concept="2YIFZM" id="3O7c8NnTN$Q" role="3clFbG">
+            <ref role="37wK5l" to="2542:5abIGi40EuI" resolve="declaredDependenciesAsPumlStringToClipboard" />
+            <ref role="1Pybhc" to="2542:5abIGi3YxAt" resolve="SModuleDependencies" />
+            <node concept="2OqwBi" id="3O7c8NnTQSJ" role="37wK5m">
+              <node concept="2OqwBi" id="3O7c8NnTN$R" role="2Oq$k0">
+                <node concept="2WthIp" id="3O7c8NnTN$S" role="2Oq$k0" />
+                <node concept="1DTwFV" id="3O7c8NnTQjq" role="2OqNvi">
+                  <ref role="2WH_rO" node="3O7c8NnTPcd" resolve="mpsProject" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3O7c8NnUiNE" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~ProjectBase.getProjectModules()" resolve="getProjectModules" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3O7c8NnTSy8" role="37wK5m">
+              <node concept="2OqwBi" id="3O7c8NnTRQc" role="2Oq$k0">
+                <node concept="2WthIp" id="3O7c8NnTRQf" role="2Oq$k0" />
+                <node concept="1DTwFV" id="3O7c8NnTRQh" role="2OqNvi">
+                  <ref role="2WH_rO" node="3O7c8NnTPcd" resolve="mpsProject" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3O7c8NnTTg6" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="3O7c8NnTN_2" role="37wK5m">
+              <ref role="37wK5l" to="c6m4:4bwufpuke8x" resolve="noFiltering" />
+              <ref role="1Pybhc" to="c6m4:4bwufpu48TN" resolve="SModuleUtils.AllowedTargetsFilter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="3O7c8NnTN_D" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
+    <node concept="1DS2jV" id="3O7c8NnTPcd" role="1NuT2Z">
+      <property role="TrG5h" value="mpsProject" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="3O7c8NnTPce" role="1oa70y" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="3O7c8NnTTyn">
+    <property role="TrG5h" value="ProjectModuleDependenciesWhere" />
+    <property role="2uzpH1" value="Project Module Dependencies Where" />
+    <property role="1WHSii" value="draw with e.g. liveuml.com" />
+    <node concept="tnohg" id="3O7c8NnTTyo" role="tncku">
+      <node concept="3clFbS" id="3O7c8NnTTyp" role="2VODD2">
+        <node concept="3cpWs8" id="3O7c8NnTTyq" role="3cqZAp">
+          <node concept="3cpWsn" id="3O7c8NnTTyr" role="3cpWs9">
+            <property role="TrG5h" value="searchText" />
+            <node concept="17QB3L" id="3O7c8NnTTys" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3O7c8NnTTyt" role="3cqZAp">
+          <node concept="37vLTI" id="3O7c8NnTTyu" role="3clFbG">
+            <node concept="2YIFZM" id="3O7c8NnTTyv" role="37vLTx">
+              <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+              <ref role="37wK5l" to="dxuu:~JOptionPane.showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showInputDialog" />
+              <node concept="2OqwBi" id="3O7c8NnTTyw" role="37wK5m">
+                <node concept="2WthIp" id="3O7c8NnTTyx" role="2Oq$k0" />
+                <node concept="1DTwFV" id="3O7c8NnTTyy" role="2OqNvi">
+                  <ref role="2WH_rO" node="3O7c8NnTTzd" resolve="frame" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="3O7c8NnTTyz" role="37wK5m">
+                <property role="Xl_RC" value="Add comma (',') separated parts of namespaces of the target modules" />
+              </node>
+              <node concept="Xl_RD" id="3O7c8NnTTy$" role="37wK5m">
+                <property role="Xl_RC" value="Dependency Targets Where" />
+              </node>
+              <node concept="10M0yZ" id="3O7c8NnTTy_" role="37wK5m">
+                <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                <ref role="3cqZAo" to="dxuu:~JOptionPane.PLAIN_MESSAGE" resolve="PLAIN_MESSAGE" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3O7c8NnTTyA" role="37vLTJ">
+              <ref role="3cqZAo" node="3O7c8NnTTyr" resolve="searchText" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3O7c8NnTTyB" role="3cqZAp" />
+        <node concept="3clFbJ" id="3O7c8NnTTyC" role="3cqZAp">
+          <node concept="3clFbS" id="3O7c8NnTTyD" role="3clFbx">
+            <node concept="3clFbF" id="3O7c8NnTTyE" role="3cqZAp">
+              <node concept="2YIFZM" id="3O7c8NnTTyF" role="3clFbG">
+                <ref role="37wK5l" to="2542:5abIGi40EuI" resolve="declaredDependenciesAsPumlStringToClipboard" />
+                <ref role="1Pybhc" to="2542:5abIGi3YxAt" resolve="SModuleDependencies" />
+                <node concept="2OqwBi" id="3O7c8NnTWTu" role="37wK5m">
+                  <node concept="2OqwBi" id="3O7c8NnTTyG" role="2Oq$k0">
+                    <node concept="2WthIp" id="3O7c8NnTTyH" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="3O7c8NnTWhZ" role="2OqNvi">
+                      <ref role="2WH_rO" node="3O7c8NnTV6f" resolve="mpsProject" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3O7c8NnUiE8" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~ProjectBase.getProjectModules()" resolve="getProjectModules" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3O7c8NnTYDG" role="37wK5m">
+                  <node concept="2OqwBi" id="3O7c8NnTXRs" role="2Oq$k0">
+                    <node concept="2WthIp" id="3O7c8NnTXRv" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="3O7c8NnTXRx" role="2OqNvi">
+                      <ref role="2WH_rO" node="3O7c8NnTV6f" resolve="mpsProject" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3O7c8NnTZpx" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="3O7c8NnTTyR" role="37wK5m">
+                  <ref role="37wK5l" to="c6m4:4bwufpu3LGp" resolve="contains" />
+                  <ref role="1Pybhc" to="c6m4:4bwufpu3KYy" resolve="SModuleUtils.AllowedTargetsFilter.ModuleName" />
+                  <node concept="2OqwBi" id="3O7c8NnTTyS" role="37wK5m">
+                    <node concept="37vLTw" id="3O7c8NnTTyT" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3O7c8NnTTyr" resolve="searchText" />
+                    </node>
+                    <node concept="liA8E" id="3O7c8NnTTyU" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
+                      <node concept="Xl_RD" id="3O7c8NnTTyV" role="37wK5m">
+                        <property role="Xl_RC" value="," />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3O7c8NnTTyY" role="3clFbw">
+            <node concept="37vLTw" id="3O7c8NnTTyZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="3O7c8NnTTyr" resolve="searchText" />
+            </node>
+            <node concept="17RvpY" id="3O7c8NnTTz0" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="3O7c8NnTV6f" role="1NuT2Z">
+      <property role="TrG5h" value="mpsProject" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="3O7c8NnTV6g" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="3O7c8NnTTzd" role="1NuT2Z">
+      <property role="TrG5h" value="frame" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
+      <node concept="1oajcY" id="3O7c8NnTTze" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="3O7c8NnTTzf" role="tmbBb">
+      <node concept="3clFbS" id="3O7c8NnTTzg" role="2VODD2">
+        <node concept="3clFbF" id="3O7c8NnTTzh" role="3cqZAp">
+          <node concept="3clFbT" id="3O7c8NnTTzi" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="3O7c8NnTTzj" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
+  </node>
+  <node concept="tC5Ba" id="3O7c8NnTZul">
+    <property role="TrG5h" value="ProjectModuleDependenciesAsPUML_Group" />
+    <node concept="ftmFs" id="3O7c8NnTZun" role="ftER_">
+      <node concept="tCFHf" id="3O7c8NnTZuq" role="ftvYc">
+        <ref role="tCJdB" node="3O7c8NnTN$9" resolve="ProjectDependenciesAsPumlStringToClipboard" />
+      </node>
+      <node concept="tCFHf" id="3O7c8NnTZuv" role="ftvYc">
+        <ref role="tCJdB" node="3O7c8NnTTyn" resolve="ProjectModuleDependenciesWhere" />
+      </node>
+      <node concept="2a7GMi" id="3O7c8NnU8_7" role="ftvYc" />
+    </node>
+    <node concept="tT9cl" id="3O7c8NnTZuz" role="2f5YQi">
+      <ref role="tU$_T" to="tprs:hyf4HGL" resolve="ProjectActions" />
+      <ref role="2f8Tey" to="tprs:1gEYwydCqUT" resolve="check" />
+    </node>
+  </node>
 </model>
 
