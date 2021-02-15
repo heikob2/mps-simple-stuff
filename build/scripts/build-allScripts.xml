@@ -42,7 +42,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.mps-simple-stuff.build" />
+  <target name="compileJava" depends="java.compile.de.hbaechmann.mps.simplestuff.build" />
   
   <target name="processResources" />
   
@@ -142,7 +142,7 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <chunk>
-        <module file="${simplestuff.code}/solutions/mps-simple-stuff.build/mps-simple-stuff.build.msd" />
+        <module file="${simplestuff.code}/solutions/mps-simple-stuff.build/de.hbaechmann.mps.simplestuff.build.msd" />
       </chunk>
       <jvmargs>
         <arg value="-ea" />
@@ -160,10 +160,10 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.mps-simple-stuff.build">
+  <target name="java.compile.de.hbaechmann.mps.simplestuff.build">
     <mkdir dir="${simplestuff.code}/solutions/mps-simple-stuff.build/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/mps-simple-stuff.build" />
-    <javac destdir="${build.tmp}/java/out/mps-simple-stuff.build" fork="false" encoding="utf8" includeantruntime="false" debug="true">
+    <mkdir dir="${build.tmp}/java/out/de.hbaechmann.mps.simplestuff.build" />
+    <javac destdir="${build.tmp}/java/out/de.hbaechmann.mps.simplestuff.build" fork="false" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${simplestuff.code}/solutions/mps-simple-stuff.build/source_gen" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a12127c3-98bf-45e3-8719-555f3f4d68b6(mps-simple-stuff.build)">
+<model ref="r:a12127c3-98bf-45e3-8719-555f3f4d68b6(de.hbaechmann.mps.simplestuff.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -793,7 +793,7 @@
     <node concept="2G$12M" id="FgkhL36QZh" role="3989C9">
       <property role="TrG5h" value="simplestuff.build" />
       <node concept="1E1JtA" id="FgkhL36SEk" role="2G$12L">
-        <property role="TrG5h" value="mps-simple-stuff.build" />
+        <property role="TrG5h" value="de.hbaechmann.mps.simplestuff.build" />
         <property role="3LESm3" value="83e66adc-0a06-4c8a-acef-2e01b0dbe5c7" />
         <property role="BnDLt" value="true" />
         <node concept="398BVA" id="FgkhL36SEg" role="3LF7KH">
@@ -802,8 +802,8 @@
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="FgkhL36SEi" role="2Ry0An">
               <property role="2Ry0Am" value="mps-simple-stuff.build" />
-              <node concept="2Ry0Ak" id="FgkhL36SEh" role="2Ry0An">
-                <property role="2Ry0Am" value="mps-simple-stuff.build.msd" />
+              <node concept="2Ry0Ak" id="3O7c8NnUIwh" role="2Ry0An">
+                <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.build.msd" />
               </node>
             </node>
           </node>
