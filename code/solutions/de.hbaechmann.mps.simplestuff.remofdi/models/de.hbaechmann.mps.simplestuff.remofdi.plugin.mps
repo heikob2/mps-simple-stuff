@@ -2739,8 +2739,8 @@
                   <ref role="2WH_rO" node="3O7c8NnTPcd" resolve="mpsProject" />
                 </node>
               </node>
-              <node concept="liA8E" id="3O7c8NnUiNE" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~ProjectBase.getProjectModules()" resolve="getProjectModules" />
+              <node concept="liA8E" id="5dn$UrPm_bD" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getProjectModulesWithGenerators()" resolve="getProjectModulesWithGenerators" />
               </node>
             </node>
             <node concept="2OqwBi" id="3O7c8NnTSy8" role="37wK5m">
@@ -2824,8 +2824,8 @@
                       <ref role="2WH_rO" node="3O7c8NnTV6f" resolve="mpsProject" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="3O7c8NnUiE8" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~ProjectBase.getProjectModules()" resolve="getProjectModules" />
+                  <node concept="liA8E" id="5dn$UrPm_3I" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~Project.getProjectModulesWithGenerators()" resolve="getProjectModulesWithGenerators" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3O7c8NnTYDG" role="37wK5m">
