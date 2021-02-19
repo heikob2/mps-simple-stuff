@@ -376,7 +376,7 @@
               <property role="3oM_SC" value="add" />
             </node>
             <node concept="3oM_SD" id="5SduKb6Q9NT" role="1PaTwD">
-              <property role="3oM_SC" value="nodes" />
+              <property role="3oM_SC" value="graph-nodes" />
             </node>
             <node concept="3oM_SD" id="5SduKb6Q9NU" role="1PaTwD">
               <property role="3oM_SC" value="as" />

@@ -1122,6 +1122,36 @@
         <node concept="P$JXv" id="4bwufpuWLXL" role="lGtFl">
           <node concept="TZ5HA" id="4bwufpuWLXM" role="TZ5H$">
             <node concept="1dT_AC" id="4bwufpuWLXN" role="1dT_Ay">
+              <property role="1dT_AB" value="Register transformers." />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDig1" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDig2" role="1dT_Ay">
+              <property role="1dT_AB" value="It transforms the input-Object into an other object, depending on the context-Class" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDign" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDigo" role="1dT_Ay">
+              <property role="1dT_AB" value="For example it unwraps the target-Object from some wrapper-Object." />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDiih" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDiii" role="1dT_Ay">
+              <property role="1dT_AB" value="" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDiiv" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDiiw" role="1dT_Ay">
+              <property role="1dT_AB" value="Hint: as default-case you should return the input-Object." />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDhxM" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDhxN" role="1dT_Ay">
+              <property role="1dT_AB" value="" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDhxS" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDhxT" role="1dT_Ay">
               <property role="1dT_AB" value="Can only be called once per context" />
             </node>
           </node>
@@ -1183,6 +1213,31 @@
         <node concept="P$JXv" id="4bwufpuWx1_" role="lGtFl">
           <node concept="TZ5HA" id="4bwufpuWx1A" role="TZ5H$">
             <node concept="1dT_AC" id="4bwufpuWx1B" role="1dT_Ay">
+              <property role="1dT_AB" value="Register style-mapper." />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDih9" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDiha" role="1dT_Ay">
+              <property role="1dT_AB" value="Depending on the context-Class, custom icons can be defined for the input-Object and the created Puml-Class." />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDihv" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDihw" role="1dT_Ay">
+              <property role="1dT_AB" value="" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDihR" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDihS" role="1dT_Ay">
+              <property role="1dT_AB" value="Hint: you must provide a default case here, cause it is not explicitly checked" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDigJ" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDigK" role="1dT_Ay">
+              <property role="1dT_AB" value="" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="7zthEDBDigP" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDigQ" role="1dT_Ay">
               <property role="1dT_AB" value="Can only be called once per context" />
             </node>
           </node>
@@ -1274,7 +1329,7 @@
       </node>
       <node concept="2tJIrI" id="4bwufpuxZIj" role="jymVt" />
       <node concept="2YIFZL" id="4bwufpuY3rD" role="jymVt">
-        <property role="TrG5h" value="defaultModelAndModuleStyles" />
+        <property role="TrG5h" value="defaultMPSModelAndModuleStyles" />
         <node concept="3clFbS" id="4bwufpuY3rG" role="3clF47">
           <node concept="3clFbF" id="4bwufpuY433" role="3cqZAp">
             <node concept="1bVj0M" id="4bwufpuY431" role="3clFbG">
@@ -1318,7 +1373,7 @@
                   <node concept="3clFbS" id="5dn$UrPmibd" role="3clFbx">
                     <node concept="3cpWs6" id="5dn$UrPmiyl" role="3cqZAp">
                       <node concept="Xl_RD" id="5dn$UrPmj05" role="3cqZAk">
-                        <property role="Xl_RC" value="&lt;&lt; (G, #c0cad1 &gt;&gt;" />
+                        <property role="Xl_RC" value="&lt;&lt; (G, #c0cad1) &gt;&gt;" />
                       </node>
                     </node>
                   </node>
@@ -1327,6 +1382,23 @@
                       <ref role="3uigEE" to="w1kc:~Generator" resolve="Generator" />
                     </node>
                     <node concept="37vLTw" id="5dn$UrPmigx" role="2ZW6bz">
+                      <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="7zthEDBCVy4" role="3cqZAp">
+                  <node concept="3clFbS" id="7zthEDBCVy6" role="3clFbx">
+                    <node concept="3cpWs6" id="7zthEDBCW5t" role="3cqZAp">
+                      <node concept="Xl_RD" id="7zthEDBCW$1" role="3cqZAk">
+                        <property role="Xl_RC" value="&lt;&lt; (D, #79d5ef &gt;&gt;" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ZW3vV" id="7zthEDBCVKq" role="3clFbw">
+                    <node concept="3uibUv" id="7zthEDBCVPZ" role="2ZW6by">
+                      <ref role="3uigEE" to="z1c3:~DevKit" resolve="DevKit" />
+                    </node>
+                    <node concept="37vLTw" id="7zthEDBCVBV" role="2ZW6bz">
                       <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
                     </node>
                   </node>
@@ -1380,8 +1452,13 @@
                           </node>
                         </node>
                         <node concept="3cpWs3" id="4bwufpuY4F_" role="3uHU7B">
-                          <node concept="37vLTw" id="4bwufpuY4FA" role="3uHU7B">
-                            <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
+                          <node concept="3cpWs3" id="7zthEDBD7Fg" role="3uHU7B">
+                            <node concept="Xl_RD" id="7zthEDBD7Mq" role="3uHU7B">
+                              <property role="Xl_RC" value="No default style defined for: " />
+                            </node>
+                            <node concept="37vLTw" id="4bwufpuY4FA" role="3uHU7w">
+                              <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
+                            </node>
                           </node>
                           <node concept="Xl_RD" id="4bwufpuY4FB" role="3uHU7w">
                             <property role="Xl_RC" value=", " />
@@ -1409,8 +1486,22 @@
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>
         </node>
+        <node concept="P$JXv" id="7zthEDBDf9U" role="lGtFl">
+          <node concept="TZ5HA" id="7zthEDBDf9V" role="TZ5H$">
+            <node concept="1dT_AC" id="7zthEDBDf9W" role="1dT_Ay">
+              <property role="1dT_AB" value="Provides default MPS styles." />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Tm1VV" id="4bwufpuxZFi" role="1B3o_S" />
+      <node concept="3UR2Jj" id="7zthEDBDfnG" role="lGtFl">
+        <node concept="TZ5HA" id="7zthEDBDfnH" role="TZ5H$">
+          <node concept="1dT_AC" id="7zthEDBDfnI" role="1dT_Ay">
+            <property role="1dT_AB" value="Defines the Style for Puml-Class icons (label and color)." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="4bwufpuY1YB" role="jymVt" />
     <node concept="3Tm1VV" id="4bwufpuxZDn" role="1B3o_S" />
@@ -1423,6 +1514,11 @@
       <node concept="TZ5HA" id="4bwufpuWOcp" role="TZ5H$">
         <node concept="1dT_AC" id="4bwufpuWOcq" role="1dT_Ay">
           <property role="1dT_AB" value="from an unknown location." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="7zthEDBDfnc" role="TZ5H$">
+        <node concept="1dT_AC" id="7zthEDBDfnd" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
         </node>
       </node>
       <node concept="TZ5HA" id="4bwufpuWOcL" role="TZ5H$">
