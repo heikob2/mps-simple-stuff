@@ -2580,6 +2580,7 @@
     <property role="TrG5h" value="ModuleDependenciesWhere" />
     <property role="2uzpH1" value="Module Dependencies Where" />
     <property role="1WHSii" value="draw with e.g. liveuml.com" />
+    <property role="2YLI8m" value="6u2MFnph2yg/read" />
     <node concept="tnohg" id="3O7c8NnSTF$" role="tncku">
       <node concept="3clFbS" id="3O7c8NnSTF_" role="2VODD2">
         <node concept="3cpWs8" id="3O7c8NnT02M" role="3cqZAp">
@@ -2711,9 +2712,30 @@
     </node>
     <node concept="2ScWuX" id="3O7c8NnSTGv" role="tmbBb">
       <node concept="3clFbS" id="3O7c8NnSTGw" role="2VODD2">
-        <node concept="3clFbF" id="3O7c8NnSTH1" role="3cqZAp">
-          <node concept="3clFbT" id="3O7c8NnSTH2" role="3clFbG">
-            <property role="3clFbU" value="true" />
+        <node concept="3clFbF" id="7zthEDBGzL5" role="3cqZAp">
+          <node concept="1Wc70l" id="7zthEDBG_G6" role="3clFbG">
+            <node concept="3fqX7Q" id="7zthEDBGCv9" role="3uHU7w">
+              <node concept="2OqwBi" id="7zthEDBGCvb" role="3fr31v">
+                <node concept="2OqwBi" id="7zthEDBGCvc" role="2Oq$k0">
+                  <node concept="2WthIp" id="7zthEDBGCvd" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7zthEDBGCve" role="2OqNvi">
+                    <ref role="2WH_rO" node="3O7c8NnSTGu" resolve="modules" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7zthEDBGCvf" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="7zthEDBG_7$" role="3uHU7B">
+              <node concept="2OqwBi" id="7zthEDBGzKZ" role="3uHU7B">
+                <node concept="2WthIp" id="7zthEDBGzL2" role="2Oq$k0" />
+                <node concept="1DTwFV" id="7zthEDBGzL4" role="2OqNvi">
+                  <ref role="2WH_rO" node="3O7c8NnSTGu" resolve="modules" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="7zthEDBG_AA" role="3uHU7w" />
+            </node>
           </node>
         </node>
       </node>

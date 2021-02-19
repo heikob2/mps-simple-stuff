@@ -65,7 +65,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="4bwufpuzY3U">
-    <property role="TrG5h" value="Todos" />
+    <property role="TrG5h" value="TodosAndFeatures" />
     <node concept="2tJIrI" id="4bwufpuzY4h" role="jymVt" />
     <node concept="2YIFZL" id="4bwufpuzY54" role="jymVt">
       <property role="TrG5h" value="todos" />
@@ -83,9 +83,19 @@
         <node concept="3clFbF" id="4bwufpuzY8s" role="3cqZAp">
           <node concept="d57v9" id="4bwufpuzYdq" role="3clFbG">
             <node concept="Xl_RD" id="4bwufpuzYe3" role="37vLTx">
-              <property role="Xl_RC" value="- just export namespaces " />
+              <property role="Xl_RC" value="- SModuleDependencies::dependencyByUsage(): provide filtering-mechanism" />
             </node>
             <node concept="37vLTw" id="4bwufpuzY8q" role="37vLTJ">
+              <ref role="3cqZAo" node="4bwufpuzY5Z" resolve="todos" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7zthEDBGTa0" role="3cqZAp">
+          <node concept="d57v9" id="7zthEDBGTa1" role="3clFbG">
+            <node concept="Xl_RD" id="7zthEDBGTa2" role="37vLTx">
+              <property role="Xl_RC" value="- [just export (explicit) namespaces]" />
+            </node>
+            <node concept="37vLTw" id="7zthEDBGTa3" role="37vLTJ">
               <ref role="3cqZAo" node="4bwufpuzY5Z" resolve="todos" />
             </node>
           </node>
@@ -99,6 +109,50 @@
       </node>
       <node concept="3Tm1VV" id="4bwufpuzY4z" role="1B3o_S" />
       <node concept="17QB3L" id="4bwufpuzY4V" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7zthEDBH0bM" role="jymVt" />
+    <node concept="2YIFZL" id="7zthEDBH0dS" role="jymVt">
+      <property role="TrG5h" value="features" />
+      <node concept="3clFbS" id="7zthEDBH0dV" role="3clF47">
+        <node concept="3cpWs8" id="7zthEDBH0eN" role="3cqZAp">
+          <node concept="3cpWsn" id="7zthEDBH0eQ" role="3cpWs9">
+            <property role="TrG5h" value="features" />
+            <node concept="17QB3L" id="7zthEDBH0eM" role="1tU5fm" />
+            <node concept="Xl_RD" id="7zthEDBH0fx" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7zthEDBH0fO" role="3cqZAp" />
+        <node concept="3clFbF" id="7zthEDBH0gB" role="3cqZAp">
+          <node concept="d57v9" id="7zthEDBH0pC" role="3clFbG">
+            <node concept="Xl_RD" id="7zthEDBH0q7" role="37vLTx">
+              <property role="Xl_RC" value="- Find usages for: SingleLineCommment::isTODOComment() aka BL-Todos" />
+            </node>
+            <node concept="37vLTw" id="7zthEDBH0g_" role="37vLTJ">
+              <ref role="3cqZAo" node="7zthEDBH0eQ" resolve="features" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7zthEDBH0Fl" role="3cqZAp">
+          <node concept="d57v9" id="7zthEDBH0OT" role="3clFbG">
+            <node concept="Xl_RD" id="7zthEDBH0Po" role="37vLTx">
+              <property role="Xl_RC" value="- SVG-view (like mbeddr-IVisualizable) to display Puml in tool." />
+            </node>
+            <node concept="37vLTw" id="7zthEDBH0Fj" role="37vLTJ">
+              <ref role="3cqZAo" node="7zthEDBH0eQ" resolve="features" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7zthEDBH0zR" role="3cqZAp" />
+        <node concept="3cpWs6" id="7zthEDBH0$y" role="3cqZAp">
+          <node concept="37vLTw" id="7zthEDBH0_j" role="3cqZAk">
+            <ref role="3cqZAo" node="7zthEDBH0eQ" resolve="features" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7zthEDBH0cT" role="1B3o_S" />
+      <node concept="17QB3L" id="7zthEDBH0dF" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="4bwufpuzY3V" role="1B3o_S" />
   </node>
