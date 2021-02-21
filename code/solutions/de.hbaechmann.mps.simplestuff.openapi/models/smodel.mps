@@ -939,6 +939,56 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="3wp6EEkp3q3" role="jymVt">
+      <property role="TrG5h" value="dependenciesAsPumlString" />
+      <node concept="37vLTG" id="3wp6EEkp3q4" role="3clF46">
+        <property role="TrG5h" value="notFiltered" />
+        <node concept="A3Dl8" id="3wp6EEkp3q5" role="1tU5fm">
+          <node concept="3uibUv" id="3wp6EEkp3q6" role="A3Ik2">
+            <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3wp6EEkp3q7" role="3clF46">
+        <property role="TrG5h" value="repo" />
+        <node concept="3uibUv" id="3wp6EEkp3q8" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3wp6EEkp3q9" role="3clF47">
+        <node concept="3clFbF" id="3wp6EEkp3qa" role="3cqZAp">
+          <node concept="2YIFZM" id="3wp6EEkp4W3" role="3clFbG">
+            <ref role="37wK5l" node="1xIgfUFA2PW" resolve="createdDependenciesPumlString" />
+            <ref role="1Pybhc" node="1xIgfUFT6vy" resolve="SModelDependencies.Plantuml" />
+            <node concept="1rXfSq" id="3wp6EEkp4W4" role="37wK5m">
+              <ref role="37wK5l" node="4bwufpu4i34" resolve="dependencyByUsage" />
+              <node concept="37vLTw" id="3wp6EEkp4W5" role="37wK5m">
+                <ref role="3cqZAo" node="3wp6EEkp3q4" resolve="notFiltered" />
+              </node>
+              <node concept="37vLTw" id="3wp6EEkp4W6" role="37wK5m">
+                <ref role="3cqZAo" node="3wp6EEkp3q7" resolve="repo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3wp6EEkp3qf" role="1B3o_S" />
+      <node concept="17QB3L" id="3wp6EEkp49U" role="3clF45" />
+      <node concept="P$JXv" id="3wp6EEkp3qh" role="lGtFl">
+        <node concept="TUZQ0" id="3wp6EEkp3qi" role="3nqlJM">
+          <property role="TUZQ4" value="e.g. #models" />
+          <node concept="zr_55" id="3wp6EEkp3qj" role="zr_5Q">
+            <ref role="zr_51" node="3wp6EEkp3q4" resolve="notFiltered" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3wp6EEkp3qk" role="3nqlJM">
+          <property role="TUZQ4" value="e.g. #project.getRepository()" />
+          <node concept="zr_55" id="3wp6EEkp3ql" role="zr_5Q">
+            <ref role="zr_51" node="3wp6EEkp3q7" resolve="repo" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4bwufpuirTF" role="jymVt" />
     <node concept="312cEu" id="1xIgfUFT6vy" role="jymVt">
       <property role="TrG5h" value="Plantuml" />
@@ -1253,7 +1303,7 @@
           <node concept="3clFbF" id="4bwufpuYay$" role="3cqZAp">
             <node concept="37vLTI" id="4bwufpuYaE7" role="3clFbG">
               <node concept="2YIFZM" id="4bwufpuYaT9" role="37vLTx">
-                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultModelAndModuleStyles" />
+                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultMPSModelAndModuleStyles" />
                 <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
               </node>
               <node concept="37vLTw" id="4bwufpuYayy" role="37vLTJ">

@@ -1492,6 +1492,90 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="42zg5xYDVqd" role="jymVt" />
+    <node concept="2YIFZL" id="42zg5xYDTo8" role="jymVt">
+      <property role="TrG5h" value="declaredDependenciesAsPumlString" />
+      <node concept="37vLTG" id="42zg5xYDTo9" role="3clF46">
+        <property role="TrG5h" value="notFiltered" />
+        <node concept="A3Dl8" id="42zg5xYDToa" role="1tU5fm">
+          <node concept="3uibUv" id="42zg5xYDTob" role="A3Ik2">
+            <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="42zg5xYDToc" role="3clF46">
+        <property role="TrG5h" value="repo" />
+        <node concept="3uibUv" id="42zg5xYDTod" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="42zg5xYDToe" role="3clF46">
+        <property role="TrG5h" value="allowedTargetsFilter" />
+        <node concept="1ajhzC" id="42zg5xYDTof" role="1tU5fm">
+          <node concept="10P_77" id="42zg5xYDTog" role="1ajl9A" />
+          <node concept="3uibUv" id="42zg5xYDToh" role="1ajw0F">
+            <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="42zg5xYDToi" role="3clF47">
+        <node concept="3clFbF" id="42zg5xYDToj" role="3cqZAp">
+          <node concept="2YIFZM" id="42zg5xYDV1t" role="3clFbG">
+            <ref role="37wK5l" node="1xIgfUFA2PW" resolve="createdDependenciesPumlString" />
+            <ref role="1Pybhc" node="1xIgfUFT6vy" resolve="SModuleDependencies.Plantuml" />
+            <node concept="1rXfSq" id="42zg5xYDV1u" role="37wK5m">
+              <ref role="37wK5l" node="1xIgfUFTevN" resolve="declaredDependencyByUsage" />
+              <node concept="37vLTw" id="42zg5xYDV1v" role="37wK5m">
+                <ref role="3cqZAo" node="42zg5xYDTo9" resolve="notFiltered" />
+              </node>
+              <node concept="37vLTw" id="42zg5xYDV1w" role="37wK5m">
+                <ref role="3cqZAo" node="42zg5xYDToc" resolve="repo" />
+              </node>
+              <node concept="37vLTw" id="42zg5xYDV1x" role="37wK5m">
+                <ref role="3cqZAo" node="42zg5xYDToe" resolve="allowedTargetsFilter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="42zg5xYDTop" role="1B3o_S" />
+      <node concept="17QB3L" id="42zg5xYDUfD" role="3clF45" />
+      <node concept="P$JXv" id="42zg5xYDTor" role="lGtFl">
+        <node concept="TZ5HA" id="42zg5xYDTos" role="TZ5H$">
+          <node concept="1dT_AC" id="42zg5xYDTot" role="1dT_Ay">
+            <property role="1dT_AB" value="Creates a plantuml string for the SModule::declaredDependencies() and copies it to clipboard." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="42zg5xYDTou" role="TZ5H$">
+          <node concept="1dT_AC" id="42zg5xYDTov" role="1dT_Ay">
+            <property role="1dT_AB" value="Only source-smodule-&gt;target-smodule relations are considered, where target-module is not filtered out" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="42zg5xYDTow" role="TZ5H$">
+          <node concept="1dT_AC" id="42zg5xYDTox" role="1dT_Ay">
+            <property role="1dT_AB" value="by the allowedTargetsFilter. Source-modules with now edges are not visible." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="42zg5xYDToy" role="3nqlJM">
+          <property role="TUZQ4" value="e.g. #modules" />
+          <node concept="zr_55" id="42zg5xYDToz" role="zr_5Q">
+            <ref role="zr_51" node="42zg5xYDTo9" resolve="notFiltered" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="42zg5xYDTo$" role="3nqlJM">
+          <property role="TUZQ4" value="e.g. #project.getRepository()" />
+          <node concept="zr_55" id="42zg5xYDTo_" role="zr_5Q">
+            <ref role="zr_51" node="42zg5xYDToc" resolve="repo" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="42zg5xYDToA" role="3nqlJM">
+          <property role="TUZQ4" value="e.g. { SModule dependencyTarget =&gt; dependencyTarget.getModuleName().contains(&quot;mbeddr&quot;)" />
+          <node concept="zr_55" id="42zg5xYDToB" role="zr_5Q">
+            <ref role="zr_51" node="42zg5xYDToe" resolve="allowedTargetsFilter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="5wLP8TBaOtS" role="jymVt">
       <property role="TrG5h" value="declaredDependenciesTransitiveAsPumlStringToClipboard" />
       <node concept="37vLTG" id="5wLP8TBaOtT" role="3clF46">
@@ -1797,7 +1881,7 @@
           <node concept="3clFbF" id="4bwufpuYay$" role="3cqZAp">
             <node concept="37vLTI" id="4bwufpuYaE7" role="3clFbG">
               <node concept="2YIFZM" id="4bwufpuYaT9" role="37vLTx">
-                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultModelAndModuleStyles" />
+                <ref role="37wK5l" to="c6m4:4bwufpuY3rD" resolve="defaultMPSModelAndModuleStyles" />
                 <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
               </node>
               <node concept="37vLTw" id="4bwufpuYayy" role="37vLTJ">
