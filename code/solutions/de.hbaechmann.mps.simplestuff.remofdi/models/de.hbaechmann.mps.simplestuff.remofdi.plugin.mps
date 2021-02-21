@@ -2429,6 +2429,15 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="7ZkpbXXgMrP" role="3cqZAp">
+              <node concept="2YIFZM" id="7ZkpbXXgML0" role="3clFbG">
+                <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+                <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+                <node concept="37vLTw" id="7ZkpbXXgMMb" role="37wK5m">
+                  <ref role="3cqZAo" node="3wp6EEkp6t9" resolve="pumlString" />
+                </node>
+              </node>
+            </node>
             <node concept="SfApY" id="3wp6EEkpg$H" role="3cqZAp">
               <node concept="3clFbS" id="3wp6EEkpg$J" role="SfCbr">
                 <node concept="3clFbF" id="3wp6EEkpcNH" role="3cqZAp">
@@ -2561,6 +2570,15 @@
                       <ref role="37wK5l" to="c6m4:4bwufpuke8x" resolve="noFiltering" />
                       <ref role="1Pybhc" to="c6m4:4bwufpu48TN" resolve="SModuleUtils.AllowedTargetsFilter" />
                     </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7ZkpbXXgKB_" role="3cqZAp">
+                <node concept="2YIFZM" id="7ZkpbXXgKWB" role="3clFbG">
+                  <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+                  <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+                  <node concept="37vLTw" id="7ZkpbXXgKXJ" role="37wK5m">
+                    <ref role="3cqZAo" node="42zg5xYE4GT" resolve="pumlString" />
                   </node>
                 </node>
               </node>
@@ -2842,6 +2860,15 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="7ZkpbXXgQ9O" role="3cqZAp">
+              <node concept="2YIFZM" id="7ZkpbXXgQsU" role="3clFbG">
+                <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+                <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+                <node concept="37vLTw" id="7ZkpbXXgQtQ" role="37wK5m">
+                  <ref role="3cqZAo" node="42zg5xYEgoD" resolve="pumlString" />
+                </node>
+              </node>
+            </node>
             <node concept="SfApY" id="42zg5xYEifO" role="3cqZAp">
               <node concept="3clFbS" id="42zg5xYEifP" role="SfCbr">
                 <node concept="3clFbF" id="42zg5xYEifQ" role="3cqZAp">
@@ -3027,6 +3054,15 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7ZkpbXXgNbX" role="3cqZAp">
+          <node concept="2YIFZM" id="7ZkpbXXgNlA" role="3clFbG">
+            <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+            <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+            <node concept="37vLTw" id="7ZkpbXXgNq6" role="37wK5m">
+              <ref role="3cqZAo" node="42zg5xYEnHB" resolve="pumlString" />
+            </node>
+          </node>
+        </node>
         <node concept="SfApY" id="42zg5xYEoGP" role="3cqZAp">
           <node concept="3clFbS" id="42zg5xYEoGQ" role="SfCbr">
             <node concept="3clFbF" id="42zg5xYEoGR" role="3cqZAp">
@@ -3181,6 +3217,15 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7ZkpbXXgO9m" role="3cqZAp">
+              <node concept="2YIFZM" id="7ZkpbXXgOgP" role="3clFbG">
+                <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+                <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+                <node concept="37vLTw" id="7ZkpbXXgOhL" role="37wK5m">
+                  <ref role="3cqZAo" node="42zg5xYEqi8" resolve="pumlString" />
                 </node>
               </node>
             </node>
