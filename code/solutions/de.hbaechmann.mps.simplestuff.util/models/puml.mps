@@ -1095,7 +1095,7 @@
     <node concept="3Tm1VV" id="4bwufpu_5x3" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3wp6EEklASw">
-    <property role="TrG5h" value="OpenPumlWithLiveUmlCom" />
+    <property role="TrG5h" value="OpenPumlSVGInBrowser" />
     <node concept="2tJIrI" id="3wp6EEklATC" role="jymVt" />
     <node concept="2tJIrI" id="3wp6EEklATE" role="jymVt" />
     <node concept="2YIFZL" id="3wp6EEklAUn" role="jymVt">
@@ -1458,6 +1458,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="1DmMGc$jY4g" role="3cqZAp" />
+        <node concept="3SKdUt" id="42zg5xYGK4h" role="3cqZAp">
+          <node concept="1PaTwC" id="42zg5xYGK4i" role="3ndbpf">
+            <node concept="3oM_SD" id="42zg5xYGK4k" role="1PaTwD">
+              <property role="3oM_SC" value="transform" />
+            </node>
+            <node concept="3oM_SD" id="42zg5xYGKF7" role="1PaTwD">
+              <property role="3oM_SC" value="pumlString" />
+            </node>
+            <node concept="3oM_SD" id="42zg5xYGKFE" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="42zg5xYGKFI" role="1PaTwD">
+              <property role="3oM_SC" value="svg-string" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1DmMGc$h03w" role="3cqZAp">
           <node concept="3cpWsn" id="1DmMGc$h03x" role="3cpWs9">
             <property role="TrG5h" value="reader" />
