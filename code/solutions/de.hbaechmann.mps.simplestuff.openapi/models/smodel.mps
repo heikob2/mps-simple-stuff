@@ -1132,6 +1132,25 @@
       <node concept="2YIFZL" id="4bwufpuWaKG" role="jymVt">
         <property role="TrG5h" value="registerStyling" />
         <node concept="3clFbS" id="4bwufpuWaKJ" role="3clF47">
+          <node concept="3SKdUt" id="7ZkpbXXfrfD" role="3cqZAp">
+            <node concept="1PaTwC" id="7ZkpbXXfrfE" role="3ndbpf">
+              <node concept="3oM_SD" id="7ZkpbXXfrqm" role="1PaTwD">
+                <property role="3oM_SC" value="shape" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrqw" role="1PaTwD">
+                <property role="3oM_SC" value="style" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrqF" role="1PaTwD">
+                <property role="3oM_SC" value="(color)" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7ZkpbXXfs5b" role="3cqZAp">
+            <node concept="2YIFZM" id="7ZkpbXXfs_Q" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:7ZkpbXXfmaS" resolve="clearStyleMappers" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuUwQS" resolve="StyleUtils.PumlClassColorStyle" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="4bwufpuXWmr" role="3cqZAp">
             <node concept="3cpWsn" id="4bwufpuXWmu" role="3cpWs9">
               <property role="TrG5h" value="stylingMapper" />
@@ -1207,6 +1226,22 @@
             </node>
           </node>
           <node concept="3clFbH" id="4bwufpuY9Wm" role="3cqZAp" />
+          <node concept="3SKdUt" id="7ZkpbXXfrD3" role="3cqZAp">
+            <node concept="1PaTwC" id="7ZkpbXXfrD4" role="3ndbpf">
+              <node concept="3oM_SD" id="7ZkpbXXfrD6" role="1PaTwD">
+                <property role="3oM_SC" value="icon" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrNy" role="1PaTwD">
+                <property role="3oM_SC" value="styling" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7ZkpbXXftxV" role="3cqZAp">
+            <node concept="2YIFZM" id="7ZkpbXXftTl" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:7ZkpbXXfnSw" resolve="clearStyleMappersAndTransformers" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="4bwufpuYe4c" role="3cqZAp">
             <node concept="3cpWsn" id="4bwufpuYe4f" role="3cpWs9">
               <property role="TrG5h" value="transformer" />

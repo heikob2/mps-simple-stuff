@@ -6,6 +6,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
@@ -1803,6 +1804,25 @@
         <property role="TrG5h" value="registerStyling" />
         <node concept="3clFbS" id="4bwufpuWaKJ" role="3clF47">
           <node concept="3clFbH" id="4bwufpuXWgq" role="3cqZAp" />
+          <node concept="3SKdUt" id="7ZkpbXXfrfD" role="3cqZAp">
+            <node concept="1PaTwC" id="7ZkpbXXfrfE" role="3ndbpf">
+              <node concept="3oM_SD" id="7ZkpbXXfrqm" role="1PaTwD">
+                <property role="3oM_SC" value="shape" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrqw" role="1PaTwD">
+                <property role="3oM_SC" value="style" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrqF" role="1PaTwD">
+                <property role="3oM_SC" value="(color)" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7ZkpbXXfAWT" role="3cqZAp">
+            <node concept="2YIFZM" id="7ZkpbXXfB8P" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:7ZkpbXXfmaS" resolve="clearStyleMappers" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuUwQS" resolve="StyleUtils.PumlClassColorStyle" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="4bwufpuXWmr" role="3cqZAp">
             <node concept="3cpWsn" id="4bwufpuXWmu" role="3cpWs9">
               <property role="TrG5h" value="stylingMapper" />
@@ -1878,6 +1898,22 @@
             </node>
           </node>
           <node concept="3clFbH" id="4bwufpuY9Wm" role="3cqZAp" />
+          <node concept="3SKdUt" id="7ZkpbXXfrD3" role="3cqZAp">
+            <node concept="1PaTwC" id="7ZkpbXXfrD4" role="3ndbpf">
+              <node concept="3oM_SD" id="7ZkpbXXfrD6" role="1PaTwD">
+                <property role="3oM_SC" value="icon" />
+              </node>
+              <node concept="3oM_SD" id="7ZkpbXXfrNy" role="1PaTwD">
+                <property role="3oM_SC" value="styling" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7ZkpbXXfA$G" role="3cqZAp">
+            <node concept="2YIFZM" id="7ZkpbXXfAJi" role="3clFbG">
+              <ref role="37wK5l" to="c6m4:7ZkpbXXfnSw" resolve="clearStyleMappersAndTransformers" />
+              <ref role="1Pybhc" to="c6m4:4bwufpuxZFE" resolve="StyleUtils.PumlClassIconAndGenericStyle" />
+            </node>
+          </node>
           <node concept="3clFbF" id="4bwufpuYay$" role="3cqZAp">
             <node concept="37vLTI" id="4bwufpuYaE7" role="3clFbG">
               <node concept="2YIFZM" id="4bwufpuYaT9" role="37vLTx">

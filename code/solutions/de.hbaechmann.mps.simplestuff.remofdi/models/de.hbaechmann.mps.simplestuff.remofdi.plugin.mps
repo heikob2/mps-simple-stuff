@@ -2380,6 +2380,20 @@
             </node>
           </node>
           <node concept="3clFbS" id="3O7c8NnPAyy" role="3clFbx">
+            <node concept="3clFbF" id="7ZkpbXXdzLF" role="3cqZAp">
+              <node concept="2OqwBi" id="7ZkpbXXdzLC" role="3clFbG">
+                <node concept="10M0yZ" id="7ZkpbXXdzLD" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                </node>
+                <node concept="liA8E" id="7ZkpbXXdzLE" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                  <node concept="Xl_RD" id="7ZkpbXXd$39" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;&lt;&lt; model-dependencies" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="3wp6EEkp6t6" role="3cqZAp">
               <node concept="3cpWsn" id="3wp6EEkp6t9" role="3cpWs9">
                 <property role="TrG5h" value="pumlString" />
@@ -2420,7 +2434,7 @@
                 <node concept="3clFbF" id="3wp6EEkpcNH" role="3cqZAp">
                   <node concept="2YIFZM" id="3wp6EEkpd25" role="3clFbG">
                     <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
-                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlWithLiveUmlCom" />
+                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
                     <node concept="37vLTw" id="3wp6EEkpd2T" role="37wK5m">
                       <ref role="3cqZAo" node="3wp6EEkp6t9" resolve="pumlString" />
                     </node>
@@ -2497,6 +2511,20 @@
               </node>
             </node>
             <node concept="3clFbS" id="3O7c8NnPNBY" role="3eOfB_">
+              <node concept="3clFbF" id="7ZkpbXXd$CW" role="3cqZAp">
+                <node concept="2OqwBi" id="7ZkpbXXd$CT" role="3clFbG">
+                  <node concept="10M0yZ" id="7ZkpbXXd$CU" role="2Oq$k0">
+                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                    <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                  </node>
+                  <node concept="liA8E" id="7ZkpbXXd$CV" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                    <node concept="Xl_RD" id="7ZkpbXXd_1b" role="37wK5m">
+                      <property role="Xl_RC" value="&lt;&lt;&lt; module-dependencies" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs8" id="42zg5xYE4GQ" role="3cqZAp">
                 <node concept="3cpWsn" id="42zg5xYE4GT" role="3cpWs9">
                   <property role="TrG5h" value="pumlString" />
@@ -2541,7 +2569,7 @@
                   <node concept="3clFbF" id="42zg5xYE6JD" role="3cqZAp">
                     <node concept="2YIFZM" id="42zg5xYE6JE" role="3clFbG">
                       <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
-                      <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlWithLiveUmlCom" />
+                      <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
                       <node concept="37vLTw" id="42zg5xYE6JF" role="37wK5m">
                         <ref role="3cqZAo" node="42zg5xYE4GT" resolve="pumlString" />
                       </node>
@@ -2819,7 +2847,7 @@
                 <node concept="3clFbF" id="42zg5xYEifQ" role="3cqZAp">
                   <node concept="2YIFZM" id="42zg5xYEifR" role="3clFbG">
                     <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
-                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlWithLiveUmlCom" />
+                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
                     <node concept="37vLTw" id="42zg5xYEifS" role="37wK5m">
                       <ref role="3cqZAo" node="42zg5xYEgoD" resolve="pumlString" />
                     </node>
@@ -3004,7 +3032,7 @@
             <node concept="3clFbF" id="42zg5xYEoGR" role="3cqZAp">
               <node concept="2YIFZM" id="42zg5xYEoGS" role="3clFbG">
                 <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
-                <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlWithLiveUmlCom" />
+                <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
                 <node concept="37vLTw" id="42zg5xYEoGT" role="37wK5m">
                   <ref role="3cqZAo" node="42zg5xYEnHB" resolve="pumlString" />
                 </node>
@@ -3161,7 +3189,7 @@
                 <node concept="3clFbF" id="42zg5xYErpN" role="3cqZAp">
                   <node concept="2YIFZM" id="42zg5xYErpO" role="3clFbG">
                     <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
-                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlWithLiveUmlCom" />
+                    <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
                     <node concept="37vLTw" id="42zg5xYErpP" role="37wK5m">
                       <ref role="3cqZAo" node="42zg5xYEqi8" resolve="pumlString" />
                     </node>
