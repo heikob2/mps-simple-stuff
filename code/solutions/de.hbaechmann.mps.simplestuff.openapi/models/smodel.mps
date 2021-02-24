@@ -2192,22 +2192,28 @@
                                   <ref role="3cqZAo" to="bupk:4bwufpu_ZzX" resolve="classes" />
                                 </node>
                                 <node concept="TSZUe" id="4bwufpuHPi0" role="2OqNvi">
-                                  <node concept="2OqwBi" id="4bwufpuHPi1" role="25WWJ7">
-                                    <node concept="2OqwBi" id="4bwufpuHPi2" role="2Oq$k0">
-                                      <node concept="1LFfDK" id="4bwufpuHPi3" role="2Oq$k0">
-                                        <node concept="3cmrfG" id="4bwufpuHPi4" role="1LF_Uc">
-                                          <property role="3cmrfH" value="1" />
+                                  <node concept="2ShNRf" id="fZL0njVCcW" role="25WWJ7">
+                                    <node concept="1pGfFk" id="fZL0njVCT_" role="2ShVmc">
+                                      <ref role="37wK5l" to="bupk:fZL0njTugM" resolve="DG_Vertex" />
+                                      <node concept="10Nm6u" id="fZL0njVDin" role="37wK5m" />
+                                      <node concept="2OqwBi" id="4bwufpuHPi1" role="37wK5m">
+                                        <node concept="2OqwBi" id="4bwufpuHPi2" role="2Oq$k0">
+                                          <node concept="1LFfDK" id="4bwufpuHPi3" role="2Oq$k0">
+                                            <node concept="3cmrfG" id="4bwufpuHPi4" role="1LF_Uc">
+                                              <property role="3cmrfH" value="1" />
+                                            </node>
+                                            <node concept="37vLTw" id="4bwufpuHPi5" role="1LFl5Q">
+                                              <ref role="3cqZAo" node="4bwufpuHPi8" resolve="it" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="4bwufpuHPi6" role="2OqNvi">
+                                            <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                                          </node>
                                         </node>
-                                        <node concept="37vLTw" id="4bwufpuHPi5" role="1LFl5Q">
-                                          <ref role="3cqZAo" node="4bwufpuHPi8" resolve="it" />
+                                        <node concept="liA8E" id="4bwufpuHPi7" role="2OqNvi">
+                                          <ref role="37wK5l" to="mhbf:~SModelName.toString()" resolve="toString" />
                                         </node>
                                       </node>
-                                      <node concept="liA8E" id="4bwufpuHPi6" role="2OqNvi">
-                                        <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="4bwufpuHPi7" role="2OqNvi">
-                                      <ref role="37wK5l" to="mhbf:~SModelName.toString():java.lang.String" resolve="toString" />
                                     </node>
                                   </node>
                                 </node>
@@ -2297,8 +2303,14 @@
                         <ref role="3cqZAo" to="bupk:4bwufpu_ZzX" resolve="classes" />
                       </node>
                       <node concept="TSZUe" id="4bwufpuHPiH" role="2OqNvi">
-                        <node concept="37vLTw" id="4bwufpuHPiI" role="25WWJ7">
-                          <ref role="3cqZAo" node="4bwufpuHPij" resolve="targetName" />
+                        <node concept="2ShNRf" id="fZL0njV_R9" role="25WWJ7">
+                          <node concept="1pGfFk" id="fZL0njVA$1" role="2ShVmc">
+                            <ref role="37wK5l" to="bupk:fZL0njTugM" resolve="DG_Vertex" />
+                            <node concept="10Nm6u" id="fZL0njVARG" role="37wK5m" />
+                            <node concept="37vLTw" id="fZL0njVBtL" role="37wK5m">
+                              <ref role="3cqZAo" node="4bwufpuHPij" resolve="targetName" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>

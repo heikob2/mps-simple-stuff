@@ -1576,6 +1576,88 @@
           </node>
         </node>
       </node>
+      <node concept="2tJIrI" id="fZL0njWOtO" role="jymVt" />
+      <node concept="2YIFZL" id="fZL0njWNHV" role="jymVt">
+        <property role="TrG5h" value="defaultSNodeStyles" />
+        <node concept="3clFbS" id="fZL0njWNHW" role="3clF47">
+          <node concept="3clFbF" id="fZL0njWNHX" role="3cqZAp">
+            <node concept="1bVj0M" id="fZL0njWNHY" role="3clFbG">
+              <node concept="3clFbS" id="fZL0njWNHZ" role="1bW5cS">
+                <node concept="3clFbH" id="fZL0njWNI0" role="3cqZAp" />
+                <node concept="3clFbJ" id="fZL0njWNI1" role="3cqZAp">
+                  <node concept="3clFbS" id="fZL0njWNI2" role="3clFbx">
+                    <node concept="3cpWs6" id="fZL0njWNI3" role="3cqZAp">
+                      <node concept="Xl_RD" id="fZL0njWNI4" role="3cqZAk">
+                        <property role="Xl_RC" value="&lt;&lt; (n, #ff00ff) &gt;&gt;" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ZW3vV" id="fZL0njWNI5" role="3clFbw">
+                    <node concept="3uibUv" id="fZL0njWPPl" role="2ZW6by">
+                      <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                    </node>
+                    <node concept="37vLTw" id="fZL0njWNI7" role="2ZW6bz">
+                      <ref role="3cqZAo" node="fZL0njWNIT" resolve="o" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="fZL0njWNIF" role="3cqZAp" />
+                <node concept="YS8fn" id="fZL0njWNIG" role="3cqZAp">
+                  <node concept="2ShNRf" id="fZL0njWNIH" role="YScLw">
+                    <node concept="1pGfFk" id="fZL0njWNII" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                      <node concept="3cpWs3" id="fZL0njWNIJ" role="37wK5m">
+                        <node concept="2OqwBi" id="fZL0njWNIK" role="3uHU7w">
+                          <node concept="37vLTw" id="fZL0njWNIL" role="2Oq$k0">
+                            <ref role="3cqZAo" node="fZL0njWNIT" resolve="o" />
+                          </node>
+                          <node concept="liA8E" id="fZL0njWNIM" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="fZL0njWNIN" role="3uHU7B">
+                          <node concept="3cpWs3" id="fZL0njWNIO" role="3uHU7B">
+                            <node concept="Xl_RD" id="fZL0njWNIP" role="3uHU7B">
+                              <property role="Xl_RC" value="No default style defined for: " />
+                            </node>
+                            <node concept="37vLTw" id="fZL0njWNIQ" role="3uHU7w">
+                              <ref role="3cqZAo" node="fZL0njWNIT" resolve="o" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="fZL0njWNIR" role="3uHU7w">
+                            <property role="Xl_RC" value=", " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="fZL0njWNIS" role="3cqZAp" />
+              </node>
+              <node concept="37vLTG" id="fZL0njWNIT" role="1bW2Oz">
+                <property role="TrG5h" value="o" />
+                <node concept="3uibUv" id="fZL0njWNIU" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Tm1VV" id="fZL0njWNIV" role="1B3o_S" />
+        <node concept="1ajhzC" id="fZL0njWNIW" role="3clF45">
+          <node concept="17QB3L" id="fZL0njWNIX" role="1ajl9A" />
+          <node concept="3uibUv" id="fZL0njWNIY" role="1ajw0F">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+        <node concept="P$JXv" id="fZL0njWNIZ" role="lGtFl">
+          <node concept="TZ5HA" id="fZL0njWNJ0" role="TZ5H$">
+            <node concept="1dT_AC" id="fZL0njWNJ1" role="1dT_Ay">
+              <property role="1dT_AB" value="Provides default MPS styles." />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3Tm1VV" id="4bwufpuxZFi" role="1B3o_S" />
       <node concept="3UR2Jj" id="7zthEDBDfnG" role="lGtFl">
         <node concept="TZ5HA" id="7zthEDBDfnH" role="TZ5H$">

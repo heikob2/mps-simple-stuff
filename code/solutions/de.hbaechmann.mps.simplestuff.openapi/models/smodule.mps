@@ -2323,17 +2323,23 @@
                                   <ref role="3cqZAo" to="bupk:4bwufpu_ZzX" resolve="classes" />
                                 </node>
                                 <node concept="TSZUe" id="4bwufpuA3NH" role="2OqNvi">
-                                  <node concept="2OqwBi" id="4bwufpuA3NI" role="25WWJ7">
-                                    <node concept="1LFfDK" id="4bwufpuA3NJ" role="2Oq$k0">
-                                      <node concept="3cmrfG" id="4bwufpuA3NK" role="1LF_Uc">
-                                        <property role="3cmrfH" value="1" />
+                                  <node concept="2ShNRf" id="fZL0njVW00" role="25WWJ7">
+                                    <node concept="1pGfFk" id="fZL0njVWDO" role="2ShVmc">
+                                      <ref role="37wK5l" to="bupk:fZL0njTugM" resolve="DG_Vertex" />
+                                      <node concept="10Nm6u" id="fZL0njVX1R" role="37wK5m" />
+                                      <node concept="2OqwBi" id="4bwufpuA3NI" role="37wK5m">
+                                        <node concept="1LFfDK" id="4bwufpuA3NJ" role="2Oq$k0">
+                                          <node concept="3cmrfG" id="4bwufpuA3NK" role="1LF_Uc">
+                                            <property role="3cmrfH" value="1" />
+                                          </node>
+                                          <node concept="37vLTw" id="4bwufpuA3NL" role="1LFl5Q">
+                                            <ref role="3cqZAo" node="4bwufpuA3NN" resolve="it" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="4bwufpuA3NM" role="2OqNvi">
+                                          <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
+                                        </node>
                                       </node>
-                                      <node concept="37vLTw" id="4bwufpuA3NL" role="1LFl5Q">
-                                        <ref role="3cqZAo" node="4bwufpuA3NN" resolve="it" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="4bwufpuA3NM" role="2OqNvi">
-                                      <ref role="37wK5l" to="lui2:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
                                     </node>
                                   </node>
                                 </node>
@@ -2422,15 +2428,21 @@
                         <ref role="3cqZAo" to="bupk:4bwufpu_ZzX" resolve="classes" />
                       </node>
                       <node concept="TSZUe" id="4bwufpuA3Oo" role="2OqNvi">
-                        <node concept="2OqwBi" id="4bwufpuA3Op" role="25WWJ7">
-                          <node concept="2OqwBi" id="4bwufpuA3Oq" role="2Oq$k0">
-                            <node concept="37vLTw" id="4bwufpuA3Or" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4bwufpuA3Ou" resolve="it" />
+                        <node concept="2ShNRf" id="fZL0njVYc0" role="25WWJ7">
+                          <node concept="1pGfFk" id="fZL0njVYKi" role="2ShVmc">
+                            <ref role="37wK5l" to="bupk:fZL0njTugM" resolve="DG_Vertex" />
+                            <node concept="10Nm6u" id="fZL0njVZ4R" role="37wK5m" />
+                            <node concept="2OqwBi" id="4bwufpuA3Op" role="37wK5m">
+                              <node concept="2OqwBi" id="4bwufpuA3Oq" role="2Oq$k0">
+                                <node concept="37vLTw" id="4bwufpuA3Or" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4bwufpuA3Ou" resolve="it" />
+                                </node>
+                                <node concept="3AY5_j" id="4bwufpuA3Os" role="2OqNvi" />
+                              </node>
+                              <node concept="liA8E" id="4bwufpuA3Ot" role="2OqNvi">
+                                <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
+                              </node>
                             </node>
-                            <node concept="3AY5_j" id="4bwufpuA3Os" role="2OqNvi" />
-                          </node>
-                          <node concept="liA8E" id="4bwufpuA3Ot" role="2OqNvi">
-                            <ref role="37wK5l" to="lui2:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
                           </node>
                         </node>
                       </node>
