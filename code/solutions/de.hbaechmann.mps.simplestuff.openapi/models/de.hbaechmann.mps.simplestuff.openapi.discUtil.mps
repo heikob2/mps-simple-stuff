@@ -4,6 +4,7 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -108,7 +109,26 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -174,6 +194,21 @@
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
         </node>
       </node>
+      <node concept="P$JXv" id="1EshqSkJ03H" role="lGtFl">
+        <node concept="TZ5HA" id="1EshqSkJ03I" role="TZ5H$">
+          <node concept="1dT_AC" id="1EshqSkJ03J" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1EshqSkJ05p" role="TZ5H$">
+          <node concept="1dT_AC" id="1EshqSkJ05q" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="x79VA" id="1EshqSkJ05D" role="3nqlJM">
+          <property role="x79VB" value="absolute path to the file, where the snode is stored (.jar, .mps)" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="57H18gRbgMp" role="jymVt" />
     <node concept="2YIFZL" id="57H18gRbgRu" role="jymVt">
@@ -197,6 +232,14 @@
           <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
         </node>
       </node>
+      <node concept="P$JXv" id="1EshqSkJ07v" role="lGtFl">
+        <node concept="TZ5HA" id="1EshqSkJ07w" role="TZ5H$">
+          <node concept="1dT_AC" id="1EshqSkJ07x" role="1dT_Ay" />
+        </node>
+        <node concept="x79VA" id="1EshqSkJ07_" role="3nqlJM">
+          <property role="x79VB" value="absolute path to the file, where the smodel is stored (.jar, .mps)" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="57H18gRbgZP" role="jymVt" />
     <node concept="2YIFZL" id="57H18gRbhfs" role="jymVt">
@@ -218,6 +261,14 @@
         <property role="TrG5h" value="smodule" />
         <node concept="3uibUv" id="57H18gRbhhx" role="1tU5fm">
           <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="1EshqSkJ0bm" role="lGtFl">
+        <node concept="TZ5HA" id="1EshqSkJ0bn" role="TZ5H$">
+          <node concept="1dT_AC" id="1EshqSkJ0bo" role="1dT_Ay" />
+        </node>
+        <node concept="x79VA" id="1EshqSkJ0bs" role="3nqlJM">
+          <property role="x79VB" value="absolute path to the descriptor-file of the smodule (.mpl, .msd, .devkit)" />
         </node>
       </node>
     </node>

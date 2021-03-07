@@ -318,14 +318,19 @@
               <ref role="3cqZAo" node="5abIGi40KZ6" resolve="purpose" />
             </node>
             <node concept="Xl_RD" id="5abIGi40Lpg" role="37vLTx">
-              <property role="Xl_RC" value="to simplify visualizing the depencies with plantuml.jar or an online visualization tool.\n" />
+              <property role="Xl_RC" value="to simplify visualizing the dependencies with plantuml.jar or an online visualization tool.\n" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="5abIGi40OQS" role="3cqZAp">
           <node concept="d57v9" id="5abIGi40P1b" role="3clFbG">
-            <node concept="Xl_RD" id="5abIGi40P2e" role="37vLTx">
-              <property role="Xl_RC" value="Use it from the mps-console with e.g. SModuleDependencies.declaredDependenciesAsPumlStringToClipboard" />
+            <node concept="3cpWs3" id="1EshqSkL63P" role="37vLTx">
+              <node concept="Xl_RD" id="1EshqSkL63V" role="3uHU7B">
+                <property role="Xl_RC" value="Use it from the mps-console with " />
+              </node>
+              <node concept="Xl_RD" id="1EshqSkL63X" role="3uHU7w">
+                <property role="Xl_RC" value="e.g. SModuleDependencies.declaredDependenciesAsPumlStringToClipboard" />
+              </node>
             </node>
             <node concept="37vLTw" id="5abIGi40OQQ" role="37vLTJ">
               <ref role="3cqZAo" node="5abIGi40KZ6" resolve="purpose" />
@@ -334,8 +339,13 @@
         </node>
         <node concept="3clFbF" id="5abIGi40RP0" role="3cqZAp">
           <node concept="d57v9" id="5abIGi40RZr" role="3clFbG">
-            <node concept="Xl_RD" id="5abIGi40S0w" role="37vLTx">
-              <property role="Xl_RC" value="(#modules, #project.getRepository(), {SModule dep =&gt; dep.getModuleName().contains(\&quot;mbeddr\&quot;);})" />
+            <node concept="3cpWs3" id="1EshqSkL64B" role="37vLTx">
+              <node concept="Xl_RD" id="1EshqSkL64H" role="3uHU7B">
+                <property role="Xl_RC" value="(#modules, #project.getRepository(), " />
+              </node>
+              <node concept="Xl_RD" id="1EshqSkL64J" role="3uHU7w">
+                <property role="Xl_RC" value="{SModule dep =&gt; dep.getModuleName().contains(\&quot;mbeddr\&quot;);})" />
+              </node>
             </node>
             <node concept="37vLTw" id="5abIGi40ROY" role="37vLTJ">
               <ref role="3cqZAo" node="5abIGi40KZ6" resolve="purpose" />
@@ -1470,7 +1480,7 @@
         </node>
         <node concept="TZ5HA" id="5abIGi40H63" role="TZ5H$">
           <node concept="1dT_AC" id="5abIGi40H64" role="1dT_Ay">
-            <property role="1dT_AB" value="by the allowedTargetsFilter. Source-modules with now edges are not visible." />
+            <property role="1dT_AB" value="by the allowedTargetsFilter. Source-modules with no edges are not visible." />
           </node>
         </node>
         <node concept="TUZQ0" id="5abIGi40H6x" role="3nqlJM">
@@ -1544,7 +1554,7 @@
       <node concept="P$JXv" id="42zg5xYDTor" role="lGtFl">
         <node concept="TZ5HA" id="42zg5xYDTos" role="TZ5H$">
           <node concept="1dT_AC" id="42zg5xYDTot" role="1dT_Ay">
-            <property role="1dT_AB" value="Creates a plantuml string for the SModule::declaredDependencies() and copies it to clipboard." />
+            <property role="1dT_AB" value="Creates a plantuml string for the SModule::declaredDependencies()." />
           </node>
         </node>
         <node concept="TZ5HA" id="42zg5xYDTou" role="TZ5H$">

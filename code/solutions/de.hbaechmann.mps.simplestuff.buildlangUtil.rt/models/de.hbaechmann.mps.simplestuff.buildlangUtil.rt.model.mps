@@ -476,7 +476,12 @@
       <node concept="P$JXv" id="1ZxHn9Keo4" role="lGtFl">
         <node concept="TZ5HA" id="1ZxHn9Keo5" role="TZ5H$">
           <node concept="1dT_AC" id="1ZxHn9Keo6" role="1dT_Ay">
-            <property role="1dT_AB" value="Find idea-plugins which cause an &quot;Unsatisfied dependency&quot; error in the mps-buildscript for my idea-plugin." />
+            <property role="1dT_AB" value="Find idea-plugins which cause an &quot;Unsatisfied dependency&quot; error in the mps-buildscript " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1EshqSkIWff" role="TZ5H$">
+          <node concept="1dT_AC" id="1EshqSkIWfg" role="1dT_Ay">
+            <property role="1dT_AB" value="for my idea-plugin." />
           </node>
         </node>
         <node concept="TUZQ0" id="1ZxHn9Keo7" role="3nqlJM">
