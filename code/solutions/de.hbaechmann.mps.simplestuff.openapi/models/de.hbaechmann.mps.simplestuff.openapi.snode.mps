@@ -7,6 +7,7 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -188,6 +189,9 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+    </language>
+    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
+      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
@@ -6362,10 +6366,10 @@
               </node>
               <node concept="3cpWs3" id="29C6rL_Jct8" role="3uHU7B">
                 <node concept="3cpWs3" id="29C6rL_Jct9" role="3uHU7B">
-                  <node concept="2OqwBi" id="29C6rL_Jcta" role="3uHU7w">
-                    <node concept="2OqwBi" id="1EshqSkNx1a" role="2Oq$k0">
-                      <node concept="2OqwBi" id="1EshqSkNwxk" role="2Oq$k0">
-                        <node concept="2OqwBi" id="29C6rL_Jctb" role="2Oq$k0">
+                  <node concept="2EnYce" id="5iiNiXlyRw2" role="3uHU7w">
+                    <node concept="2EnYce" id="5iiNiXlyRmg" role="2Oq$k0">
+                      <node concept="2EnYce" id="5iiNiXlyRfP" role="2Oq$k0">
+                        <node concept="2EnYce" id="5iiNiXlyQWX" role="2Oq$k0">
                           <node concept="2JrnkZ" id="29C6rL_Jctc" role="2Oq$k0">
                             <node concept="37vLTw" id="29C6rL_Jctd" role="2JrQYb">
                               <ref role="3cqZAo" node="29C6rL_JcsX" resolve="mpsNode" />
@@ -6410,8 +6414,8 @@
                           <property role="Xl_RC" value="." />
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="29C6rL_Jcts" role="3uHU7w">
-                        <node concept="2OqwBi" id="29C6rL_Jctt" role="2Oq$k0">
+                      <node concept="2EnYce" id="5iiNiXlyQPY" role="3uHU7w">
+                        <node concept="2EnYce" id="5iiNiXlyQFH" role="2Oq$k0">
                           <node concept="2JrnkZ" id="29C6rL_Jctu" role="2Oq$k0">
                             <node concept="37vLTw" id="29C6rL_Jctv" role="2JrQYb">
                               <ref role="3cqZAo" node="29C6rL_JcsX" resolve="mpsNode" />
