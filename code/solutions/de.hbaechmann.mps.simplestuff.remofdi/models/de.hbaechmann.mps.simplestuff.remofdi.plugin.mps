@@ -4029,7 +4029,7 @@
     </node>
   </node>
   <node concept="sE7Ow" id="1SJ38EGjYr">
-    <property role="3GE5qa" value="dependencies.snode" />
+    <property role="3GE5qa" value="dependencies.snode.instantiates" />
     <property role="TrG5h" value="SNodeMemberInstantiatesDependenciesAsPUML" />
     <property role="2uzpH1" value="SNode Member Instantiates Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1SJ38EGjYs" role="tncku">
@@ -4175,6 +4175,13 @@
       <node concept="tCFHf" id="29C6rL_Nf$b" role="ftvYc">
         <ref role="tCJdB" node="29C6rL_N2tg" resolve="SNodeDescendantsReferencesDependenciesAsPUML" />
       </node>
+      <node concept="2a7GMi" id="1EshqSkXQaF" role="ftvYc" />
+      <node concept="tCFHf" id="1EshqSkXQaV" role="ftvYc">
+        <ref role="tCJdB" node="1EshqSkXMhv" resolve="SNodeMemberReferencesDependenciesWithoutTypeAsPUML" />
+      </node>
+      <node concept="tCFHf" id="1EshqSkXQbd" role="ftvYc">
+        <ref role="tCJdB" node="1EshqSkXODk" resolve="SNodeDescendantsReferencesDependenciesWithoutTypeAsPUML" />
+      </node>
     </node>
     <node concept="tT9cl" id="1SJ38EGUbm" role="2f5YQi">
       <ref role="tU$_T" to="tprs:hyf4Gvz" resolve="NodeActions" />
@@ -4184,7 +4191,7 @@
     </node>
   </node>
   <node concept="sE7Ow" id="1SJ38EIfs5">
-    <property role="3GE5qa" value="dependencies.snode" />
+    <property role="3GE5qa" value="dependencies.snode.instantiates" />
     <property role="TrG5h" value="SNodeDescendantsInstantiatesDependenciesAsPUML" />
     <property role="2uzpH1" value="SNode Descendants Instantiates Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1SJ38EIfs6" role="tncku">
@@ -4573,6 +4580,266 @@
       </node>
     </node>
     <node concept="1QGGSu" id="29C6rL_N2v0" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="1EshqSkXMhv">
+    <property role="3GE5qa" value="dependencies.snode" />
+    <property role="TrG5h" value="SNodeMemberReferencesDependenciesWithoutTypeAsPUML" />
+    <property role="2uzpH1" value="SNode Member Reference (Without Type) Dependencies as PUML to Clipboard" />
+    <node concept="tnohg" id="1EshqSkXMhw" role="tncku">
+      <node concept="3clFbS" id="1EshqSkXMhx" role="2VODD2">
+        <node concept="3cpWs8" id="1EshqSkXMhy" role="3cqZAp">
+          <node concept="3cpWsn" id="1EshqSkXMhz" role="3cpWs9">
+            <property role="TrG5h" value="pumlString" />
+            <node concept="17QB3L" id="1EshqSkXMh$" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1EshqSkXMh_" role="3cqZAp">
+          <node concept="37vLTI" id="1EshqSkXMhA" role="3clFbG">
+            <node concept="37vLTw" id="1EshqSkXMhB" role="37vLTJ">
+              <ref role="3cqZAo" node="1EshqSkXMhz" resolve="pumlString" />
+            </node>
+            <node concept="2YIFZM" id="1EshqSkXMhC" role="37vLTx">
+              <ref role="1Pybhc" to="jgbh:29C6rL_MrTM" resolve="SNodeReferences.Member" />
+              <ref role="37wK5l" to="jgbh:29C6rL_MrYP" resolve="declaredDependenciesAsPumlString" />
+              <node concept="2OqwBi" id="1EshqSkXMhD" role="37wK5m">
+                <node concept="2WthIp" id="1EshqSkXMhE" role="2Oq$k0" />
+                <node concept="1DTwFV" id="1EshqSkXMhF" role="2OqNvi">
+                  <ref role="2WH_rO" node="1EshqSkXMi9" resolve="snodes" />
+                </node>
+              </node>
+              <node concept="3clFbT" id="1EshqSkXMhG" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1EshqSkXMhH" role="3cqZAp">
+          <node concept="2YIFZM" id="1EshqSkXMhI" role="3clFbG">
+            <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+            <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+            <node concept="37vLTw" id="1EshqSkXMhJ" role="37wK5m">
+              <ref role="3cqZAo" node="1EshqSkXMhz" resolve="pumlString" />
+            </node>
+          </node>
+        </node>
+        <node concept="SfApY" id="1EshqSkXMhK" role="3cqZAp">
+          <node concept="3clFbS" id="1EshqSkXMhL" role="SfCbr">
+            <node concept="3clFbF" id="1EshqSkXMhM" role="3cqZAp">
+              <node concept="2YIFZM" id="1EshqSkXMhN" role="3clFbG">
+                <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
+                <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
+                <node concept="37vLTw" id="1EshqSkXMhO" role="37wK5m">
+                  <ref role="3cqZAo" node="1EshqSkXMhz" resolve="pumlString" />
+                </node>
+                <node concept="Xl_RD" id="1EshqSkXMhP" role="37wK5m">
+                  <property role="Xl_RC" value="snode-member-reference-withoutType-dependencies" />
+                </node>
+                <node concept="2OqwBi" id="1EshqSkXMhQ" role="37wK5m">
+                  <node concept="2OqwBi" id="1EshqSkXMhR" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1EshqSkXMhS" role="2Oq$k0">
+                      <node concept="2OqwBi" id="1EshqSkXMhT" role="2Oq$k0">
+                        <node concept="2WthIp" id="1EshqSkXMhU" role="2Oq$k0" />
+                        <node concept="1DTwFV" id="1EshqSkXMhV" role="2OqNvi">
+                          <ref role="2WH_rO" node="1EshqSkXMi9" resolve="snodes" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1EshqSkXMhW" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                        <node concept="3cmrfG" id="1EshqSkXMhX" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1EshqSkXMhY" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1EshqSkXMhZ" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1EshqSkXMi0" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="1EshqSkXMi1" role="TEbGg">
+            <node concept="3cpWsn" id="1EshqSkXMi2" role="TDEfY">
+              <property role="TrG5h" value="t" />
+              <node concept="3uibUv" id="1EshqSkXMi3" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1EshqSkXMi4" role="TDEfX">
+              <node concept="3clFbF" id="1EshqSkXMi5" role="3cqZAp">
+                <node concept="2OqwBi" id="1EshqSkXMi6" role="3clFbG">
+                  <node concept="37vLTw" id="1EshqSkXMi7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1EshqSkXMi2" resolve="t" />
+                  </node>
+                  <node concept="liA8E" id="1EshqSkXMi8" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="1EshqSkXMi9" role="1NuT2Z">
+      <property role="TrG5h" value="snodes" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.NODES" resolve="NODES" />
+      <node concept="1oajcY" id="1EshqSkXMia" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="1EshqSkXMib" role="tmbBb">
+      <node concept="3clFbS" id="1EshqSkXMic" role="2VODD2">
+        <node concept="3clFbF" id="1EshqSkXMid" role="3cqZAp">
+          <node concept="3fqX7Q" id="1EshqSkXMie" role="3clFbG">
+            <node concept="2OqwBi" id="1EshqSkXMif" role="3fr31v">
+              <node concept="2OqwBi" id="1EshqSkXMig" role="2Oq$k0">
+                <node concept="2WthIp" id="1EshqSkXMih" role="2Oq$k0" />
+                <node concept="1DTwFV" id="1EshqSkXMii" role="2OqNvi">
+                  <ref role="2WH_rO" node="1EshqSkXMi9" resolve="snodes" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1EshqSkXMij" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="1EshqSkXMik" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="1EshqSkXODk">
+    <property role="3GE5qa" value="dependencies.snode" />
+    <property role="TrG5h" value="SNodeDescendantsReferencesDependenciesWithoutTypeAsPUML" />
+    <property role="2uzpH1" value="SNode Descendants Reference (Without Type) Dependencies as PUML to Clipboard" />
+    <node concept="tnohg" id="1EshqSkXODl" role="tncku">
+      <node concept="3clFbS" id="1EshqSkXODm" role="2VODD2">
+        <node concept="3cpWs8" id="1EshqSkXODn" role="3cqZAp">
+          <node concept="3cpWsn" id="1EshqSkXODo" role="3cpWs9">
+            <property role="TrG5h" value="pumlString" />
+            <node concept="17QB3L" id="1EshqSkXODp" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1EshqSkXODq" role="3cqZAp">
+          <node concept="37vLTI" id="1EshqSkXODr" role="3clFbG">
+            <node concept="37vLTw" id="1EshqSkXODs" role="37vLTJ">
+              <ref role="3cqZAo" node="1EshqSkXODo" resolve="pumlString" />
+            </node>
+            <node concept="2YIFZM" id="1EshqSkXODt" role="37vLTx">
+              <ref role="1Pybhc" to="jgbh:29C6rL_MrQk" resolve="SNodeReferences.Descendants" />
+              <ref role="37wK5l" to="jgbh:29C6rL_MrT7" resolve="declaredDependenciesAsPumlString" />
+              <node concept="2OqwBi" id="1EshqSkXODu" role="37wK5m">
+                <node concept="2WthIp" id="1EshqSkXODv" role="2Oq$k0" />
+                <node concept="1DTwFV" id="1EshqSkXODw" role="2OqNvi">
+                  <ref role="2WH_rO" node="1EshqSkXODY" resolve="snodes" />
+                </node>
+              </node>
+              <node concept="3clFbT" id="1EshqSkXODx" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1EshqSkXODy" role="3cqZAp">
+          <node concept="2YIFZM" id="1EshqSkXODz" role="3clFbG">
+            <ref role="37wK5l" to="c6m4:5abIGi3YPEK" resolve="setClipboardText" />
+            <ref role="1Pybhc" to="c6m4:5abIGi3YPCP" resolve="ClipboardUtils" />
+            <node concept="37vLTw" id="1EshqSkXOD$" role="37wK5m">
+              <ref role="3cqZAo" node="1EshqSkXODo" resolve="pumlString" />
+            </node>
+          </node>
+        </node>
+        <node concept="SfApY" id="1EshqSkXOD_" role="3cqZAp">
+          <node concept="3clFbS" id="1EshqSkXODA" role="SfCbr">
+            <node concept="3clFbF" id="1EshqSkXODB" role="3cqZAp">
+              <node concept="2YIFZM" id="1EshqSkXODC" role="3clFbG">
+                <ref role="37wK5l" to="6jws:3wp6EEklAUn" resolve="open" />
+                <ref role="1Pybhc" to="6jws:3wp6EEklASw" resolve="OpenPumlSVGInBrowser" />
+                <node concept="37vLTw" id="1EshqSkXODD" role="37wK5m">
+                  <ref role="3cqZAo" node="1EshqSkXODo" resolve="pumlString" />
+                </node>
+                <node concept="Xl_RD" id="1EshqSkXODE" role="37wK5m">
+                  <property role="Xl_RC" value="snode-descendants-reference-withoutType-dependencies" />
+                </node>
+                <node concept="2OqwBi" id="1EshqSkXODF" role="37wK5m">
+                  <node concept="2OqwBi" id="1EshqSkXODG" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1EshqSkXODH" role="2Oq$k0">
+                      <node concept="2OqwBi" id="1EshqSkXODI" role="2Oq$k0">
+                        <node concept="2WthIp" id="1EshqSkXODJ" role="2Oq$k0" />
+                        <node concept="1DTwFV" id="1EshqSkXODK" role="2OqNvi">
+                          <ref role="2WH_rO" node="1EshqSkXODY" resolve="snodes" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1EshqSkXODL" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                        <node concept="3cmrfG" id="1EshqSkXODM" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1EshqSkXODN" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1EshqSkXODO" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1EshqSkXODP" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="1EshqSkXODQ" role="TEbGg">
+            <node concept="3cpWsn" id="1EshqSkXODR" role="TDEfY">
+              <property role="TrG5h" value="t" />
+              <node concept="3uibUv" id="1EshqSkXODS" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1EshqSkXODT" role="TDEfX">
+              <node concept="3clFbF" id="1EshqSkXODU" role="3cqZAp">
+                <node concept="2OqwBi" id="1EshqSkXODV" role="3clFbG">
+                  <node concept="37vLTw" id="1EshqSkXODW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1EshqSkXODR" resolve="t" />
+                  </node>
+                  <node concept="liA8E" id="1EshqSkXODX" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="1EshqSkXODY" role="1NuT2Z">
+      <property role="TrG5h" value="snodes" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.NODES" resolve="NODES" />
+      <node concept="1oajcY" id="1EshqSkXODZ" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="1EshqSkXOE0" role="tmbBb">
+      <node concept="3clFbS" id="1EshqSkXOE1" role="2VODD2">
+        <node concept="3clFbF" id="1EshqSkXOE2" role="3cqZAp">
+          <node concept="3fqX7Q" id="1EshqSkXOE3" role="3clFbG">
+            <node concept="2OqwBi" id="1EshqSkXOE4" role="3fr31v">
+              <node concept="2OqwBi" id="1EshqSkXOE5" role="2Oq$k0">
+                <node concept="2WthIp" id="1EshqSkXOE6" role="2Oq$k0" />
+                <node concept="1DTwFV" id="1EshqSkXOE7" role="2OqNvi">
+                  <ref role="2WH_rO" node="1EshqSkXODY" resolve="snodes" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1EshqSkXOE8" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="1EshqSkXOE9" role="3Uehp1">
       <property role="1iqoE4" value="${module}/icons/lamp.png" />
     </node>
   </node>
