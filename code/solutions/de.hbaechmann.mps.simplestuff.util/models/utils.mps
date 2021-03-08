@@ -1773,6 +1773,77 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbJ" id="7cZ$v2rnExj" role="3cqZAp">
+                  <node concept="3clFbS" id="7cZ$v2rnExk" role="3clFbx">
+                    <node concept="SfApY" id="7cZ$v2rnExl" role="3cqZAp">
+                      <node concept="3clFbS" id="7cZ$v2rnExm" role="SfCbr">
+                        <node concept="3clFbJ" id="7cZ$v2rnExn" role="3cqZAp">
+                          <node concept="3clFbS" id="7cZ$v2rnExo" role="3clFbx">
+                            <node concept="3cpWs6" id="7cZ$v2rnExp" role="3cqZAp">
+                              <node concept="Xl_RD" id="7cZ$v2rnExq" role="3cqZAk">
+                                <property role="Xl_RC" value="&lt;&lt; (x, #ed1515) &gt;&gt;" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="7cZ$v2rnExr" role="3clFbw">
+                            <node concept="2OqwBi" id="7cZ$v2rnExs" role="2Oq$k0">
+                              <node concept="37vLTw" id="7cZ$v2rnExt" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
+                              </node>
+                              <node concept="liA8E" id="7cZ$v2rnExu" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7cZ$v2rnExv" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+                              <node concept="2YIFZM" id="7cZ$v2rnExw" role="37wK5m">
+                                <ref role="1Pybhc" to="wyt6:~Class" resolve="Class" />
+                                <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String)" resolve="forName" />
+                                <node concept="Xl_RD" id="7cZ$v2rnExx" role="37wK5m">
+                                  <property role="Xl_RC" value="de.hbaechmann.mps.simplestuff.openapi.smodel.SModelNull" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="TDmWw" id="7cZ$v2rnExy" role="TEbGg">
+                        <node concept="3cpWsn" id="7cZ$v2rnExz" role="TDEfY">
+                          <property role="TrG5h" value="cnfe" />
+                          <node concept="3uibUv" id="7cZ$v2rnEx$" role="1tU5fm">
+                            <ref role="3uigEE" to="wyt6:~ClassNotFoundException" resolve="ClassNotFoundException" />
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="7cZ$v2rnEx_" role="TDEfX">
+                          <node concept="3clFbF" id="7cZ$v2rnExA" role="3cqZAp">
+                            <node concept="2OqwBi" id="7cZ$v2rnExB" role="3clFbG">
+                              <node concept="37vLTw" id="7cZ$v2rnExC" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7cZ$v2rnExz" resolve="cnfe" />
+                              </node>
+                              <node concept="liA8E" id="7cZ$v2rnExD" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="7cZ$v2rnExE" role="3cqZAp" />
+                    <node concept="3cpWs6" id="7cZ$v2rnExF" role="3cqZAp">
+                      <node concept="Xl_RD" id="7cZ$v2rnExG" role="3cqZAk">
+                        <property role="Xl_RC" value="&lt;&lt; (z, #ed1515) &gt;&gt;" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ZW3vV" id="7cZ$v2rnExH" role="3clFbw">
+                    <node concept="3uibUv" id="7cZ$v2rnNp0" role="2ZW6by">
+                      <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                    </node>
+                    <node concept="37vLTw" id="7cZ$v2rnExJ" role="2ZW6bz">
+                      <ref role="3cqZAo" node="4bwufpuY442" resolve="o" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbH" id="4bwufpuY4Ft" role="3cqZAp" />
                 <node concept="YS8fn" id="4bwufpuY4Fu" role="3cqZAp">
                   <node concept="2ShNRf" id="4bwufpuY4Fv" role="YScLw">
