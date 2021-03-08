@@ -191,6 +191,9 @@
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
     </language>
+    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
+      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
+    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
@@ -2021,17 +2024,17 @@
         <node concept="10P_77" id="4bwufpuhVbi" role="3clF45" />
         <node concept="3clFbS" id="4bwufpuhVbk" role="3clF47">
           <node concept="3clFbF" id="4bwufpuhYK4" role="3cqZAp">
-            <node concept="2OqwBi" id="4bwufpuhZN$" role="3clFbG">
-              <node concept="2OqwBi" id="4bwufpuhYPG" role="2Oq$k0">
+            <node concept="2EnYce" id="51IvgRasqt0" role="3clFbG">
+              <node concept="2EnYce" id="51IvgRasqip" role="2Oq$k0">
                 <node concept="37vLTw" id="4bwufpuhYK1" role="2Oq$k0">
                   <ref role="3cqZAo" node="4bwufpucCp4" resolve="target" />
                 </node>
                 <node concept="liA8E" id="4bwufpuhZGb" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                  <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                 </node>
               </node>
               <node concept="liA8E" id="4bwufpui0M6" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.isPackaged():boolean" resolve="isPackaged" />
+                <ref role="37wK5l" to="lui2:~SModule.isPackaged()" resolve="isPackaged" />
               </node>
             </node>
           </node>
