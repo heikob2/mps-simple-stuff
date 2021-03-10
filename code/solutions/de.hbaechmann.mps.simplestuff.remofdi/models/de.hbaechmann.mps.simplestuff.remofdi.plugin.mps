@@ -1942,7 +1942,7 @@
                         <ref role="3cqZAo" node="1ZxHn9KA6B" resolve="searchText" />
                       </node>
                       <node concept="Xl_RD" id="3O7c8NnttOL" role="3uHU7B">
-                        <property role="Xl_RC" value="&lt;&lt;&lt; searchtext: " />
+                        <property role="Xl_RC" value="UnsatisfiedDependencyFinder: searching for: " />
                       </node>
                     </node>
                   </node>
