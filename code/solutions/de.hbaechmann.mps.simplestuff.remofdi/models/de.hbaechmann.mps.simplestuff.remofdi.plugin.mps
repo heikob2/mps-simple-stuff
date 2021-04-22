@@ -4177,6 +4177,8 @@
   <node concept="tC5Ba" id="1SJ38EGUbf">
     <property role="3GE5qa" value="dependencies.snode" />
     <property role="TrG5h" value="SNodeInstantiatesAsPUML_Group" />
+    <property role="1XlLyE" value="true" />
+    <property role="2f7twF" value="SNode References/Instantiates ..." />
     <node concept="ftmFs" id="1SJ38EGUbh" role="ftER_">
       <node concept="tCFHf" id="1SJ38EGUbk" role="ftvYc">
         <ref role="tCJdB" node="1SJ38EGjYr" resolve="SNodeMemberInstantiatesDependenciesAsPUML" />
