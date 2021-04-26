@@ -1862,7 +1862,7 @@
     <property role="TrG5h" value="FindUnsatisfiedDependcyIdeaPlugin" />
     <property role="2uzpH1" value="Unsatisfied Dependency Idea Plugin" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
-    <property role="3GE5qa" value="buildUtils" />
+    <property role="3GE5qa" value="find" />
     <node concept="tnohg" id="1ZxHn9K_KJ" role="tncku">
       <node concept="3clFbS" id="1ZxHn9K_KK" role="2VODD2">
         <node concept="3clFbH" id="3O7c8NneTEz" role="3cqZAp" />
@@ -3754,6 +3754,9 @@
         </node>
       </node>
     </node>
+    <node concept="1QGGSu" id="31K3FNjbtGl" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
   </node>
   <node concept="sE7Ow" id="fZL0nh5lv_">
     <property role="TrG5h" value="FindDeprecated" />
@@ -4041,6 +4044,9 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="fZL0nh6dGC" role="1oa70y" />
     </node>
+    <node concept="1QGGSu" id="31K3FNjbwrf" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
+    </node>
   </node>
   <node concept="tC5Ba" id="fZL0nh843L">
     <property role="TrG5h" value="FindSimpleStuff_Group" />
@@ -4068,7 +4074,8 @@
   <node concept="sE7Ow" id="1SJ38EGjYr">
     <property role="3GE5qa" value="dependencies.snode.instantiates" />
     <property role="TrG5h" value="SNodeMemberInstantiatesDependenciesAsPUML" />
-    <property role="2uzpH1" value="SNode Member Instantiates Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Member Instantiates Dependencies" />
+    <property role="1WHSii" value="SNode Member Instantiates Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1SJ38EGjYs" role="tncku">
       <node concept="3clFbS" id="1SJ38EGjYt" role="2VODD2">
         <node concept="3cpWs8" id="1SJ38EGl_s" role="3cqZAp">
@@ -4201,6 +4208,13 @@
     <property role="1XlLyE" value="true" />
     <property role="2f7twF" value="SNode References/Instantiates ..." />
     <node concept="ftmFs" id="1SJ38EGUbh" role="ftER_">
+      <node concept="tCFHf" id="1EshqSkXQaV" role="ftvYc">
+        <ref role="tCJdB" node="1EshqSkXMhv" resolve="SNodeMemberReferencesDependenciesWithoutTypeAsPUML" />
+      </node>
+      <node concept="tCFHf" id="1EshqSkXQbd" role="ftvYc">
+        <ref role="tCJdB" node="1EshqSkXODk" resolve="SNodeDescendantsReferencesDependenciesWithoutTypeAsPUML" />
+      </node>
+      <node concept="2a7GMi" id="31K3FNjb7BM" role="ftvYc" />
       <node concept="tCFHf" id="1SJ38EGUbk" role="ftvYc">
         <ref role="tCJdB" node="1SJ38EGjYr" resolve="SNodeMemberInstantiatesDependenciesAsPUML" />
       </node>
@@ -4215,12 +4229,6 @@
         <ref role="tCJdB" node="29C6rL_N2tg" resolve="SNodeDescendantsReferencesDependenciesAsPUML" />
       </node>
       <node concept="2a7GMi" id="1EshqSkXQaF" role="ftvYc" />
-      <node concept="tCFHf" id="1EshqSkXQaV" role="ftvYc">
-        <ref role="tCJdB" node="1EshqSkXMhv" resolve="SNodeMemberReferencesDependenciesWithoutTypeAsPUML" />
-      </node>
-      <node concept="tCFHf" id="1EshqSkXQbd" role="ftvYc">
-        <ref role="tCJdB" node="1EshqSkXODk" resolve="SNodeDescendantsReferencesDependenciesWithoutTypeAsPUML" />
-      </node>
     </node>
     <node concept="tT9cl" id="1SJ38EGUbm" role="2f5YQi">
       <ref role="tU$_T" to="tprs:hyf4Gvz" resolve="NodeActions" />
@@ -4232,7 +4240,8 @@
   <node concept="sE7Ow" id="1SJ38EIfs5">
     <property role="3GE5qa" value="dependencies.snode.instantiates" />
     <property role="TrG5h" value="SNodeDescendantsInstantiatesDependenciesAsPUML" />
-    <property role="2uzpH1" value="SNode Descendants Instantiates Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Descendants Instantiates Dependencies" />
+    <property role="1WHSii" value="SNode Descendants Instantiates Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1SJ38EIfs6" role="tncku">
       <node concept="3clFbS" id="1SJ38EIfs7" role="2VODD2">
         <node concept="3cpWs8" id="1SJ38EIfs8" role="3cqZAp">
@@ -4361,7 +4370,8 @@
   <node concept="sE7Ow" id="29C6rL_N2tg">
     <property role="3GE5qa" value="dependencies.snode" />
     <property role="TrG5h" value="SNodeDescendantsReferencesDependenciesAsPUML" />
-    <property role="2uzpH1" value="SNode Descendants References Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Descendants References Dependencies" />
+    <property role="1WHSii" value="SNode Descendants References Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="29C6rL_N2th" role="tncku">
       <node concept="3clFbS" id="29C6rL_N2ti" role="2VODD2">
         <node concept="3cpWs8" id="29C6rL_N2tj" role="3cqZAp">
@@ -4493,7 +4503,8 @@
   <node concept="sE7Ow" id="29C6rL_N2ub">
     <property role="3GE5qa" value="dependencies.snode" />
     <property role="TrG5h" value="SNodeMemberReferencesDependenciesAsPUML" />
-    <property role="2uzpH1" value="SNode Member References Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Member References Dependencies" />
+    <property role="1WHSii" value="SNode Member References Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="29C6rL_N2uc" role="tncku">
       <node concept="3clFbS" id="29C6rL_N2ud" role="2VODD2">
         <node concept="3cpWs8" id="29C6rL_N2ue" role="3cqZAp">
@@ -4625,7 +4636,8 @@
   <node concept="sE7Ow" id="1EshqSkXMhv">
     <property role="3GE5qa" value="dependencies.snode" />
     <property role="TrG5h" value="SNodeMemberReferencesDependenciesWithoutTypeAsPUML" />
-    <property role="2uzpH1" value="SNode Member Reference (Without Type) Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Member Reference (Without Type) Dependencies" />
+    <property role="1WHSii" value="SNode Member Reference (Without Type) Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1EshqSkXMhw" role="tncku">
       <node concept="3clFbS" id="1EshqSkXMhx" role="2VODD2">
         <node concept="3cpWs8" id="1EshqSkXMhy" role="3cqZAp">
@@ -4755,7 +4767,8 @@
   <node concept="sE7Ow" id="1EshqSkXODk">
     <property role="3GE5qa" value="dependencies.snode" />
     <property role="TrG5h" value="SNodeDescendantsReferencesDependenciesWithoutTypeAsPUML" />
-    <property role="2uzpH1" value="SNode Descendants Reference (Without Type) Dependencies as PUML to Clipboard" />
+    <property role="2uzpH1" value="SNode Descendants Reference (Without Type) Dependencies" />
+    <property role="1WHSii" value="SNode Descendants Reference (Without Type) Dependencies as PUML to Clipboard" />
     <node concept="tnohg" id="1EshqSkXODl" role="tncku">
       <node concept="3clFbS" id="1EshqSkXODm" role="2VODD2">
         <node concept="3cpWs8" id="1EshqSkXODn" role="3cqZAp">
@@ -5537,6 +5550,9 @@
       <property role="TrG5h" value="frame" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
       <node concept="1oajcY" id="2ph9DWWk7Y6" role="1oa70y" />
+    </node>
+    <node concept="1QGGSu" id="31K3FNjbv4g" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
     </node>
   </node>
   <node concept="sE7Ow" id="31K3FNj3Tb0">
