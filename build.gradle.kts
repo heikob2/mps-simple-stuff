@@ -96,39 +96,13 @@ tasks {
         scriptArgs = variables
         scriptClasspath = defaultClasspath
     }
-    val simplestuff by creating(BuildLanguages::class) {
+    val buildSimplestuffPlugin by creating(BuildLanguages::class) {
         dependsOn(allScripts)
         script = generatedScript("build-mps-simple-stuff")
         scriptArgs = variables
         scriptClasspath = defaultClasspath
     }
     /*
-    val client by creating(BuildLanguages::class) {
-        dependsOn(allScripts)
-        script = generatedScript("build-client")
-        scriptArgs = variables
-        scriptClasspath = defaultClasspath
-    }
-    val clientddg by creating(BuildLanguages::class) {
-        dependsOn(client)
-        script = generatedScript("build-ddg")
-        scriptArgs = variables
-        scriptClasspath = defaultClasspath
-    }
-
-    val server by creating(BuildLanguages::class) {
-        dependsOn(allScripts)
-        script = generatedScript("build-server")
-        scriptArgs = variables
-        scriptClasspath = defaultClasspath
-    }
-
-    val serverTests by creating (BuildLanguages::class) {
-        dependsOn(client, server)
-        script = generatedScript("build-tests")
-        scriptArgs = variables
-        scriptClasspath = defaultClasspath
-    }
     "assemble" {
         dependsOn(clientddg, server, serverTests)
     }
