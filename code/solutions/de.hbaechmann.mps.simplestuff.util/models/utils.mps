@@ -5519,8 +5519,8 @@
           <node concept="2ShNRf" id="6HseWPAW3Pg" role="3clFbG">
             <node concept="1pGfFk" id="6HseWPAW3Ph" role="2ShVmc">
               <ref role="37wK5l" node="6HseWPAR9mP" resolve="HierarchicItem" />
-              <node concept="Xl_RD" id="6HseWPAW4Yb" role="37wK5m">
-                <property role="Xl_RC" value=" " />
+              <node concept="Xl_RD" id="b64T9EB0V5" role="37wK5m">
+                <property role="Xl_RC" value="&amp;nbsp;" />
               </node>
               <node concept="3cmrfG" id="6HseWPAW3Pj" role="37wK5m">
                 <property role="3cmrfH" value="0" />
