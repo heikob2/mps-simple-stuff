@@ -59,6 +59,11 @@
         <child id="1238857834412" name="index" index="1LF_Uc" />
       </concept>
     </language>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
@@ -69,6 +74,7 @@
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
+        <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
       <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
         <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
@@ -461,6 +467,9 @@
       <node concept="3Tm6S6" id="b64T9EvCMo" role="1B3o_S" />
       <node concept="1oajcY" id="b64T9EvCMp" role="1oa70y" />
       <node concept="H_c77" id="b64T9EvCBi" role="1tU5fm" />
+    </node>
+    <node concept="1QGGSu" id="2H48jIroGbU" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/lamp.png" />
     </node>
   </node>
   <node concept="sEfby" id="b64T9Eu16P">
@@ -2869,31 +2878,6 @@
             </node>
             <node concept="3oM_SD" id="6mSNUyoOFI2" role="1PaTwD">
               <property role="3oM_SC" value="concept" />
-            </node>
-          </node>
-          <node concept="1PaTwC" id="6mSNUyoOFI3" role="3ndbpf">
-            <node concept="3oM_SD" id="6mSNUyoOFI4" role="1PaTwD">
-              <property role="3oM_SC" value="-" />
-            </node>
-            <node concept="3oM_SD" id="6mSNUyoOFI5" role="1PaTwD">
-              <property role="3oM_SC" value="root" />
-            </node>
-            <node concept="3oM_SD" id="6mSNUyoOFI6" role="1PaTwD">
-              <property role="3oM_SC" value="nodes" />
-            </node>
-            <node concept="3oM_SD" id="6mSNUyoOFI7" role="1PaTwD">
-              <property role="3oM_SC" value="first" />
-            </node>
-          </node>
-          <node concept="1PaTwC" id="6mSNUyoOFI8" role="3ndbpf">
-            <node concept="3oM_SD" id="6mSNUyoOFI9" role="1PaTwD">
-              <property role="3oM_SC" value="-&gt;" />
-            </node>
-            <node concept="3oM_SD" id="6mSNUyoOFIa" role="1PaTwD">
-              <property role="3oM_SC" value="also" />
-            </node>
-            <node concept="3oM_SD" id="6mSNUyoOFIb" role="1PaTwD">
-              <property role="3oM_SC" value="unused" />
             </node>
           </node>
         </node>
