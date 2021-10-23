@@ -1206,7 +1206,7 @@
                                 <node concept="3cpWs3" id="6OW0qf2h8ji" role="3uHU7B">
                                   <node concept="3cpWs3" id="6OW0qf2h8jj" role="3uHU7B">
                                     <node concept="Xl_RD" id="6OW0qf2h8jk" role="3uHU7B">
-                                      <property role="Xl_RC" value="&lt;&lt;&lt; reloaded " />
+                                      <property role="Xl_RC" value="ModelStatisticsTool: reloaded " />
                                     </node>
                                     <node concept="2OqwBi" id="6OW0qf2h8jl" role="3uHU7w">
                                       <node concept="37vLTw" id="6OW0qf2h8jm" role="2Oq$k0">
@@ -1721,36 +1721,6 @@
               <node concept="3cqZAl" id="7XaT_J$ew4p" role="3clF45" />
               <node concept="3Tm1VV" id="7XaT_J$ew4q" role="1B3o_S" />
               <node concept="3clFbS" id="7XaT_J$ew4s" role="3clF47">
-                <node concept="3clFbF" id="b64T9ExOCM" role="3cqZAp">
-                  <node concept="2OqwBi" id="b64T9ExOCJ" role="3clFbG">
-                    <node concept="10M0yZ" id="b64T9ExOCK" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    </node>
-                    <node concept="liA8E" id="b64T9ExOCL" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                      <node concept="3cpWs3" id="b64T9ExX7M" role="37wK5m">
-                        <node concept="Xl_RD" id="b64T9ExVFZ" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;&lt;&lt; " />
-                        </node>
-                        <node concept="2OqwBi" id="b64T9ExXF0" role="3uHU7w">
-                          <node concept="2OqwBi" id="b64T9ExXF1" role="2Oq$k0">
-                            <node concept="37vLTw" id="b64T9ExXF2" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7XaT_J$dzkO" resolve="mySearchField" />
-                            </node>
-                            <node concept="liA8E" id="b64T9ExXF3" role="2OqNvi">
-                              <ref role="37wK5l" to="lzb2:~SearchTextField.getText()" resolve="getText" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="b64T9ExXF4" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="6HseWPAPHH5" role="3cqZAp" />
                 <node concept="3clFbF" id="6HseWPAPJiE" role="3cqZAp">
                   <node concept="37vLTI" id="6HseWPAPKud" role="3clFbG">
                     <node concept="37vLTw" id="6HseWPAPJiC" role="37vLTJ">
