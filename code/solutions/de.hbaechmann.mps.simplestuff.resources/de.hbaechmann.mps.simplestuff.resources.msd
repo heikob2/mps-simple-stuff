@@ -6,6 +6,7 @@
     </modelRoot>
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="plantuml.jar" />
+      <sourceRoot location="reflections-0.10.1.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -15,6 +16,7 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/plantuml.jar" />
+    <stubModelEntry path="${module}/lib/reflections-0.10.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

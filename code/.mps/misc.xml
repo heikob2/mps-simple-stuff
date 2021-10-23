@@ -3,4 +3,7 @@
   <component name="MPSFavoritesManager">
     <option name="keepMe" value="true" />
   </component>
+  <component name="TaskProjectConfiguration">
+    <server type="JIRA" url="https://intern.itemis.de/jira" />
+  </component>
 </project>
