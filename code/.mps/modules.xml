@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.buildlangUtil.devkit/simplestuff.buildlangUtil.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.devkit/simplestuff.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.qualitycoverage.instances/de.hbaechmann.mps.qualitycoverage.instances.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.qualitycoverage/de.hbaechmann.mps.qualitycoverage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.simplestuff.buildlangUtil/de.hbaechmann.mps.simplestuff.buildlangUtil.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.qualitiycoverage.rt/de.hbaechmann.mps.qualitiycoverage.rt.msd" folder="" />

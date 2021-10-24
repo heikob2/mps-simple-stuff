@@ -21,6 +21,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
@@ -46,6 +47,9 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
@@ -89,9 +93,15 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -104,6 +114,12 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569906740" name="parameter" index="1bW2Oz" />
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -174,14 +190,15 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
+        <child id="1204796294226" name="closure" index="23t8la" />
+      </concept>
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
-      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
-        <child id="1237721435807" name="elementType" index="HW$YZ" />
-      </concept>
-      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
   <node concept="2S6QgY" id="3HnPY6E7Ect">
@@ -292,11 +309,9 @@
                     </node>
                   </node>
                   <node concept="3clFbS" id="3HnPY6EdE4D" role="3clF47">
-                    <node concept="3clFbF" id="3HnPY6EdEpD" role="3cqZAp">
-                      <node concept="2ShNRf" id="3HnPY6EdEpB" role="3clFbG">
-                        <node concept="Tc6Ow" id="3HnPY6EdExm" role="2ShVmc">
-                          <node concept="3Tqbb2" id="3HnPY6EdENU" role="HW$YZ" />
-                        </node>
+                    <node concept="3clFbF" id="3HnPY6EK_2w" role="3cqZAp">
+                      <node concept="37vLTw" id="3HnPY6EK_2r" role="3clFbG">
+                        <ref role="3cqZAo" node="3HnPY6EdE4A" resolve="unfiltered" />
                       </node>
                     </node>
                   </node>
@@ -320,17 +335,87 @@
                     </node>
                   </node>
                   <node concept="3clFbS" id="3HnPY6EdE4N" role="3clF47">
-                    <node concept="3clFbF" id="3HnPY6EdEPQ" role="3cqZAp">
-                      <node concept="2ShNRf" id="3HnPY6EdEPO" role="3clFbG">
-                        <node concept="Tc6Ow" id="3HnPY6EdEX_" role="2ShVmc">
-                          <node concept="3uibUv" id="3HnPY6EdFg9" role="HW$YZ">
-                            <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+                    <node concept="3clFbF" id="3HnPY6EKupw" role="3cqZAp">
+                      <node concept="2OqwBi" id="3HnPY6EKuAV" role="3clFbG">
+                        <node concept="37vLTw" id="3HnPY6EKupr" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3HnPY6EdE4K" resolve="filtered" />
+                        </node>
+                        <node concept="3$u5V9" id="3HnPY6EKvLV" role="2OqNvi">
+                          <node concept="1bVj0M" id="3HnPY6EKvLX" role="23t8la">
+                            <node concept="3clFbS" id="3HnPY6EKvLY" role="1bW5cS">
+                              <node concept="3clFbF" id="3HnPY6EKvLZ" role="3cqZAp">
+                                <node concept="2ShNRf" id="3HnPY6EKvM0" role="3clFbG">
+                                  <node concept="1pGfFk" id="3HnPY6EKvM1" role="2ShVmc">
+                                    <ref role="37wK5l" to="bk4i:3HnPY6E2sOW" resolve="CoverageResult" />
+                                    <node concept="37vLTw" id="3HnPY6EKvM2" role="37wK5m">
+                                      <ref role="3cqZAo" node="3HnPY6EKvM5" resolve="it" />
+                                    </node>
+                                    <node concept="10M0yZ" id="3HnPY6EKvM3" role="37wK5m">
+                                      <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+                                      <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+                                    </node>
+                                    <node concept="1rXfSq" id="3HnPY6EK$KV" role="37wK5m">
+                                      <ref role="37wK5l" node="3HnPY6EJjfv" resolve="getReporting" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="3HnPY6EKvM5" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="3HnPY6EKvM6" role="1tU5fm" />
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
                   <node concept="2AHcQZ" id="3HnPY6EdE4O" role="2AJF6D">
+                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                  </node>
+                </node>
+                <node concept="2tJIrI" id="3HnPY6EIWM2" role="jymVt" />
+                <node concept="3clFb_" id="3HnPY6EIWdt" role="jymVt">
+                  <property role="TrG5h" value="getAccumulatedIndicator" />
+                  <node concept="3Tm1VV" id="3HnPY6EIWdv" role="1B3o_S" />
+                  <node concept="3uibUv" id="3HnPY6EIWdw" role="3clF45">
+                    <ref role="3uigEE" to="bk4i:3HnPY6E2sIY" resolve="ICoverageIndicator" />
+                  </node>
+                  <node concept="37vLTG" id="3HnPY6EIWdx" role="3clF46">
+                    <property role="TrG5h" value="coverageResults" />
+                    <node concept="A3Dl8" id="3HnPY6EIWdy" role="1tU5fm">
+                      <node concept="3uibUv" id="3HnPY6EIWdz" role="A3Ik2">
+                        <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="3HnPY6EIWd$" role="3clF47">
+                    <node concept="3clFbF" id="3HnPY6EKw0D" role="3cqZAp">
+                      <node concept="10M0yZ" id="3HnPY6EKw34" role="3clFbG">
+                        <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+                        <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2AHcQZ" id="3HnPY6EIWd_" role="2AJF6D">
+                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                  </node>
+                </node>
+                <node concept="3clFb_" id="3HnPY6EJjfv" role="jymVt">
+                  <property role="TrG5h" value="getReporting" />
+                  <node concept="3Tm1VV" id="3HnPY6EJjfx" role="1B3o_S" />
+                  <node concept="3uibUv" id="3HnPY6EJjfy" role="3clF45">
+                    <ref role="3uigEE" to="bk4i:3HnPY6EJawJ" resolve="ICoverageReporting" />
+                  </node>
+                  <node concept="3clFbS" id="3HnPY6EJjfz" role="3clF47">
+                    <node concept="3clFbF" id="3HnPY6EK_nJ" role="3cqZAp">
+                      <node concept="10M0yZ" id="3HnPY6EK_ou" role="3clFbG">
+                        <ref role="3cqZAo" to="bk4i:3HnPY6EKdqk" resolve="DEFAULT" />
+                        <ref role="1PxDUh" to="bk4i:3HnPY6EKdkg" resolve="PredefinedCoverageReporting" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2AHcQZ" id="3HnPY6EJjf$" role="2AJF6D">
                     <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                   </node>
                 </node>
