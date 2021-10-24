@@ -198,11 +198,11 @@
         <ref role="3uigEE" node="3HnPY6EKVIn" resolve="classShouldStartUpperCase_Impl" />
       </node>
     </node>
-  </node>
-  <node concept="2hVb8q" id="3HnPY6EKKA3">
-    <node concept="2hVb8t" id="3HnPY6ELo_0" role="2hUMrq">
-      <property role="2hUMqr" value="true" />
-      <ref role="2hVb8v" node="3HnPY6EKVIj" resolve="classShouldStartUpperCase" />
+    <node concept="2$2a0a" id="lltECTB_Ej" role="2$2a0e">
+      <property role="TrG5h" value="anotherCheck" />
+      <node concept="3uibUv" id="lltECTB_FN" role="2hnSX_">
+        <ref role="3uigEE" node="lltECTB_Er" resolve="anotherCheck_Impl" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="3HnPY6EKVIn">
@@ -516,6 +516,213 @@
     <property role="3GE5qa" value="implementations" />
     <property role="TrG5h" value="abc" />
     <node concept="3Tm1VV" id="lltECTvgWq" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="lltECTB_Er">
+    <property role="TrG5h" value="anotherCheck_Impl" />
+    <property role="3GE5qa" value="implementations" />
+    <node concept="2tJIrI" id="lltECTB_Es" role="jymVt" />
+    <node concept="Wx3nA" id="lltECTB_Et" role="jymVt">
+      <property role="TrG5h" value="instance" />
+      <node concept="3Tm6S6" id="lltECTB_Eu" role="1B3o_S" />
+      <node concept="3uibUv" id="lltECTB_Ev" role="1tU5fm">
+        <ref role="3uigEE" node="lltECTB_Er" resolve="anotherCheck_Impl" />
+      </node>
+      <node concept="10Nm6u" id="lltECTB_Ew" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="lltECTB_Ex" role="jymVt" />
+    <node concept="2YIFZL" id="lltECTB_Ey" role="jymVt">
+      <property role="TrG5h" value="getInstance" />
+      <node concept="3clFbS" id="lltECTB_Ez" role="3clF47">
+        <node concept="3clFbJ" id="lltECTB_E$" role="3cqZAp">
+          <node concept="3clFbC" id="lltECTB_E_" role="3clFbw">
+            <node concept="10Nm6u" id="lltECTB_EA" role="3uHU7w" />
+            <node concept="37vLTw" id="lltECTB_EB" role="3uHU7B">
+              <ref role="3cqZAo" node="lltECTB_Et" resolve="instance" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="lltECTB_EC" role="3clFbx">
+            <node concept="3clFbF" id="lltECTB_ED" role="3cqZAp">
+              <node concept="37vLTI" id="lltECTB_EE" role="3clFbG">
+                <node concept="2ShNRf" id="lltECTB_EF" role="37vLTx">
+                  <node concept="HV5vD" id="lltECTB_EG" role="2ShVmc">
+                    <ref role="HV5vE" node="lltECTB_Er" resolve="anotherCheck_Impl" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="lltECTB_EH" role="37vLTJ">
+                  <ref role="3cqZAo" node="lltECTB_Et" resolve="instance" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="lltECTB_EI" role="3cqZAp">
+          <node concept="37vLTw" id="lltECTB_EJ" role="3clFbG">
+            <ref role="3cqZAo" node="lltECTB_Et" resolve="instance" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="lltECTB_EK" role="1B3o_S" />
+      <node concept="3uibUv" id="lltECTB_EL" role="3clF45">
+        <ref role="3uigEE" node="lltECTB_Er" resolve="anotherCheck_Impl" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lltECTB_EM" role="jymVt" />
+    <node concept="3Tm1VV" id="lltECTB_EN" role="1B3o_S" />
+    <node concept="3uibUv" id="lltECTB_EO" role="EKbjA">
+      <ref role="3uigEE" to="bk4i:3HnPY6E25Ec" resolve="ICoverageImplementation" />
+    </node>
+    <node concept="3clFb_" id="lltECTB_EP" role="jymVt">
+      <property role="TrG5h" value="implementsDCD" />
+      <node concept="3Tm1VV" id="lltECTB_EQ" role="1B3o_S" />
+      <node concept="2sp9CU" id="lltECTB_ER" role="3clF45">
+        <ref role="2sp9C9" to="lpux:5$IPmzX9Bly" resolve="DynamicCoverageDefinition" />
+      </node>
+      <node concept="3clFbS" id="lltECTB_ES" role="3clF47">
+        <node concept="3clFbF" id="lltECTB_ET" role="3cqZAp">
+          <node concept="2tJFMh" id="lltECTB_EU" role="3clFbG">
+            <node concept="ZC_QK" id="lltECTB_EV" role="2tJFKM">
+              <ref role="2aWVGs" node="lltECTB_Ej" resolve="anotherCheck" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lltECTB_EW" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lltECTB_EX" role="jymVt" />
+    <node concept="3clFb_" id="lltECTB_EY" role="jymVt">
+      <property role="TrG5h" value="getAffectedNodes" />
+      <node concept="3Tm1VV" id="lltECTB_EZ" role="1B3o_S" />
+      <node concept="A3Dl8" id="lltECTB_F0" role="3clF45">
+        <node concept="3Tqbb2" id="lltECTB_F1" role="A3Ik2" />
+      </node>
+      <node concept="37vLTG" id="lltECTB_F2" role="3clF46">
+        <property role="TrG5h" value="unfiltered" />
+        <node concept="A3Dl8" id="lltECTB_F3" role="1tU5fm">
+          <node concept="3Tqbb2" id="lltECTB_F4" role="A3Ik2" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="lltECTB_F5" role="3clF47">
+        <node concept="3clFbF" id="lltECTB_F6" role="3cqZAp">
+          <node concept="37vLTw" id="lltECTB_F7" role="3clFbG">
+            <ref role="3cqZAo" node="lltECTB_F2" resolve="unfiltered" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lltECTB_F8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lltECTB_F9" role="jymVt" />
+    <node concept="3clFb_" id="lltECTB_Fa" role="jymVt">
+      <property role="TrG5h" value="getCoverageResults" />
+      <node concept="3Tm1VV" id="lltECTB_Fb" role="1B3o_S" />
+      <node concept="A3Dl8" id="lltECTB_Fc" role="3clF45">
+        <node concept="3uibUv" id="lltECTB_Fd" role="A3Ik2">
+          <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="lltECTB_Fe" role="3clF46">
+        <property role="TrG5h" value="filtered" />
+        <node concept="A3Dl8" id="lltECTB_Ff" role="1tU5fm">
+          <node concept="3Tqbb2" id="lltECTB_Fg" role="A3Ik2" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="lltECTB_Fh" role="3clF47">
+        <node concept="3clFbF" id="lltECTB_Fi" role="3cqZAp">
+          <node concept="2OqwBi" id="lltECTB_Fj" role="3clFbG">
+            <node concept="37vLTw" id="lltECTB_Fk" role="2Oq$k0">
+              <ref role="3cqZAo" node="lltECTB_Fe" resolve="filtered" />
+            </node>
+            <node concept="3$u5V9" id="lltECTB_Fl" role="2OqNvi">
+              <node concept="1bVj0M" id="lltECTB_Fm" role="23t8la">
+                <node concept="3clFbS" id="lltECTB_Fn" role="1bW5cS">
+                  <node concept="3clFbF" id="lltECTB_Fo" role="3cqZAp">
+                    <node concept="2ShNRf" id="lltECTB_Fp" role="3clFbG">
+                      <node concept="1pGfFk" id="lltECTB_Fq" role="2ShVmc">
+                        <ref role="37wK5l" to="bk4i:3HnPY6E2sOW" resolve="CoverageResult" />
+                        <node concept="37vLTw" id="lltECTB_Fr" role="37wK5m">
+                          <ref role="3cqZAo" node="lltECTB_Fu" resolve="it" />
+                        </node>
+                        <node concept="10M0yZ" id="lltECTB_Fs" role="37wK5m">
+                          <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+                          <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+                        </node>
+                        <node concept="1rXfSq" id="lltECTB_Ft" role="37wK5m">
+                          <ref role="37wK5l" node="lltECTB_FG" resolve="getReporting" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="lltECTB_Fu" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="lltECTB_Fv" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lltECTB_Fw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lltECTB_Fx" role="jymVt" />
+    <node concept="3clFb_" id="lltECTB_Fy" role="jymVt">
+      <property role="TrG5h" value="getAccumulatedIndicator" />
+      <node concept="3Tm1VV" id="lltECTB_Fz" role="1B3o_S" />
+      <node concept="3uibUv" id="lltECTB_F$" role="3clF45">
+        <ref role="3uigEE" to="bk4i:3HnPY6E2sIY" resolve="ICoverageIndicator" />
+      </node>
+      <node concept="37vLTG" id="lltECTB_F_" role="3clF46">
+        <property role="TrG5h" value="coverageResults" />
+        <node concept="A3Dl8" id="lltECTB_FA" role="1tU5fm">
+          <node concept="3uibUv" id="lltECTB_FB" role="A3Ik2">
+            <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="lltECTB_FC" role="3clF47">
+        <node concept="3clFbF" id="lltECTB_FD" role="3cqZAp">
+          <node concept="10M0yZ" id="lltECTB_FE" role="3clFbG">
+            <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+            <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lltECTB_FF" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="lltECTB_FG" role="jymVt">
+      <property role="TrG5h" value="getReporting" />
+      <node concept="3Tm1VV" id="lltECTB_FH" role="1B3o_S" />
+      <node concept="3uibUv" id="lltECTB_FI" role="3clF45">
+        <ref role="3uigEE" to="bk4i:3HnPY6EJawJ" resolve="ICoverageReporting" />
+      </node>
+      <node concept="3clFbS" id="lltECTB_FJ" role="3clF47">
+        <node concept="3clFbF" id="lltECTB_FK" role="3cqZAp">
+          <node concept="10M0yZ" id="lltECTB_FL" role="3clFbG">
+            <ref role="3cqZAo" to="bk4i:3HnPY6EKdqk" resolve="DEFAULT" />
+            <ref role="1PxDUh" to="bk4i:3HnPY6EKdkg" resolve="PredefinedCoverageReporting" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lltECTB_FM" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="2hVb8q" id="lltECTBWU$">
+    <node concept="2hVb8t" id="lltECTBWU_" role="2hUMrq">
+      <property role="2hUMqr" value="true" />
+      <ref role="2hVb8v" node="3HnPY6EKVIj" resolve="classShouldStartUpperCase" />
+    </node>
+    <node concept="2hVb8t" id="lltECTBWUA" role="2hUMrq">
+      <ref role="2hVb8v" node="lltECTB_Ej" resolve="anotherCheck" />
+    </node>
   </node>
 </model>
 
