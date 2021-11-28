@@ -165,6 +165,12 @@
         <property id="4276123735443698042" name="isEnabled" index="2hUMqr" />
         <reference id="4276123735443596798" name="def" index="2hVb8v" />
       </concept>
+      <concept id="486537510187387775" name="de.hbaechmann.mps.qualitycoverage.instances.structure.QualityCoverageOverview" flags="ng" index="2InWKQ">
+        <child id="486537510187765091" name="containers" index="2IpoCE" />
+      </concept>
+      <concept id="486537510187764967" name="de.hbaechmann.mps.qualitycoverage.instances.structure.QualityChecksContainerRef" flags="ng" index="2IpoII">
+        <reference id="486537510187764968" name="ref" index="2IpoIx" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -490,10 +496,13 @@
         </node>
       </node>
       <node concept="3clFbS" id="3HnPY6EKVJ$" role="3clF47">
-        <node concept="3clFbF" id="3HnPY6EKVJ_" role="3cqZAp">
-          <node concept="10M0yZ" id="3HnPY6EKVJA" role="3clFbG">
-            <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
-            <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+        <node concept="3clFbF" id="r0xOACCHQo" role="3cqZAp">
+          <node concept="2YIFZM" id="r0xOACCHQp" role="3clFbG">
+            <ref role="37wK5l" to="bk4i:r0xOACCfun" resolve="max" />
+            <ref role="1Pybhc" to="bk4i:r0xOACCeMe" resolve="PredefinedIndicatorAccumulators" />
+            <node concept="37vLTw" id="r0xOACCHQq" role="37wK5m">
+              <ref role="3cqZAo" node="3HnPY6EKVJx" resolve="coverageResults" />
+            </node>
           </node>
         </node>
       </node>
@@ -693,10 +702,13 @@
         </node>
       </node>
       <node concept="3clFbS" id="lltECTB_FC" role="3clF47">
-        <node concept="3clFbF" id="lltECTB_FD" role="3cqZAp">
-          <node concept="10M0yZ" id="lltECTB_FE" role="3clFbG">
-            <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
-            <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+        <node concept="3clFbF" id="r0xOACCH0g" role="3cqZAp">
+          <node concept="2YIFZM" id="r0xOACCH0h" role="3clFbG">
+            <ref role="37wK5l" to="bk4i:r0xOACCfun" resolve="max" />
+            <ref role="1Pybhc" to="bk4i:r0xOACCeMe" resolve="PredefinedIndicatorAccumulators" />
+            <node concept="37vLTw" id="r0xOACCH0i" role="37wK5m">
+              <ref role="3cqZAo" node="lltECTB_F_" resolve="coverageResults" />
+            </node>
           </node>
         </node>
       </node>
@@ -906,9 +918,12 @@
       </node>
       <node concept="3clFbS" id="r0xOACB9y2" role="3clF47">
         <node concept="3clFbF" id="r0xOACB9y3" role="3cqZAp">
-          <node concept="10M0yZ" id="r0xOACB9y4" role="3clFbG">
-            <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
-            <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+          <node concept="2YIFZM" id="r0xOACCGfW" role="3clFbG">
+            <ref role="37wK5l" to="bk4i:r0xOACCfun" resolve="max" />
+            <ref role="1Pybhc" to="bk4i:r0xOACCeMe" resolve="PredefinedIndicatorAccumulators" />
+            <node concept="37vLTw" id="r0xOACCGj2" role="37wK5m">
+              <ref role="3cqZAo" node="r0xOACB9xZ" resolve="coverageResults" />
+            </node>
           </node>
         </node>
       </node>
@@ -946,6 +961,14 @@
     </node>
     <node concept="2hVb8t" id="r0xOACBLM9" role="2hUMrq">
       <ref role="2hVb8v" node="r0xOACB9wF" resolve="anotherCheck2" />
+    </node>
+  </node>
+  <node concept="2InWKQ" id="r0xOACDJ9P">
+    <node concept="2IpoII" id="r0xOACDJ9Q" role="2IpoCE">
+      <ref role="2IpoIx" node="lltECTBWU$" resolve="A" />
+    </node>
+    <node concept="2IpoII" id="r0xOACDJ9R" role="2IpoCE">
+      <ref role="2IpoIx" node="r0xOACBLM6" resolve="B" />
     </node>
   </node>
 </model>

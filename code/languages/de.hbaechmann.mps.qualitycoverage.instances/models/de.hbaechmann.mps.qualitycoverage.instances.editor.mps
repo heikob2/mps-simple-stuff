@@ -17,6 +17,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="1r3h" ref="r:f857a507-7398-449f-9ee6-71f1b2ce5f04(de.hbaechmann.mps.qualitycoverage.behavior)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -35,10 +36,12 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
         <child id="1223387335081" name="query" index="3n$kyP" />
       </concept>
+      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
@@ -275,10 +278,105 @@
       <node concept="3EZMnI" id="lltECTqrYr" role="3EZMnx">
         <node concept="2iRfu4" id="lltECTqrYs" role="2iSdaV" />
         <node concept="3F0ifn" id="lltECTqrYo" role="3EZMnx">
-          <property role="3F0ifm" value="QualityChecks " />
+          <property role="3F0ifm" value="QualityChecks" />
         </node>
         <node concept="3F0A7n" id="r0xOACyF7g" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="r0xOACCQqT" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+          <node concept="Vb9p2" id="r0xOACCQtX" role="3F10Kt" />
+          <node concept="11L4FC" id="r0xOACCQu2" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3gTLQM" id="r0xOACCwGB" role="3EZMnx">
+          <node concept="3Fmcul" id="r0xOACCwGD" role="3FoqZy">
+            <node concept="3clFbS" id="r0xOACCwGF" role="2VODD2">
+              <node concept="3clFbH" id="r0xOACCx3d" role="3cqZAp" />
+              <node concept="3cpWs8" id="r0xOACCzqG" role="3cqZAp">
+                <node concept="3cpWsn" id="r0xOACCzqH" role="3cpWs9">
+                  <property role="TrG5h" value="indicator" />
+                  <node concept="3uibUv" id="r0xOACCzqI" role="1tU5fm">
+                    <ref role="3uigEE" to="bk4i:3HnPY6E2sIY" resolve="ICoverageIndicator" />
+                  </node>
+                  <node concept="2OqwBi" id="r0xOACCzHq" role="33vP2m">
+                    <node concept="pncrf" id="r0xOACCzyZ" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="r0xOACCzKR" role="2OqNvi">
+                      <ref role="37wK5l" to="npf6:r0xOACCiyN" resolve="accumulatedIndicator" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="r0xOACCzVJ" role="3cqZAp" />
+              <node concept="3cpWs8" id="r0xOACCzXc" role="3cqZAp">
+                <node concept="3cpWsn" id="r0xOACCzXf" role="3cpWs9">
+                  <property role="TrG5h" value="str" />
+                  <node concept="17QB3L" id="r0xOACCzXa" role="1tU5fm" />
+                  <node concept="3cpWs3" id="r0xOACC$09" role="33vP2m">
+                    <node concept="Xl_RD" id="r0xOACC$0a" role="3uHU7w">
+                      <property role="Xl_RC" value="&lt;/b&gt;&lt;/html&gt;" />
+                    </node>
+                    <node concept="3cpWs3" id="r0xOACC$0b" role="3uHU7B">
+                      <node concept="3cpWs3" id="r0xOACC$0c" role="3uHU7B">
+                        <node concept="3cpWs3" id="r0xOACC$0d" role="3uHU7B">
+                          <node concept="Xl_RD" id="r0xOACC$0e" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;html&gt;&lt;b style=\&quot;background-color:#" />
+                          </node>
+                          <node concept="2YIFZM" id="r0xOACC$0f" role="3uHU7w">
+                            <ref role="1Pybhc" to="lzb2:~ColorUtil" resolve="ColorUtil" />
+                            <ref role="37wK5l" to="lzb2:~ColorUtil.toHex(java.awt.Color)" resolve="toHex" />
+                            <node concept="2OqwBi" id="r0xOACC$0g" role="37wK5m">
+                              <node concept="37vLTw" id="r0xOACC$0h" role="2Oq$k0">
+                                <ref role="3cqZAo" node="r0xOACCzqH" resolve="indicator" />
+                              </node>
+                              <node concept="liA8E" id="r0xOACC$0i" role="2OqNvi">
+                                <ref role="37wK5l" to="bk4i:3HnPY6EIS7L" resolve="color" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="r0xOACC$0j" role="3uHU7w">
+                          <property role="Xl_RC" value=";\&quot;&gt;" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="r0xOACC$0k" role="3uHU7w">
+                        <node concept="37vLTw" id="r0xOACC$0l" role="2Oq$k0">
+                          <ref role="3cqZAo" node="r0xOACCzqH" resolve="indicator" />
+                        </node>
+                        <node concept="liA8E" id="r0xOACC$0m" role="2OqNvi">
+                          <ref role="37wK5l" to="bk4i:3HnPY6EJ8rQ" resolve="label" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="r0xOACCziT" role="3cqZAp" />
+              <node concept="3cpWs8" id="r0xOACCwNa" role="3cqZAp">
+                <node concept="3cpWsn" id="r0xOACCwNb" role="3cpWs9">
+                  <property role="TrG5h" value="label" />
+                  <node concept="3uibUv" id="r0xOACCwNc" role="1tU5fm">
+                    <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+                  </node>
+                  <node concept="2ShNRf" id="r0xOACCwU2" role="33vP2m">
+                    <node concept="1pGfFk" id="r0xOACCwU1" role="2ShVmc">
+                      <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                      <node concept="37vLTw" id="r0xOACC$Hd" role="37wK5m">
+                        <ref role="3cqZAo" node="r0xOACCzXf" resolve="str" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="r0xOACCwV7" role="3cqZAp" />
+              <node concept="3cpWs6" id="r0xOACCx1j" role="3cqZAp">
+                <node concept="37vLTw" id="r0xOACCx1X" role="3cqZAk">
+                  <ref role="3cqZAo" node="r0xOACCwNb" resolve="label" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3EZMnI" id="r0xOACyFfB" role="3EZMnx">
@@ -1121,6 +1219,36 @@
     <ref role="1XX52x" to="6l70:3HnPY6EIQnV" resolve="QualitiyChecksContainer" />
     <node concept="PMmxH" id="lltECTrq5O" role="2wV5jI">
       <ref role="PMmxG" node="lltECTqrYm" resolve="QualitiyChecksContainer_Default_EC" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="r0xOACBOI8">
+    <ref role="1XX52x" to="6l70:r0xOACBOHZ" resolve="QualityCoverageOverview" />
+    <node concept="3EZMnI" id="r0xOACBOIf" role="2wV5jI">
+      <node concept="2iRkQZ" id="r0xOACBOIg" role="2iSdaV" />
+      <node concept="PMmxH" id="r0xOACBOId" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="r0xOACBOIl" role="3EZMnx">
+        <property role="3F0ifm" value="//mandatory but unchecked defs" />
+      </node>
+      <node concept="3F0ifn" id="r0xOACBOIo" role="3EZMnx">
+        <property role="3F0ifm" value="//list quality Check containers with accumulated indicator" />
+      </node>
+      <node concept="3F2HdR" id="r0xOACDgPE" role="3EZMnx">
+        <ref role="1NtTu8" to="6l70:r0xOACDgPz" resolve="containers" />
+        <node concept="2iRkQZ" id="r0xOACDgPG" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="r0xOACDgNM">
+    <ref role="1XX52x" to="6l70:r0xOACDgNB" resolve="QualityChecksContainerRef" />
+    <node concept="1iCGBv" id="r0xOACDgNO" role="2wV5jI">
+      <ref role="1NtTu8" to="6l70:r0xOACDgNC" resolve="ref" />
+      <node concept="1sVBvm" id="r0xOACDgNQ" role="1sWHZn">
+        <node concept="PMmxH" id="r0xOACDgNX" role="2wV5jI">
+          <ref role="PMmxG" node="lltECTqrYm" resolve="QualitiyChecksContainer_Default_EC" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
