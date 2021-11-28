@@ -58,6 +58,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5$IPmzX9Blz" resolve="ICoverageDefinition" />
     </node>
+    <node concept="PrWs8" id="r0xOACyF7E" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5$IPmzX9Bly">
     <property role="EcuMT" value="6426308365204747618" />

@@ -14,6 +14,7 @@
     <import index="6l70" ref="r:d828774c-0e30-49e1-950b-8599cbe850f8(de.hbaechmann.mps.qualitycoverage.instances.structure)" implicit="true" />
     <import index="npf6" ref="r:7af686fb-241e-4365-af5b-c0d7e978323b(de.hbaechmann.mps.qualitycoverage.instances.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="1r3h" ref="r:f857a507-7398-449f-9ee6-71f1b2ce5f04(de.hbaechmann.mps.qualitycoverage.behavior)" implicit="true" />
   </imports>
@@ -48,6 +49,7 @@
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -273,7 +275,25 @@
       <node concept="3EZMnI" id="lltECTqrYr" role="3EZMnx">
         <node concept="2iRfu4" id="lltECTqrYs" role="2iSdaV" />
         <node concept="3F0ifn" id="lltECTqrYo" role="3EZMnx">
-          <property role="3F0ifm" value="QualityChecks Container" />
+          <property role="3F0ifm" value="QualityChecks " />
+        </node>
+        <node concept="3F0A7n" id="r0xOACyF7g" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="r0xOACyFfB" role="3EZMnx">
+        <node concept="2iRfu4" id="r0xOACyFfC" role="2iSdaV" />
+        <node concept="3F0ifn" id="r0xOACyFeH" role="3EZMnx">
+          <property role="3F0ifm" value="realizes:" />
+        </node>
+        <node concept="1iCGBv" id="r0xOACyFmS" role="3EZMnx">
+          <ref role="1NtTu8" to="6l70:r0xOACyF7K" resolve="realizes" />
+          <node concept="1sVBvm" id="r0xOACyFmU" role="1sWHZn">
+            <node concept="3F0A7n" id="r0xOACyFn2" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="lltECTqrYF" role="3EZMnx" />

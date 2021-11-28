@@ -56,6 +56,14 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3HnPY6EIQnX" resolve="IQualitiyChecksContent" />
     </node>
+    <node concept="PrWs8" id="r0xOACyEUD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="r0xOACyF7K" role="1TKVEi">
+      <property role="IQ2ns" value="486537510186037744" />
+      <property role="20kJfa" value="realizes" />
+      <ref role="20lvS9" to="lpux:5$IPmzX9Blx" resolve="QualityCoverageDefinition" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3HnPY6EIQnW">
     <property role="EcuMT" value="4276123735443596796" />

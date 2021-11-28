@@ -158,6 +158,7 @@
     </language>
     <language id="87e98102-abed-433d-a6b9-b76bee559f73" name="de.hbaechmann.mps.qualitycoverage.instances">
       <concept id="4276123735443596795" name="de.hbaechmann.mps.qualitycoverage.instances.structure.QualitiyChecksContainer" flags="ng" index="2hVb8q">
+        <reference id="486537510186037744" name="realizes" index="2IizqT" />
         <child id="4276123735443697979" name="checks" index="2hUMrq" />
       </concept>
       <concept id="4276123735443596796" name="de.hbaechmann.mps.qualitycoverage.instances.structure.QualitiyChecker" flags="ng" index="2hVb8t">
@@ -191,6 +192,7 @@
     </language>
   </registry>
   <node concept="2$2a09" id="3HnPY6E6jhg">
+    <property role="TrG5h" value="A" />
     <node concept="2$2a0a" id="3HnPY6EKVIj" role="2$2a0e">
       <property role="TrG5h" value="classShouldStartUpperCase" />
       <property role="2hqyOH" value="Ensure that java class identifier starts with uppercase letter" />
@@ -202,6 +204,12 @@
       <property role="TrG5h" value="anotherCheck" />
       <node concept="3uibUv" id="lltECTB_FN" role="2hnSX_">
         <ref role="3uigEE" node="lltECTB_Er" resolve="anotherCheck_Impl" />
+      </node>
+    </node>
+    <node concept="2$2a0a" id="r0xOACB9wF" role="2$2a0e">
+      <property role="TrG5h" value="anotherCheck2" />
+      <node concept="3uibUv" id="r0xOACB9yd" role="2hnSX_">
+        <ref role="3uigEE" node="r0xOACB9wP" resolve="anotherCheck2_Impl" />
       </node>
     </node>
   </node>
@@ -716,12 +724,228 @@
     </node>
   </node>
   <node concept="2hVb8q" id="lltECTBWU$">
+    <property role="TrG5h" value="A" />
+    <ref role="2IizqT" node="3HnPY6E6jhg" resolve="A" />
     <node concept="2hVb8t" id="lltECTBWU_" role="2hUMrq">
       <property role="2hUMqr" value="true" />
       <ref role="2hVb8v" node="3HnPY6EKVIj" resolve="classShouldStartUpperCase" />
     </node>
     <node concept="2hVb8t" id="lltECTBWUA" role="2hUMrq">
       <ref role="2hVb8v" node="lltECTB_Ej" resolve="anotherCheck" />
+    </node>
+    <node concept="2hVb8t" id="r0xOACBLJJ" role="2hUMrq">
+      <ref role="2hVb8v" node="r0xOACB9wF" resolve="anotherCheck2" />
+    </node>
+  </node>
+  <node concept="312cEu" id="r0xOACB9wP">
+    <property role="TrG5h" value="anotherCheck2_Impl" />
+    <property role="3GE5qa" value="implementations" />
+    <node concept="2tJIrI" id="r0xOACB9wQ" role="jymVt" />
+    <node concept="Wx3nA" id="r0xOACB9wR" role="jymVt">
+      <property role="TrG5h" value="instance" />
+      <node concept="3Tm6S6" id="r0xOACB9wS" role="1B3o_S" />
+      <node concept="3uibUv" id="r0xOACB9wT" role="1tU5fm">
+        <ref role="3uigEE" node="r0xOACB9wP" resolve="anotherCheck2_Impl" />
+      </node>
+      <node concept="10Nm6u" id="r0xOACB9wU" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="r0xOACB9wV" role="jymVt" />
+    <node concept="2YIFZL" id="r0xOACB9wW" role="jymVt">
+      <property role="TrG5h" value="getInstance" />
+      <node concept="3clFbS" id="r0xOACB9wX" role="3clF47">
+        <node concept="3clFbJ" id="r0xOACB9wY" role="3cqZAp">
+          <node concept="3clFbC" id="r0xOACB9wZ" role="3clFbw">
+            <node concept="10Nm6u" id="r0xOACB9x0" role="3uHU7w" />
+            <node concept="37vLTw" id="r0xOACB9x1" role="3uHU7B">
+              <ref role="3cqZAo" node="r0xOACB9wR" resolve="instance" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="r0xOACB9x2" role="3clFbx">
+            <node concept="3clFbF" id="r0xOACB9x3" role="3cqZAp">
+              <node concept="37vLTI" id="r0xOACB9x4" role="3clFbG">
+                <node concept="2ShNRf" id="r0xOACB9x5" role="37vLTx">
+                  <node concept="HV5vD" id="r0xOACB9x6" role="2ShVmc">
+                    <ref role="HV5vE" node="r0xOACB9wP" resolve="anotherCheck2_Impl" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="r0xOACB9x7" role="37vLTJ">
+                  <ref role="3cqZAo" node="r0xOACB9wR" resolve="instance" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="r0xOACB9x8" role="3cqZAp">
+          <node concept="37vLTw" id="r0xOACB9x9" role="3clFbG">
+            <ref role="3cqZAo" node="r0xOACB9wR" resolve="instance" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="r0xOACB9xa" role="1B3o_S" />
+      <node concept="3uibUv" id="r0xOACB9xb" role="3clF45">
+        <ref role="3uigEE" node="r0xOACB9wP" resolve="anotherCheck2_Impl" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="r0xOACB9xc" role="jymVt" />
+    <node concept="3Tm1VV" id="r0xOACB9xd" role="1B3o_S" />
+    <node concept="3uibUv" id="r0xOACB9xe" role="EKbjA">
+      <ref role="3uigEE" to="bk4i:3HnPY6E25Ec" resolve="ICoverageImplementation" />
+    </node>
+    <node concept="3clFb_" id="r0xOACB9xf" role="jymVt">
+      <property role="TrG5h" value="implementsDCD" />
+      <node concept="3Tm1VV" id="r0xOACB9xg" role="1B3o_S" />
+      <node concept="2sp9CU" id="r0xOACB9xh" role="3clF45">
+        <ref role="2sp9C9" to="lpux:5$IPmzX9Bly" resolve="DynamicCoverageDefinition" />
+      </node>
+      <node concept="3clFbS" id="r0xOACB9xi" role="3clF47">
+        <node concept="3clFbF" id="r0xOACB9xj" role="3cqZAp">
+          <node concept="2tJFMh" id="r0xOACB9xk" role="3clFbG">
+            <node concept="ZC_QK" id="r0xOACB9xl" role="2tJFKM">
+              <ref role="2aWVGs" node="r0xOACB9wF" resolve="anotherCheck2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="r0xOACB9xm" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="r0xOACB9xn" role="jymVt" />
+    <node concept="3clFb_" id="r0xOACB9xo" role="jymVt">
+      <property role="TrG5h" value="getAffectedNodes" />
+      <node concept="3Tm1VV" id="r0xOACB9xp" role="1B3o_S" />
+      <node concept="A3Dl8" id="r0xOACB9xq" role="3clF45">
+        <node concept="3Tqbb2" id="r0xOACB9xr" role="A3Ik2" />
+      </node>
+      <node concept="37vLTG" id="r0xOACB9xs" role="3clF46">
+        <property role="TrG5h" value="unfiltered" />
+        <node concept="A3Dl8" id="r0xOACB9xt" role="1tU5fm">
+          <node concept="3Tqbb2" id="r0xOACB9xu" role="A3Ik2" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="r0xOACB9xv" role="3clF47">
+        <node concept="3clFbF" id="r0xOACB9xw" role="3cqZAp">
+          <node concept="37vLTw" id="r0xOACB9xx" role="3clFbG">
+            <ref role="3cqZAo" node="r0xOACB9xs" resolve="unfiltered" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="r0xOACB9xy" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="r0xOACB9xz" role="jymVt" />
+    <node concept="3clFb_" id="r0xOACB9x$" role="jymVt">
+      <property role="TrG5h" value="getCoverageResults" />
+      <node concept="3Tm1VV" id="r0xOACB9x_" role="1B3o_S" />
+      <node concept="A3Dl8" id="r0xOACB9xA" role="3clF45">
+        <node concept="3uibUv" id="r0xOACB9xB" role="A3Ik2">
+          <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="r0xOACB9xC" role="3clF46">
+        <property role="TrG5h" value="filtered" />
+        <node concept="A3Dl8" id="r0xOACB9xD" role="1tU5fm">
+          <node concept="3Tqbb2" id="r0xOACB9xE" role="A3Ik2" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="r0xOACB9xF" role="3clF47">
+        <node concept="3clFbF" id="r0xOACB9xG" role="3cqZAp">
+          <node concept="2OqwBi" id="r0xOACB9xH" role="3clFbG">
+            <node concept="37vLTw" id="r0xOACB9xI" role="2Oq$k0">
+              <ref role="3cqZAo" node="r0xOACB9xC" resolve="filtered" />
+            </node>
+            <node concept="3$u5V9" id="r0xOACB9xJ" role="2OqNvi">
+              <node concept="1bVj0M" id="r0xOACB9xK" role="23t8la">
+                <node concept="3clFbS" id="r0xOACB9xL" role="1bW5cS">
+                  <node concept="3clFbF" id="r0xOACB9xM" role="3cqZAp">
+                    <node concept="2ShNRf" id="r0xOACB9xN" role="3clFbG">
+                      <node concept="1pGfFk" id="r0xOACB9xO" role="2ShVmc">
+                        <ref role="37wK5l" to="bk4i:3HnPY6E2sOW" resolve="CoverageResult" />
+                        <node concept="37vLTw" id="r0xOACB9xP" role="37wK5m">
+                          <ref role="3cqZAo" node="r0xOACB9xS" resolve="it" />
+                        </node>
+                        <node concept="10M0yZ" id="r0xOACB9xQ" role="37wK5m">
+                          <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+                          <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+                        </node>
+                        <node concept="1rXfSq" id="r0xOACB9xR" role="37wK5m">
+                          <ref role="37wK5l" node="r0xOACB9y6" resolve="getReporting" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="r0xOACB9xS" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="r0xOACB9xT" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="r0xOACB9xU" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="r0xOACB9xV" role="jymVt" />
+    <node concept="3clFb_" id="r0xOACB9xW" role="jymVt">
+      <property role="TrG5h" value="getAccumulatedIndicator" />
+      <node concept="3Tm1VV" id="r0xOACB9xX" role="1B3o_S" />
+      <node concept="3uibUv" id="r0xOACB9xY" role="3clF45">
+        <ref role="3uigEE" to="bk4i:3HnPY6E2sIY" resolve="ICoverageIndicator" />
+      </node>
+      <node concept="37vLTG" id="r0xOACB9xZ" role="3clF46">
+        <property role="TrG5h" value="coverageResults" />
+        <node concept="A3Dl8" id="r0xOACB9y0" role="1tU5fm">
+          <node concept="3uibUv" id="r0xOACB9y1" role="A3Ik2">
+            <ref role="3uigEE" to="bk4i:3HnPY6E2sJC" resolve="CoverageResult" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="r0xOACB9y2" role="3clF47">
+        <node concept="3clFbF" id="r0xOACB9y3" role="3cqZAp">
+          <node concept="10M0yZ" id="r0xOACB9y4" role="3clFbG">
+            <ref role="3cqZAo" to="bk4i:3HnPY6EKcxK" resolve="UNDEFINED" />
+            <ref role="1PxDUh" to="bk4i:3HnPY6EK9JZ" resolve="PredefinedCoverageIndicators" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="r0xOACB9y5" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="r0xOACB9y6" role="jymVt">
+      <property role="TrG5h" value="getReporting" />
+      <node concept="3Tm1VV" id="r0xOACB9y7" role="1B3o_S" />
+      <node concept="3uibUv" id="r0xOACB9y8" role="3clF45">
+        <ref role="3uigEE" to="bk4i:3HnPY6EJawJ" resolve="ICoverageReporting" />
+      </node>
+      <node concept="3clFbS" id="r0xOACB9y9" role="3clF47">
+        <node concept="3clFbF" id="r0xOACB9ya" role="3cqZAp">
+          <node concept="10M0yZ" id="r0xOACB9yb" role="3clFbG">
+            <ref role="3cqZAo" to="bk4i:3HnPY6EKdqk" resolve="DEFAULT" />
+            <ref role="1PxDUh" to="bk4i:3HnPY6EKdkg" resolve="PredefinedCoverageReporting" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="r0xOACB9yc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="2hVb8q" id="r0xOACBLM6">
+    <property role="TrG5h" value="B" />
+    <ref role="2IizqT" node="3HnPY6E6jhg" resolve="A" />
+    <node concept="2hVb8t" id="r0xOACBLM7" role="2hUMrq">
+      <ref role="2hVb8v" node="3HnPY6EKVIj" resolve="classShouldStartUpperCase" />
+    </node>
+    <node concept="2hVb8t" id="r0xOACBLM8" role="2hUMrq">
+      <ref role="2hVb8v" node="lltECTB_Ej" resolve="anotherCheck" />
+    </node>
+    <node concept="2hVb8t" id="r0xOACBLM9" role="2hUMrq">
+      <ref role="2hVb8v" node="r0xOACB9wF" resolve="anotherCheck2" />
     </node>
   </node>
 </model>

@@ -37,6 +37,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -73,6 +76,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
+        <child id="1138662048170" name="value" index="tz02z" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -327,7 +333,23 @@
   <node concept="13h7C7" id="3HnPY6E2y_U">
     <ref role="13h7C2" to="lpux:5$IPmzX9Blx" resolve="QualityCoverageDefinition" />
     <node concept="13hLZK" id="3HnPY6E2y_V" role="13h7CW">
-      <node concept="3clFbS" id="3HnPY6E2y_W" role="2VODD2" />
+      <node concept="3clFbS" id="3HnPY6E2y_W" role="2VODD2">
+        <node concept="3clFbF" id="r0xOACA$iC" role="3cqZAp">
+          <node concept="2OqwBi" id="r0xOACA$PD" role="3clFbG">
+            <node concept="2OqwBi" id="r0xOACA$qw" role="2Oq$k0">
+              <node concept="13iPFW" id="r0xOACA$iB" role="2Oq$k0" />
+              <node concept="3TrcHB" id="r0xOACA$z$" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="r0xOACA_1X" role="2OqNvi">
+              <node concept="Xl_RD" id="r0xOACA_2t" role="tz02z">
+                <property role="Xl_RC" value="Def." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

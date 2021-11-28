@@ -935,6 +935,25 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="r0xOACA_Cz" role="3bR37C">
+          <node concept="1BurEX" id="r0xOACA_C$" role="1SiIV1">
+            <node concept="398BVA" id="r0xOACA_Co" role="1BurEY">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="r0xOACA_Cp" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="r0xOACA_Cq" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.resources" />
+                  <node concept="2Ry0Ak" id="r0xOACA_Cr" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="r0xOACA_Cs" role="2Ry0An">
+                      <property role="2Ry0Am" value="reflections-0.10.1.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
