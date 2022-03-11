@@ -4,7 +4,9 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.buildlangUtil.devkit/simplestuff.buildlangUtil.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/simplestuff.devkit/simplestuff.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.genericExtensions/de.hbaechmann.mps.genericExtensions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.hbaechmann.mps.simplestuff.buildlangUtil/de.hbaechmann.mps.simplestuff.buildlangUtil.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.genericExtension.sandbox/de.hbaechmann.mps.genericExtension.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.buildlangUtil.rt/de.hbaechmann.mps.simplestuff.buildlangUtil.rt.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.ide.statisticsTools/de.hbaechmann.mps.simplestuff.ide.statisticsTools.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.hbaechmann.mps.simplestuff.openapi/de.hbaechmann.mps.simplestuff.openapi.msd" folder="" />
