@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="13086e00-41a3-4461-b62a-9ff367bfad2b" name="de.hbaechmann.mps.genericExtensions">
+      <concept id="7454568719542693271" name="de.hbaechmann.mps.genericExtensions.structure.EP_CardinalityOptional" flags="ng" index="15pPXm" />
       <concept id="7454568719542680098" name="de.hbaechmann.mps.genericExtensions.structure.EP_EPNamedNodePointerRef" flags="ng" index="15pSzz">
         <reference id="7454568719542684470" name="target" index="15pRBR" />
       </concept>
@@ -59,6 +60,9 @@
       <concept id="7454568719541926917" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EnumMemberDeclarationRef" flags="ng" index="15uKV4">
         <reference id="7454568719541926983" name="target" index="15uKU6" />
       </concept>
+      <concept id="7454568719541926940" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EPDeclaration" flags="ng" index="15uKVt">
+        <child id="7454568719542693368" name="cardinality" index="15pPWT" />
+      </concept>
       <concept id="7454568719541926943" name="de.hbaechmann.mps.genericExtensions.structure.EP_DeclarationRef" flags="ng" index="15uKVu">
         <reference id="7454568719541926946" name="epRef" index="15uKVz" />
       </concept>
@@ -100,6 +104,7 @@
     <node concept="15uK$m" id="6tNWG4y2muK" role="15uKVo">
       <property role="TrG5h" value="epInline" />
       <property role="15uK$v" value="inline" />
+      <node concept="15pPXm" id="6tNWG4y5c4n" role="15pPWT" />
     </node>
     <node concept="15pVkJ" id="6tNWG4y56_F" role="15uKVo">
       <property role="TrG5h" value="Generic Ref" />

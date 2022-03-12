@@ -55,6 +55,7 @@
     <property role="TrG5h" value="EP_Declaration" />
     <property role="34LRSv" value="ep declaration" />
     <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6tNWG4y2fKn" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926935" />
@@ -69,13 +70,6 @@
       <property role="20kJfa" value="subEPs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="6tNWG4y2IBG" role="1TKVEi">
-      <property role="IQ2ns" value="7454568719542053356" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="applicableConcepts" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6tNWG4y2wom" resolve="IEP_ApplicableConceptsScope" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2ihG" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
@@ -127,7 +121,7 @@
     <property role="EcuMT" value="7454568719541926883" />
     <property role="TrG5h" value="EP_PrimitiveTypeDeclaration" />
     <property role="34LRSv" value="ep primitive type" />
-    <property role="3GE5qa" value="types.primitive" />
+    <property role="3GE5qa" value="properties.types.primitive" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2oMI" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
@@ -147,12 +141,12 @@
   <node concept="PlHQZ" id="6tNWG4y2fJA">
     <property role="EcuMT" value="7454568719541926886" />
     <property role="TrG5h" value="IEP_PropertyType" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="properties.types" />
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fJI">
     <property role="EcuMT" value="7454568719541926894" />
     <property role="TrG5h" value="EP_EnumTypeDeclaration" />
-    <property role="3GE5qa" value="types.enum" />
+    <property role="3GE5qa" value="properties.types.enum" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fK9" role="PzmwI">
@@ -175,7 +169,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fJS">
     <property role="EcuMT" value="7454568719541926904" />
     <property role="TrG5h" value="EP_EnumMemberDeclaration" />
-    <property role="3GE5qa" value="types.enum.member" />
+    <property role="3GE5qa" value="properties.types.enum.member" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fJT" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
@@ -187,12 +181,12 @@
   <node concept="PlHQZ" id="6tNWG4y2fJX">
     <property role="EcuMT" value="7454568719541926909" />
     <property role="TrG5h" value="IEP_EnumMemberDeclaration" />
-    <property role="3GE5qa" value="types.enum.member" />
+    <property role="3GE5qa" value="properties.types.enum.member" />
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fK5">
     <property role="EcuMT" value="7454568719541926917" />
     <property role="TrG5h" value="IEP_EnumMemberDeclarationRef" />
-    <property role="3GE5qa" value="types.enum.member" />
+    <property role="3GE5qa" value="properties.types.enum.member" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fL5" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJX" resolve="IEP_EnumMemberDeclaration" />
@@ -207,6 +201,21 @@
   <node concept="PlHQZ" id="6tNWG4y2fKs">
     <property role="EcuMT" value="7454568719541926940" />
     <property role="TrG5h" value="IEP_EPDeclaration" />
+    <property role="3GE5qa" value="declaration" />
+    <node concept="1TJgyj" id="6tNWG4y2IBG" role="1TKVEi">
+      <property role="IQ2ns" value="7454568719542053356" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="applicableConcepts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6tNWG4y2wom" resolve="IEP_ApplicableConceptsScope" />
+    </node>
+    <node concept="1TJgyj" id="6tNWG4y5aRS" role="1TKVEi">
+      <property role="IQ2ns" value="7454568719542693368" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cardinality" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6tNWG4y2fKt">
     <property role="EcuMT" value="7454568719541926941" />
@@ -216,6 +225,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fKv">
     <property role="EcuMT" value="7454568719541926943" />
     <property role="TrG5h" value="EP_DeclarationRef" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKw" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
@@ -244,7 +254,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fKI">
     <property role="EcuMT" value="7454568719541926958" />
     <property role="TrG5h" value="EP_PrimitiveTypesContainer" />
-    <property role="3GE5qa" value="types.primitive" />
+    <property role="3GE5qa" value="properties.types.primitive" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="ep primitive types container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -262,7 +272,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fKN">
     <property role="EcuMT" value="7454568719541926963" />
     <property role="TrG5h" value="EP_EnumMemberDeclarationContainer" />
-    <property role="3GE5qa" value="types.enum.member" />
+    <property role="3GE5qa" value="properties.types.enum.member" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKO" role="PzmwI">
@@ -279,7 +289,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fL0">
     <property role="EcuMT" value="7454568719541926976" />
     <property role="TrG5h" value="EP_EnumMemberDeclarationContainerRef" />
-    <property role="3GE5qa" value="types.enum.member" />
+    <property role="3GE5qa" value="properties.types.enum.member" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fL1" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJX" resolve="IEP_EnumMemberDeclaration" />
@@ -293,7 +303,7 @@
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fL9">
     <property role="EcuMT" value="7454568719541926985" />
-    <property role="3GE5qa" value="types.enum" />
+    <property role="3GE5qa" value="properties.types.enum" />
     <property role="TrG5h" value="EP_EnumTypeDeclarationContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fLa" role="PzmwI">
@@ -342,7 +352,7 @@
   </node>
   <node concept="1TIwiD" id="6tNWG4y2mvk">
     <property role="EcuMT" value="7454568719541954516" />
-    <property role="3GE5qa" value="types.primitive" />
+    <property role="3GE5qa" value="properties.types.primitive" />
     <property role="TrG5h" value="EP_PrimitiveTypesContainerRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6tNWG4y2mvl" role="1TKVEi">
@@ -356,12 +366,12 @@
   </node>
   <node concept="PlHQZ" id="6tNWG4y2neu">
     <property role="EcuMT" value="7454568719541957534" />
-    <property role="3GE5qa" value="types.primitive" />
+    <property role="3GE5qa" value="properties.types.primitive" />
     <property role="TrG5h" value="IEP_PrimitiveTypeDeclarion" />
   </node>
   <node concept="1TIwiD" id="6tNWG4y2nZN">
     <property role="EcuMT" value="7454568719541960691" />
-    <property role="3GE5qa" value="types.primitive" />
+    <property role="3GE5qa" value="properties.types.primitive" />
     <property role="TrG5h" value="EP_PrimitiveTypeDeclarationRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2nZO" role="PzmwI">
@@ -379,12 +389,12 @@
   </node>
   <node concept="PlHQZ" id="6tNWG4y2rbp">
     <property role="EcuMT" value="7454568719541973721" />
-    <property role="3GE5qa" value="types.enum" />
+    <property role="3GE5qa" value="properties.types.enum" />
     <property role="TrG5h" value="IEP_EnumTypeDeclaration" />
   </node>
   <node concept="1TIwiD" id="6tNWG4y2rbz">
     <property role="EcuMT" value="7454568719541973731" />
-    <property role="3GE5qa" value="types.enum" />
+    <property role="3GE5qa" value="properties.types.enum" />
     <property role="TrG5h" value="EP_EnumTypeDeclarationRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2rb$" role="PzmwI">
@@ -402,7 +412,7 @@
   </node>
   <node concept="1TIwiD" id="6tNWG4y2rbC">
     <property role="EcuMT" value="7454568719541973736" />
-    <property role="3GE5qa" value="types.enum" />
+    <property role="3GE5qa" value="properties.types.enum" />
     <property role="TrG5h" value="EP_EnumTypeDeclarationContainerRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2rbD" role="PzmwI">
@@ -513,6 +523,7 @@
     <property role="EcuMT" value="7454568719542667246" />
     <property role="TrG5h" value="EP_EPNamedNodePointer" />
     <property role="34LRSv" value="reference" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y56_K" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
@@ -524,6 +535,7 @@
   <node concept="1TIwiD" id="6tNWG4y57Cy">
     <property role="EcuMT" value="7454568719542680098" />
     <property role="TrG5h" value="EP_EPNamedNodePointerRef" />
+    <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y57Cz" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
@@ -533,6 +545,51 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6tNWG4y54vI" resolve="EP_EPNamedNodePointer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6tNWG4y5aQm">
+    <property role="EcuMT" value="7454568719542693270" />
+    <property role="TrG5h" value="IEP_Cardinality" />
+    <property role="3GE5qa" value="cardinality" />
+  </node>
+  <node concept="1TIwiD" id="6tNWG4y5aQn">
+    <property role="EcuMT" value="7454568719542693271" />
+    <property role="TrG5h" value="EP_CardinalityOptional" />
+    <property role="34LRSv" value="0..1" />
+    <property role="3GE5qa" value="cardinality" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6tNWG4y5aQo" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tNWG4y5aQq">
+    <property role="EcuMT" value="7454568719542693274" />
+    <property role="TrG5h" value="IEP_CardinalityOne" />
+    <property role="34LRSv" value="1..1" />
+    <property role="3GE5qa" value="cardinality" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6tNWG4y5aQr" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tNWG4y5aQS">
+    <property role="EcuMT" value="7454568719542693304" />
+    <property role="TrG5h" value="EP_CardinalityMany" />
+    <property role="34LRSv" value="0..n" />
+    <property role="3GE5qa" value="cardinality" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6tNWG4y5aQT" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tNWG4y5aQV">
+    <property role="EcuMT" value="7454568719542693307" />
+    <property role="TrG5h" value="EP_CardinalityOneOrMore" />
+    <property role="34LRSv" value="1..n" />
+    <property role="3GE5qa" value="cardinality" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6tNWG4y5aQW" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
     </node>
   </node>
 </model>
