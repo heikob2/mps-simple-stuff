@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -446,6 +447,7 @@
     <property role="EcuMT" value="7454568719541995026" />
     <property role="TrG5h" value="EP_ApplicableConceptsContainer" />
     <property role="3GE5qa" value="applicableConcepts" />
+    <property role="34LRSv" value="applicable concepts list" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2wos" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
@@ -508,7 +510,8 @@
     <property role="EcuMT" value="7454568719542658892" />
     <property role="3GE5qa" value="applicableConcepts" />
     <property role="TrG5h" value="EP_ApplicableConceptsScope_INHERITED" />
-    <property role="34LRSv" value="inherited from parent" />
+    <property role="34LRSv" value="INHERITED" />
+    <property role="R4oN_" value="inherited from parent" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y52td" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2wom" resolve="IEP_ApplicableConceptsScope" />

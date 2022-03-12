@@ -21,6 +21,7 @@
       <concept id="7454568719541995025" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableConceptRef" flags="ng" index="15uvjg">
         <reference id="7454568719542655060" name="applicableConcept" index="15pYEl" />
       </concept>
+      <concept id="7454568719541995030" name="de.hbaechmann.mps.genericExtensions.structure.IEP_ApplicableConceptsScope" flags="ng" index="15uvjn" />
       <concept id="7454568719541973731" name="de.hbaechmann.mps.genericExtensions.structure.EP_EnumTypeDeclarationRef" flags="ng" index="15u$0y">
         <reference id="7454568719541973734" name="target" index="15u$0B" />
       </concept>
@@ -62,6 +63,7 @@
       </concept>
       <concept id="7454568719541926940" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EPDeclaration" flags="ng" index="15uKVt">
         <child id="7454568719542693368" name="cardinality" index="15pPWT" />
+        <child id="7454568719542053356" name="applicableConcepts" index="15uhGI" />
       </concept>
       <concept id="7454568719541926943" name="de.hbaechmann.mps.genericExtensions.structure.EP_DeclarationRef" flags="ng" index="15uKVu">
         <reference id="7454568719541926946" name="epRef" index="15uKVz" />
@@ -85,6 +87,7 @@
   <node concept="15uK$m" id="6tNWG4y2ihB">
     <property role="TrG5h" value="ep1" />
     <property role="15uK$v" value="x" />
+    <node concept="15uvjn" id="6tNWG4y5f8j" role="15uhGI" />
     <node concept="15uHKt" id="6tNWG4y2l3t" role="15uKVm">
       <ref role="15uHKu" node="6tNWG4y2jCu" resolve="propContainer1" />
     </node>
@@ -120,6 +123,7 @@
       <ref role="15pYEl" to="tpck:4uZwTti3_$T" resolve="Attribute" />
     </node>
     <node concept="15pXm8" id="6tNWG4y54uM" role="15uhGH" />
+    <node concept="15pPXm" id="6tNWG4y5f8l" role="15pPWT" />
   </node>
   <node concept="15uHKg" id="6tNWG4y2jCu">
     <property role="TrG5h" value="propContainer1" />
@@ -235,6 +239,14 @@
     </node>
     <node concept="15uKU1" id="6tNWG4y2s3Q" role="15uK$U">
       <ref role="15uKU2" node="6tNWG4y2raV" resolve="enum member container" />
+    </node>
+  </node>
+  <node concept="15uK$m" id="6tNWG4y5f8n">
+    <property role="TrG5h" value="ep 1" />
+    <property role="15uK$v" value="my role" />
+    <node concept="15pPXm" id="6tNWG4y5f8p" role="15pPWT" />
+    <node concept="15uvjg" id="6tNWG4y5oFT" role="15uhGI">
+      <ref role="15pYEl" to="tpck:4uZwTti3_$T" resolve="Attribute" />
     </node>
   </node>
 </model>
