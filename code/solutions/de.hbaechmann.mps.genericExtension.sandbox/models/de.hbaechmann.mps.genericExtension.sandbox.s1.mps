@@ -13,6 +13,7 @@
   <registry>
     <language id="13086e00-41a3-4461-b62a-9ff367bfad2b" name="de.hbaechmann.mps.genericExtensions">
       <concept id="7454568719542693271" name="de.hbaechmann.mps.genericExtensions.structure.EP_CardinalityOptional" flags="ng" index="15pPXm" />
+      <concept id="7454568719542693274" name="de.hbaechmann.mps.genericExtensions.structure.IEP_CardinalityOne" flags="ng" index="15pPXr" />
       <concept id="7454568719542693304" name="de.hbaechmann.mps.genericExtensions.structure.EP_CardinalityMany" flags="ng" index="15pPXT" />
       <concept id="7454568719542680098" name="de.hbaechmann.mps.genericExtensions.structure.EP_EPNamedNodePointerRef" flags="ng" index="15pSzz">
         <reference id="7454568719542684470" name="target" index="15pRBR" />
@@ -252,26 +253,41 @@
       <property role="TrG5h" value="ep 2" />
       <property role="15uK$v" value="other role" />
       <node concept="15pPXT" id="6tNWG4y7xDv" role="15pPWT" />
+      <node concept="15pXm8" id="6tNWG4y8JRw" role="15uhGI" />
     </node>
     <node concept="15uKVu" id="6tNWG4y887Q" role="15uKVo">
       <property role="15uK$v" value="my role" />
       <ref role="15uKVz" node="6tNWG4y7xDr" resolve="ep 2" />
+      <node concept="15pPXr" id="6tNWG4y8JPG" role="15pPWT" />
     </node>
     <node concept="15uKVu" id="6tNWG4y7DWc" role="15uKVo">
       <property role="15uK$v" value="other role" />
       <ref role="15uKVz" node="6tNWG4y7xDr" resolve="ep 2" />
+      <node concept="15pPXT" id="6tNWG4y8JPC" role="15pPWT" />
     </node>
     <node concept="15uKVu" id="6tNWG4y7Crc" role="15uKVo">
       <property role="15uK$v" value="other role" />
       <ref role="15uKVz" node="6tNWG4y7xDr" resolve="ep 2" />
+      <node concept="15pPXT" id="6tNWG4y8JPA" role="15pPWT" />
     </node>
     <node concept="15uKVu" id="6tNWG4y7WxO" role="15uKVo">
       <property role="15uK$v" value="other role" />
       <ref role="15uKVz" node="6tNWG4y7xDr" resolve="ep 2" />
+      <node concept="15pPXT" id="6tNWG4y8JPE" role="15pPWT" />
     </node>
     <node concept="15uKVu" id="6tNWG4y7xDA" role="15uKVo">
       <property role="15uK$v" value="other role" />
       <ref role="15uKVz" node="6tNWG4y7xDr" resolve="ep 2" />
+      <node concept="15pPXT" id="6tNWG4y8JPy" role="15pPWT" />
+    </node>
+    <node concept="15pVkJ" id="6tNWG4y8JPW" role="15uKVo">
+      <property role="TrG5h" value="ref 1" />
+      <property role="15uK$v" value="helloWorldRef" />
+      <node concept="15pPXm" id="6tNWG4y8Wvg" role="15pPWT" />
+    </node>
+    <node concept="15pSzz" id="6tNWG4y98A0" role="15uKVo">
+      <property role="15uK$v" value="ref 1 a" />
+      <ref role="15pRBR" node="6tNWG4y8JPW" resolve="ref 1" />
     </node>
   </node>
 </model>

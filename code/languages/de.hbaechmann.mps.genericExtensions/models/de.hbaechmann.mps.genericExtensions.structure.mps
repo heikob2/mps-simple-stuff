@@ -544,6 +544,9 @@
     <property role="TrG5h" value="EP_EPNamedNodePointerRef" />
     <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6tNWG4y8JUE" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y7lnc" resolve="IEP_EntityWithRole" />
+    </node>
     <node concept="PrWs8" id="6tNWG4y57Cz" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
     </node>
