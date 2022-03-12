@@ -121,7 +121,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fJz">
     <property role="EcuMT" value="7454568719541926883" />
     <property role="TrG5h" value="EP_PrimitiveTypeDeclaration" />
-    <property role="34LRSv" value="ep primitive type" />
+    <property role="34LRSv" value="primitive type" />
     <property role="3GE5qa" value="properties.types.primitive" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2oMI" role="PzmwI">
@@ -149,6 +149,7 @@
     <property role="TrG5h" value="EP_EnumTypeDeclaration" />
     <property role="3GE5qa" value="properties.types.enum" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="enum" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fK9" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -171,6 +172,7 @@
     <property role="EcuMT" value="7454568719541926904" />
     <property role="TrG5h" value="EP_EnumMemberDeclaration" />
     <property role="3GE5qa" value="properties.types.enum.member" />
+    <property role="34LRSv" value="enum literal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fJT" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_NamedEntityWithRole" />
@@ -261,7 +263,7 @@
     <property role="TrG5h" value="EP_PrimitiveTypesContainer" />
     <property role="3GE5qa" value="properties.types.primitive" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ep primitive types container" />
+    <property role="34LRSv" value="primitive types container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKJ" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -279,6 +281,7 @@
     <property role="TrG5h" value="EP_EnumMemberDeclarationContainer" />
     <property role="3GE5qa" value="properties.types.enum.member" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="enum literals container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKO" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -309,7 +312,9 @@
   <node concept="1TIwiD" id="6tNWG4y2fL9">
     <property role="EcuMT" value="7454568719541926985" />
     <property role="3GE5qa" value="properties.types.enum" />
-    <property role="TrG5h" value="EP_EnumTypeDeclarationContainer" />
+    <property role="TrG5h" value="EP_EnumTypeDeclarationsContainer" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="enums container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fLa" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -317,16 +322,16 @@
     <node concept="1TJgyj" id="6tNWG4y2fLc" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926988" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="enumTypeDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6tNWG4y2fJI" resolve="EP_EnumTypeDeclaration" />
+      <property role="20kJfa" value="enumTypeDeclarations" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6tNWG4y2rbp" resolve="IEP_EnumTypeDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="6tNWG4y2iVh">
     <property role="EcuMT" value="7454568719541939921" />
     <property role="TrG5h" value="EP_PropertyDeclarationContainer" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ep property decl. container" />
+    <property role="34LRSv" value="property container" />
     <property role="3GE5qa" value="properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2iVi" role="PzmwI">
@@ -359,6 +364,7 @@
     <property role="EcuMT" value="7454568719541954516" />
     <property role="3GE5qa" value="properties.types.primitive" />
     <property role="TrG5h" value="EP_PrimitiveTypesContainerRef" />
+    <property role="34LRSv" value="-&gt; primitive types from" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6tNWG4y2mvl" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541954517" />
@@ -419,6 +425,7 @@
     <property role="EcuMT" value="7454568719541973736" />
     <property role="3GE5qa" value="properties.types.enum" />
     <property role="TrG5h" value="EP_EnumTypeDeclarationContainerRef" />
+    <property role="34LRSv" value="-&gt; enums from" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2rbD" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2rbp" resolve="IEP_EnumTypeDeclaration" />
@@ -426,7 +433,8 @@
     <node concept="1TJgyj" id="6tNWG4y2rbF" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541973739" />
       <property role="20kJfa" value="target" />
-      <ref role="20lvS9" node="6tNWG4y2fJI" resolve="EP_EnumTypeDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fL9" resolve="EP_EnumTypeDeclarationsContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6tNWG4y2woh">
