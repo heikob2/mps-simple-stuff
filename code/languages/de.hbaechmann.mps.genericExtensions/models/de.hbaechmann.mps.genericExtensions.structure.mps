@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -45,6 +46,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -73,7 +75,7 @@
       <ref role="20lvS9" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2ihG" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
+      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_NamedEntityWithRole" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2lLf" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
@@ -81,21 +83,19 @@
   </node>
   <node concept="PlHQZ" id="6tNWG4y2fJo">
     <property role="EcuMT" value="7454568719541926872" />
-    <property role="TrG5h" value="IEP_Entity" />
+    <property role="TrG5h" value="IEP_NamedEntity" />
     <node concept="PrWs8" id="6tNWG4y2fJp" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="6tNWG4y2fJr">
     <property role="EcuMT" value="7454568719541926875" />
-    <property role="TrG5h" value="IEP_EntityWithRole" />
+    <property role="TrG5h" value="IEP_NamedEntityWithRole" />
     <node concept="PrWs8" id="6tNWG4y2fJs" role="PrDN$">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
-    <node concept="1TJgyi" id="6tNWG4y2fJu" role="1TKVEl">
-      <property role="IQ2nx" value="7454568719541926878" />
-      <property role="TrG5h" value="role" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="6tNWG4y7lnF" role="PrDN$">
+      <ref role="PrY4T" node="6tNWG4y7lnc" resolve="IEP_EntityWithRole" />
     </node>
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fJw">
@@ -105,7 +105,7 @@
     <property role="3GE5qa" value="properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fJx" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
+      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_NamedEntityWithRole" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2fKB" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKt" resolve="IEP_PropertyDeclaration" />
@@ -125,7 +125,7 @@
     <property role="3GE5qa" value="properties.types.primitive" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2oMI" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2fJD" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJA" resolve="IEP_PropertyType" />
@@ -151,7 +151,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fK9" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2fJJ" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJA" resolve="IEP_PropertyType" />
@@ -173,7 +173,7 @@
     <property role="3GE5qa" value="properties.types.enum.member" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fJT" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
+      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_NamedEntityWithRole" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2fK1" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJX" resolve="IEP_EnumMemberDeclaration" />
@@ -214,7 +214,6 @@
       <property role="IQ2ns" value="7454568719542693368" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="cardinality" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
     </node>
   </node>
@@ -231,12 +230,16 @@
     <node concept="PrWs8" id="6tNWG4y2fKw" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
     </node>
+    <node concept="PrWs8" id="6tNWG4y7lof" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y7lnc" resolve="IEP_EntityWithRole" />
+    </node>
     <node concept="1TJgyj" id="6tNWG4y2fKy" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926946" />
       <property role="20kJfa" value="epRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6tNWG4y2fJn" resolve="EP_Declaration" />
     </node>
+    <node concept="t5JxF" id="6tNWG4y7lmI" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fKF">
     <property role="EcuMT" value="7454568719541926955" />
@@ -249,7 +252,8 @@
     <node concept="1TJgyj" id="6tNWG4y2iVf" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541939919" />
       <property role="20kJfa" value="target" />
-      <ref role="20lvS9" node="6tNWG4y2fKt" resolve="IEP_PropertyDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fJw" resolve="EP_PropertyDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="6tNWG4y2fKI">
@@ -260,7 +264,7 @@
     <property role="34LRSv" value="ep primitive types container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKJ" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="1TJgyj" id="6tNWG4y2fKL" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926961" />
@@ -277,7 +281,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fKO" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="1TJgyj" id="6tNWG4y2fKX" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926973" />
@@ -308,7 +312,7 @@
     <property role="TrG5h" value="EP_EnumTypeDeclarationContainer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fLa" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="1TJgyj" id="6tNWG4y2fLc" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541926988" />
@@ -326,7 +330,7 @@
     <property role="3GE5qa" value="properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2iVi" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="1TJgyj" id="6tNWG4y2jCv" role="1TKVEi">
       <property role="IQ2ns" value="7454568719541942815" />
@@ -450,7 +454,7 @@
     <property role="34LRSv" value="applicable concepts list" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2wos" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_Entity" />
+      <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
     </node>
     <node concept="PrWs8" id="6tNWG4y2won" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2wom" resolve="IEP_ApplicableConceptsScope" />
@@ -529,7 +533,7 @@
     <property role="3GE5qa" value="declaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y56_K" role="PzmwI">
-      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_EntityWithRole" />
+      <ref role="PrY4T" node="6tNWG4y2fJr" resolve="IEP_NamedEntityWithRole" />
     </node>
     <node concept="PrWs8" id="6tNWG4y56_Q" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
@@ -593,6 +597,19 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y5aQW" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y5aQm" resolve="IEP_Cardinality" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6tNWG4y7lnb">
+    <property role="EcuMT" value="7454568719543260619" />
+    <property role="TrG5h" value="IEP_Entity" />
+  </node>
+  <node concept="PlHQZ" id="6tNWG4y7lnc">
+    <property role="EcuMT" value="7454568719543260620" />
+    <property role="TrG5h" value="IEP_EntityWithRole" />
+    <node concept="1TJgyi" id="6tNWG4y2fJu" role="1TKVEl">
+      <property role="IQ2nx" value="7454568719541926878" />
+      <property role="TrG5h" value="role" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
