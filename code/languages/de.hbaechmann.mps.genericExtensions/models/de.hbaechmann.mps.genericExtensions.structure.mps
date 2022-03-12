@@ -101,7 +101,7 @@
   <node concept="1TIwiD" id="6tNWG4y2fJw">
     <property role="EcuMT" value="7454568719541926880" />
     <property role="TrG5h" value="EP_PropertyDeclaration" />
-    <property role="34LRSv" value="ep property" />
+    <property role="34LRSv" value="property declaration" />
     <property role="3GE5qa" value="properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2fJx" role="PzmwI">
@@ -331,7 +331,7 @@
     <property role="EcuMT" value="7454568719541939921" />
     <property role="TrG5h" value="EP_PropertyDeclarationContainer" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="property container" />
+    <property role="34LRSv" value="properties container" />
     <property role="3GE5qa" value="properties" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2iVi" role="PzmwI">

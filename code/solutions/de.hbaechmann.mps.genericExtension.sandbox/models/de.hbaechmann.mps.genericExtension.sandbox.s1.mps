@@ -26,7 +26,15 @@
       <concept id="7454568719541954516" name="de.hbaechmann.mps.genericExtensions.structure.EP_PrimitiveTypesContainerRef" flags="ng" index="15uDkl">
         <reference id="7454568719541954517" name="target" index="15uDkk" />
       </concept>
-      <concept id="7454568719541939921" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationContainer" flags="ng" index="15uHKg" />
+      <concept id="7454568719541939921" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationContainer" flags="ng" index="15uHKg">
+        <child id="7454568719541942815" name="propertyDeclarations" index="15uGzu" />
+      </concept>
+      <concept id="7454568719541939932" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationContainerRef" flags="ng" index="15uHKt">
+        <reference id="7454568719541939935" name="target" index="15uHKu" />
+      </concept>
+      <concept id="7454568719541926880" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclaration" flags="ng" index="15uK$x">
+        <child id="7454568719541926902" name="type" index="15uK$R" />
+      </concept>
       <concept id="7454568719541926883" name="de.hbaechmann.mps.genericExtensions.structure.EP_PrimitiveTypeDeclaration" flags="ng" index="15uK$y">
         <property id="7454568719541926892" name="regex" index="15uK$H" />
       </concept>
@@ -42,6 +50,9 @@
       </concept>
       <concept id="7454568719541926917" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EnumMemberDeclarationRef" flags="ng" index="15uKV4">
         <reference id="7454568719541926983" name="target" index="15uKU6" />
+      </concept>
+      <concept id="7454568719541926955" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationRef" flags="ng" index="15uKVE">
+        <reference id="7454568719541939919" name="target" index="15uHKe" />
       </concept>
       <concept id="7454568719541926958" name="de.hbaechmann.mps.genericExtensions.structure.EP_PrimitiveTypesContainer" flags="ng" index="15uKVJ">
         <child id="7454568719541926961" name="primitiveTypeDeclarations" index="15uKVK" />
@@ -149,7 +160,34 @@
       <property role="15uK$H" value="NONE" />
     </node>
   </node>
-  <node concept="15uHKg" id="6tNWG4ycFax" />
+  <node concept="15uHKg" id="6tNWG4ycFax">
+    <property role="TrG5h" value="MyPropertiesContainer" />
+    <property role="3GE5qa" value="properties" />
+    <node concept="15uK$x" id="6tNWG4yfiEb" role="15uGzu">
+      <property role="TrG5h" value="myProperty1" />
+      <property role="15uK$v" value="my property 1" />
+      <node concept="15uCOM" id="6tNWG4yfA7q" role="15uK$R">
+        <ref role="15uCOR" node="6tNWG4yc9$v" resolve="MyInt" />
+      </node>
+    </node>
+    <node concept="15uHKt" id="6tNWG4yfXmi" role="15uGzu">
+      <ref role="15uHKu" node="6tNWG4yfVWM" resolve="OtherPropertiesContainer1" />
+    </node>
+    <node concept="15uKVE" id="6tNWG4yfXms" role="15uGzu">
+      <ref role="15uHKe" node="6tNWG4yfVWO" resolve="otherProperty2" />
+    </node>
+    <node concept="15uK$x" id="6tNWG4ygTLE" role="15uGzu">
+      <property role="TrG5h" value="myProperty2" />
+      <property role="15uK$v" value="my property 2" />
+      <node concept="15uK$J" id="6tNWG4ygTLN" role="15uK$R">
+        <property role="TrG5h" value="inline enum" />
+        <node concept="15uK$T" id="6tNWG4yhx6u" role="15uK$U">
+          <property role="TrG5h" value="someValue" />
+          <property role="15uK$v" value="some value presentation" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="15uKU8" id="6tNWG4ycGzz">
     <property role="3GE5qa" value="enums" />
     <property role="TrG5h" value="MyEnumsContainer" />
@@ -171,6 +209,28 @@
     <property role="TrG5h" value="OtherEnumsContainer" />
     <node concept="15uK$J" id="6tNWG4ydT1R" role="15uKUd">
       <property role="TrG5h" value="OtherContainerEnum" />
+    </node>
+  </node>
+  <node concept="15uHKg" id="6tNWG4yfVWM">
+    <property role="TrG5h" value="OtherPropertiesContainer1" />
+    <property role="3GE5qa" value="properties" />
+    <node concept="15uK$x" id="6tNWG4yfVWV" role="15uGzu">
+      <property role="TrG5h" value="otherProperty2" />
+      <property role="15uK$v" value="other property 2" />
+      <node concept="15uCOM" id="6tNWG4yfVWZ" role="15uK$R">
+        <ref role="15uCOR" node="6tNWG4ybTse" resolve="MyString" />
+      </node>
+    </node>
+  </node>
+  <node concept="15uHKg" id="6tNWG4yfVWN">
+    <property role="TrG5h" value="OtherPropertiesContainer2" />
+    <property role="3GE5qa" value="properties" />
+    <node concept="15uK$x" id="6tNWG4yfVWO" role="15uGzu">
+      <property role="TrG5h" value="otherProperty2" />
+      <property role="15uK$v" value="other property 2" />
+      <node concept="15uCOM" id="6tNWG4yfVWS" role="15uK$R">
+        <ref role="15uCOR" node="6tNWG4ycqmW" resolve="otherMyNone" />
+      </node>
     </node>
   </node>
 </model>
