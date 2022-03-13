@@ -40,6 +40,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -79,6 +80,9 @@
     </node>
     <node concept="PrWs8" id="6tNWG4y2lLf" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
+    </node>
+    <node concept="PrWs8" id="21DO2Y8YRUe" role="PzmwI">
+      <ref role="PrY4T" node="21DO2Y8YRU7" resolve="IEP_EPInstanceHasName" />
     </node>
   </node>
   <node concept="PlHQZ" id="6tNWG4y2fJo">
@@ -710,6 +714,95 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="21DO2Y8YwOc" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2wom" resolve="IEP_ApplicableScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="21DO2Y8YRTN">
+    <property role="EcuMT" value="2335626784348536435" />
+    <property role="TrG5h" value="EPInstance_DefaultEP" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="21DO2Y8YRTQ" role="PzmwI">
+      <ref role="PrY4T" node="21DO2Y8YRTO" resolve="IEPInstance_Child" />
+    </node>
+    <node concept="1TJgyj" id="21DO2Y8YRTY" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348536446" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="21DO2Y8YRTP" resolve="IEPInstance_Property" />
+    </node>
+    <node concept="1TJgyj" id="21DO2Y8YRU0" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348536448" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="children" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="21DO2Y8YRTO" resolve="IEPInstance_Child" />
+    </node>
+    <node concept="1TJgyj" id="21DO2Y8ZhJJ" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348642287" />
+      <property role="20kJfa" value="epDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fJn" resolve="EP_Declaration" />
+      <ref role="20ksaX" node="21DO2Y8YRU3" resolve="declaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="21DO2Y8YRTO">
+    <property role="EcuMT" value="2335626784348536436" />
+    <property role="TrG5h" value="IEPInstance_Child" />
+    <node concept="1TJgyj" id="21DO2Y8YRU3" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348536451" />
+      <property role="20kJfa" value="declaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="21DO2Y8YRTP">
+    <property role="EcuMT" value="2335626784348536437" />
+    <property role="TrG5h" value="IEPInstance_Property" />
+    <node concept="1TJgyj" id="21DO2Y8YRU5" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348536453" />
+      <property role="20kJfa" value="declaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fKt" resolve="IEP_PropertyDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="21DO2Y8YRTS">
+    <property role="EcuMT" value="2335626784348536440" />
+    <property role="TrG5h" value="EPInstance_DefaultProperty" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="21DO2Y8YRTT" role="PzmwI">
+      <ref role="PrY4T" node="21DO2Y8YRTP" resolve="IEPInstance_Property" />
+    </node>
+    <node concept="1TJgyj" id="21DO2Y8ZhJR" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348642295" />
+      <property role="20kJfa" value="propDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y2fJw" resolve="EP_PropertyDeclaration" />
+      <ref role="20ksaX" node="21DO2Y8YRU5" resolve="declaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="21DO2Y8YRTV">
+    <property role="EcuMT" value="2335626784348536443" />
+    <property role="TrG5h" value="EPInstance_NamedPointer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="21DO2Y8YRTW" role="PzmwI">
+      <ref role="PrY4T" node="21DO2Y8YRTO" resolve="IEPInstance_Child" />
+    </node>
+    <node concept="1TJgyj" id="21DO2Y8ZhJF" role="1TKVEi">
+      <property role="IQ2ns" value="2335626784348642283" />
+      <property role="20kJfa" value="namedPointerDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6tNWG4y54vI" resolve="EP_EPNamedNodePointer" />
+      <ref role="20ksaX" node="21DO2Y8YRU3" resolve="declaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="21DO2Y8YRU7">
+    <property role="EcuMT" value="2335626784348536455" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="IEP_EPInstanceHasName" />
+    <node concept="1TJgyi" id="21DO2Y8YRU8" role="1TKVEl">
+      <property role="IQ2nx" value="2335626784348536456" />
+      <property role="TrG5h" value="instanceHasName" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
