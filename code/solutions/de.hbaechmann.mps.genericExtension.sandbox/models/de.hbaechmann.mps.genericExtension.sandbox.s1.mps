@@ -486,5 +486,12 @@
       </node>
     </node>
   </node>
+  <node concept="15pVkJ" id="21DO2Y8YRTy">
+    <property role="TrG5h" value="myRootNamedRef" />
+    <property role="15uK$v" value="some named ref" />
+    <node concept="15pPXT" id="21DO2Y8YRTz" role="15pPWT" />
+    <node concept="15pXm8" id="21DO2Y8YRT_" role="15uhGH" />
+    <node concept="15l0_j" id="21DO2Y8YRTG" role="15uhGH" />
+  </node>
 </model>
 
