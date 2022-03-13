@@ -12,6 +12,8 @@
   </imports>
   <registry>
     <language id="13086e00-41a3-4461-b62a-9ff367bfad2b" name="de.hbaechmann.mps.genericExtensions">
+      <concept id="2335626784348441867" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableScope_AsDefined" flags="ng" index="2C$XO$" />
+      <concept id="7454568719543958418" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPs_ALL" flags="ng" index="15l0_j" />
       <concept id="7454568719543958381" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPRef" flags="ng" index="15l0AG">
         <reference id="7454568719543958395" name="target" index="15l0AU" />
       </concept>
@@ -21,6 +23,15 @@
       <concept id="7454568719543958397" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPsContainerRef" flags="ng" index="15l0AW">
         <reference id="7454568719543958407" name="target" index="15l0_6" />
       </concept>
+      <concept id="7454568719542693271" name="de.hbaechmann.mps.genericExtensions.structure.EP_CardinalityOptional" flags="ng" index="15pPXm" />
+      <concept id="7454568719542693274" name="de.hbaechmann.mps.genericExtensions.structure.IEP_CardinalityOne" flags="ng" index="15pPXr" />
+      <concept id="7454568719542693304" name="de.hbaechmann.mps.genericExtensions.structure.EP_CardinalityMany" flags="ng" index="15pPXT" />
+      <concept id="7454568719542680098" name="de.hbaechmann.mps.genericExtensions.structure.EP_EPNamedNodePointerRef" flags="ng" index="15pSzz">
+        <reference id="7454568719542684470" name="target" index="15pRBR" />
+      </concept>
+      <concept id="7454568719542667246" name="de.hbaechmann.mps.genericExtensions.structure.EP_EPNamedNodePointer" flags="ng" index="15pVkJ" />
+      <concept id="7454568719542658889" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableConcepts_ALL" flags="ng" index="15pXm8" />
+      <concept id="7454568719542658892" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableScope_InheritFromParent" flags="ng" index="15pXmd" />
       <concept id="7454568719543260620" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EntityWithRole" flags="ng" index="15rEsd">
         <property id="7454568719541926878" name="role" index="15uK$v" />
       </concept>
@@ -54,7 +65,10 @@
       <concept id="7454568719541939932" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationContainerRef" flags="ng" index="15uHKt">
         <reference id="7454568719541939935" name="target" index="15uHKu" />
       </concept>
-      <concept id="7454568719541926871" name="de.hbaechmann.mps.genericExtensions.structure.EP_Declaration" flags="ng" index="15uK$m" />
+      <concept id="7454568719541926871" name="de.hbaechmann.mps.genericExtensions.structure.EP_Declaration" flags="ng" index="15uK$m">
+        <child id="7454568719541926935" name="properties" index="15uKVm" />
+        <child id="7454568719541926937" name="subEPs" index="15uKVo" />
+      </concept>
       <concept id="7454568719541926880" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclaration" flags="ng" index="15uK$x">
         <child id="7454568719541926902" name="type" index="15uK$R" />
       </concept>
@@ -73,6 +87,13 @@
       </concept>
       <concept id="7454568719541926917" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EnumMemberDeclarationRef" flags="ng" index="15uKV4">
         <reference id="7454568719541926983" name="target" index="15uKU6" />
+      </concept>
+      <concept id="7454568719541926940" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EPDeclaration" flags="ng" index="15uKVt">
+        <child id="7454568719542693368" name="cardinality" index="15pPWT" />
+        <child id="7454568719542053356" name="applicableConcepts" index="15uhGH" />
+      </concept>
+      <concept id="7454568719541926943" name="de.hbaechmann.mps.genericExtensions.structure.EP_DeclarationRef" flags="ng" index="15uKVu">
+        <reference id="7454568719541926946" name="target" index="15uKVz" />
       </concept>
       <concept id="7454568719541926955" name="de.hbaechmann.mps.genericExtensions.structure.EP_PropertyDeclarationRef" flags="ng" index="15uKVE">
         <reference id="7454568719541939919" name="target" index="15uHKe" />
@@ -355,6 +376,115 @@
   </node>
   <node concept="15uK$m" id="6tNWG4yktZm">
     <property role="TrG5h" value="dummyEP" />
+  </node>
+  <node concept="15uK$m" id="21DO2Y8VHk7">
+    <property role="TrG5h" value="EP1" />
+    <property role="15uK$v" value="ep 1" />
+    <node concept="15uvjg" id="21DO2Y8VHk8" role="15uhGH">
+      <ref role="15pYEl" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="15uvjg" id="21DO2Y8VHka" role="15pVlR">
+        <ref role="15pYEl" to="tpck:4uZwTti3_$T" resolve="Attribute" />
+      </node>
+    </node>
+    <node concept="15pPXT" id="21DO2Y8VHkc" role="15pPWT" />
+    <node concept="15uKVE" id="21DO2Y8VHke" role="15uKVm">
+      <ref role="15uHKe" node="6tNWG4yfiEb" resolve="myProperty1" />
+    </node>
+    <node concept="15uHKt" id="21DO2Y8VHkj" role="15uKVm">
+      <ref role="15uHKu" node="6tNWG4ycFax" resolve="MyPropertiesContainer" />
+    </node>
+    <node concept="15uK$x" id="21DO2Y8VHkr" role="15uKVm">
+      <property role="TrG5h" value="myInlinePropertyDeclaration1" />
+      <property role="15uK$v" value="my inline property declaration 1" />
+      <node concept="15uK$y" id="21DO2Y8VHky" role="15uK$R">
+        <property role="TrG5h" value="myInlinePrimitiveType" />
+        <property role="15uK$H" value="*" />
+      </node>
+    </node>
+    <node concept="15uK$x" id="21DO2Y8VHk_" role="15uKVm">
+      <property role="TrG5h" value="myInlinePropertyDeclaration2" />
+      <property role="15uK$v" value="my inline property declaration 2" />
+      <node concept="15uK$J" id="21DO2Y8VHkJ" role="15uK$R">
+        <property role="TrG5h" value="myInlineEnum" />
+        <node concept="15uK$T" id="21DO2Y8VHkM" role="15uK$U">
+          <property role="TrG5h" value="inlineLiteral" />
+          <property role="15uK$v" value="some presentation" />
+        </node>
+      </node>
+    </node>
+    <node concept="15uK$m" id="21DO2Y8WKcg" role="15uKVo">
+      <property role="TrG5h" value="inlineEP" />
+      <property role="15uK$v" value="inline EP" />
+      <node concept="15pPXT" id="21DO2Y8WKcp" role="15pPWT" />
+      <node concept="15uvjg" id="21DO2Y8WKcr" role="15uhGH">
+        <ref role="15pYEl" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="15pVkJ" id="21DO2Y8WKcl" role="15uKVo">
+      <property role="TrG5h" value="namedRef" />
+      <property role="15uK$v" value="named ref" />
+      <node concept="15pPXT" id="21DO2Y8WKct" role="15pPWT" />
+      <node concept="15uvjg" id="21DO2Y8WKcv" role="15uhGH">
+        <ref role="15pYEl" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      </node>
+    </node>
+    <node concept="15uKVu" id="21DO2Y8WKcD" role="15uKVo">
+      <property role="15uK$v" value="inline EP" />
+      <ref role="15uKVz" node="21DO2Y8WKcg" resolve="inlineEP" />
+      <node concept="15pPXT" id="21DO2Y8WKcM" role="15pPWT" />
+      <node concept="15uvjg" id="21DO2Y8WKcO" role="15uhGH">
+        <ref role="15pYEl" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      </node>
+    </node>
+    <node concept="15pSzz" id="21DO2Y8WKd1" role="15uKVo">
+      <property role="15uK$v" value="named ref 2" />
+      <ref role="15pRBR" node="21DO2Y8WKcl" resolve="namedRef" />
+      <node concept="15uvjg" id="21DO2Y8WKdf" role="15uhGH">
+        <ref role="15pYEl" to="tpck:4uZwTti3_$T" resolve="Attribute" />
+      </node>
+      <node concept="15pPXm" id="21DO2Y8WKdj" role="15pPWT" />
+    </node>
+  </node>
+  <node concept="15uK$m" id="21DO2Y8YRSx">
+    <property role="TrG5h" value="EP2" />
+    <property role="15uK$v" value="ep 2" />
+    <node concept="15pPXT" id="21DO2Y8YRSy" role="15pPWT" />
+    <node concept="15pXm8" id="21DO2Y8YRS$" role="15uhGH" />
+    <node concept="15l0_j" id="21DO2Y8YRSF" role="15uhGH" />
+    <node concept="15pVkJ" id="21DO2Y8YRSJ" role="15uKVo">
+      <property role="TrG5h" value="myInlineRef" />
+      <property role="15uK$v" value="named ref" />
+      <node concept="15pPXm" id="21DO2Y8YRSL" role="15pPWT" />
+      <node concept="15pXmd" id="21DO2Y8YRSN" role="15uhGH">
+        <node concept="15l0AG" id="21DO2Y8YRSP" role="15pVlR">
+          <ref role="15l0AU" node="21DO2Y8VHk7" resolve="EP1" />
+        </node>
+      </node>
+    </node>
+    <node concept="15pSzz" id="21DO2Y8YRSX" role="15uKVo">
+      <property role="15uK$v" value="named ref override" />
+      <ref role="15pRBR" node="21DO2Y8YRSJ" resolve="myInlineRef" />
+      <node concept="15pPXr" id="21DO2Y8YRT6" role="15pPWT" />
+      <node concept="2C$XO$" id="21DO2Y8YRT9" role="15uhGH">
+        <node concept="15l0AG" id="21DO2Y8YRTb" role="15pVlR">
+          <ref role="15l0AU" node="21DO2Y8YRSx" resolve="EP2" />
+        </node>
+      </node>
+    </node>
+    <node concept="15uK$x" id="21DO2Y8YRTd" role="15uKVm">
+      <property role="TrG5h" value="name" />
+      <property role="15uK$v" value="my name" />
+      <node concept="15uCOM" id="21DO2Y8YRTh" role="15uK$R">
+        <ref role="15uCOR" node="6tNWG4ybTse" resolve="MyString" />
+      </node>
+    </node>
+    <node concept="15uK$x" id="21DO2Y8YRTo" role="15uKVm">
+      <property role="TrG5h" value="description" />
+      <property role="15uK$v" value="description" />
+      <node concept="15uCOM" id="21DO2Y8YRTv" role="15uK$R">
+        <ref role="15uCOR" node="6tNWG4ybTse" resolve="MyString" />
+      </node>
+    </node>
   </node>
 </model>
 
