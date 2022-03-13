@@ -123,6 +123,7 @@
     <property role="TrG5h" value="EP_PrimitiveTypeDeclaration" />
     <property role="34LRSv" value="primitive type" />
     <property role="3GE5qa" value="properties.types.primitive" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2oMI" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -459,7 +460,7 @@
     <property role="EcuMT" value="7454568719541995026" />
     <property role="TrG5h" value="EP_ApplicableConceptsContainer" />
     <property role="3GE5qa" value="applicableConcepts.concepts" />
-    <property role="34LRSv" value="applicable concepts list" />
+    <property role="34LRSv" value="applicable concepts" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y2wos" role="PzmwI">
@@ -633,6 +634,9 @@
     <node concept="PrWs8" id="6tNWG4y9ZHI" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2wom" resolve="IEP_ApplicableScope" />
     </node>
+    <node concept="PrWs8" id="6tNWG4yk5IN" role="PzmwI">
+      <ref role="PrY4T" node="6tNWG4y9ZHN" resolve="IEP_ApplicableEPsContainerContent" />
+    </node>
     <node concept="1TJgyj" id="6tNWG4y9ZHV" role="1TKVEi">
       <property role="IQ2ns" value="7454568719543958395" />
       <property role="20kJfa" value="target" />
@@ -645,6 +649,7 @@
     <property role="3GE5qa" value="applicableConcepts.eps" />
     <property role="TrG5h" value="EP_ApplicableEPsContainer" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="applicable EPs" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y9ZId" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -654,6 +659,13 @@
     </node>
     <node concept="PrWs8" id="6tNWG4y9ZHR" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y9ZHN" resolve="IEP_ApplicableEPsContainerContent" />
+    </node>
+    <node concept="1TJgyj" id="6tNWG4yjKCI" role="1TKVEi">
+      <property role="IQ2ns" value="7454568719546518062" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="applicableEPs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6tNWG4y9ZHN" resolve="IEP_ApplicableEPsContainerContent" />
     </node>
   </node>
   <node concept="PlHQZ" id="6tNWG4y9ZHN">
@@ -682,6 +694,7 @@
     <property role="EcuMT" value="7454568719543958418" />
     <property role="3GE5qa" value="applicableConcepts.eps" />
     <property role="TrG5h" value="EP_ApplicableEPs_ALL" />
+    <property role="34LRSv" value="ALL EPs" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6tNWG4y9ZIj" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2wom" resolve="IEP_ApplicableScope" />
