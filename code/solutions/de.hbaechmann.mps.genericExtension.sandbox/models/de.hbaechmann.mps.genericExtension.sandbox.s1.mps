@@ -18,8 +18,9 @@
       <concept id="7454568719543958384" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPsContainer" flags="ng" index="15l0AL">
         <child id="7454568719546518062" name="applicableEPs" index="15ffzJ" />
       </concept>
-      <concept id="7454568719543958387" name="de.hbaechmann.mps.genericExtensions.structure.IEP_ApplicableEPsContainerContent" flags="ng" index="15l0AM" />
-      <concept id="7454568719543958397" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPsContainerRef" flags="ng" index="15l0AW" />
+      <concept id="7454568719543958397" name="de.hbaechmann.mps.genericExtensions.structure.EP_ApplicableEPsContainerRef" flags="ng" index="15l0AW">
+        <reference id="7454568719543958407" name="target" index="15l0_6" />
+      </concept>
       <concept id="7454568719543260620" name="de.hbaechmann.mps.genericExtensions.structure.IEP_EntityWithRole" flags="ng" index="15rEsd">
         <property id="7454568719541926878" name="role" index="15uK$v" />
       </concept>
@@ -289,6 +290,9 @@
       <ref role="15pYEl" to="tpck:gw2VY9q" resolve="BaseConcept" />
       <node concept="15uvjg" id="6tNWG4yiO38" role="15pVlR">
         <ref role="15pYEl" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+        <node concept="15uvji" id="6tNWG4ym9T3" role="15pVlR">
+          <ref role="15uvjl" node="6tNWG4yiwIv" resolve="MyApplicableConceptsContainer" />
+        </node>
       </node>
     </node>
     <node concept="15uvji" id="6tNWG4yiO3e" role="15pXme">
@@ -310,11 +314,27 @@
   <node concept="15l0AL" id="6tNWG4yiwIw">
     <property role="TrG5h" value="MyApplicableEPsContainer" />
     <property role="3GE5qa" value="applicable" />
-    <node concept="15l0AW" id="6tNWG4yk5IF" role="15ffzJ" />
+    <node concept="15l0AW" id="6tNWG4yk5IF" role="15ffzJ">
+      <ref role="15l0_6" node="6tNWG4yk5IH" resolve="otherApplicableEPsContainer" />
+      <node concept="15uvjg" id="21DO2Y8TF_J" role="15pVlR">
+        <ref role="15pYEl" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+      <node concept="15l0AG" id="21DO2Y8TF__" role="15pVlR">
+        <ref role="15l0AU" node="6tNWG4yktZm" resolve="dummyEP" />
+      </node>
+      <node concept="15l0AW" id="21DO2Y8Tmr5" role="15pVlR">
+        <ref role="15l0_6" node="6tNWG4yiwIw" resolve="MyApplicableEPsContainer" />
+      </node>
+      <node concept="15uvji" id="6tNWG4ymPOD" role="15pVlR">
+        <ref role="15uvjl" node="6tNWG4yiwIv" resolve="MyApplicableConceptsContainer" />
+      </node>
+    </node>
     <node concept="15l0AG" id="6tNWG4yktZn" role="15ffzJ">
       <ref role="15l0AU" node="6tNWG4yktZm" resolve="dummyEP" />
     </node>
-    <node concept="15l0AL" id="6tNWG4yktZv" role="15ffzJ" />
+    <node concept="15l0AL" id="6tNWG4yktZv" role="15ffzJ">
+      <property role="TrG5h" value="MyInlineApplicableEPs" />
+    </node>
   </node>
   <node concept="15uvjj" id="6tNWG4yiwIx">
     <property role="TrG5h" value="otherApplicableConceptsContainer" />
@@ -329,12 +349,9 @@
   <node concept="15l0AL" id="6tNWG4yk5IH">
     <property role="3GE5qa" value="applicable" />
     <property role="TrG5h" value="otherApplicableEPsContainer" />
-    <node concept="15l0AL" id="6tNWG4yks_z" role="15ffzJ">
-      <node concept="15l0AM" id="6tNWG4yks__" role="15ffzJ" />
+    <node concept="15l0AG" id="6tNWG4ykOkT" role="15ffzJ">
+      <ref role="15l0AU" node="6tNWG4yktZm" resolve="dummyEP" />
     </node>
-  </node>
-  <node concept="15l0AL" id="6tNWG4yktZj">
-    <property role="3GE5qa" value="applicable" />
   </node>
   <node concept="15uK$m" id="6tNWG4yktZm">
     <property role="TrG5h" value="dummyEP" />
