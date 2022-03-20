@@ -334,7 +334,7 @@
   </node>
   <node concept="1TIwiD" id="6tNWG4y2iVh">
     <property role="EcuMT" value="7454568719541939921" />
-    <property role="TrG5h" value="EP_PropertyDeclarationContainer" />
+    <property role="TrG5h" value="EP_PropertyDeclarationsContainer" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="properties container" />
     <property role="3GE5qa" value="properties" />
@@ -362,7 +362,7 @@
       <property role="IQ2ns" value="7454568719541939935" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6tNWG4y2iVh" resolve="EP_PropertyDeclarationContainer" />
+      <ref role="20lvS9" node="6tNWG4y2iVh" resolve="EP_PropertyDeclarationsContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6tNWG4y2mvk">
@@ -825,8 +825,8 @@
   <node concept="1TIwiD" id="30OkUO9YES9">
     <property role="EcuMT" value="3473493215271366153" />
     <property role="3GE5qa" value="declaration.defaultEP" />
-    <property role="TrG5h" value="EP_EPDeclarationContainer" />
-    <property role="34LRSv" value="ep declarations" />
+    <property role="TrG5h" value="EP_EPDeclarationsContainer" />
+    <property role="34LRSv" value="ep declarations container" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="30OkUO9YESa" role="PzmwI">
@@ -868,15 +868,15 @@
       <property role="IQ2ns" value="3473493215271366706" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="30OkUO9YES9" resolve="EP_EPDeclarationContainer" />
+      <ref role="20lvS9" node="30OkUO9YES9" resolve="EP_EPDeclarationsContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="30OkUO9YF0O">
     <property role="EcuMT" value="3473493215271366708" />
     <property role="3GE5qa" value="declaration.reference" />
-    <property role="TrG5h" value="EP_NamedNodePointerContainer" />
+    <property role="TrG5h" value="EP_NamedNodePointersContainer" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="references" />
+    <property role="34LRSv" value="references container" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="30OkUO9YF0P" role="PzmwI">
       <ref role="PrY4T" node="6tNWG4y2fJo" resolve="IEP_NamedEntity" />
@@ -901,7 +901,7 @@
       <property role="IQ2ns" value="3473493215271366716" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="30OkUO9YF0O" resolve="EP_NamedNodePointerContainer" />
+      <ref role="20lvS9" node="30OkUO9YF0O" resolve="EP_NamedNodePointersContainer" />
     </node>
   </node>
 </model>
