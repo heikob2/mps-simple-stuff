@@ -159,7 +159,7 @@
   </node>
   <node concept="18kY7G" id="6tNWG4y8kIO">
     <property role="TrG5h" value="check_EP_DeclarationRef" />
-    <property role="3GE5qa" value="declaration" />
+    <property role="3GE5qa" value="declaration.defaultEP" />
     <node concept="3clFbS" id="6tNWG4y8kIP" role="18ibNy">
       <node concept="3clFbJ" id="6tNWG4y8kIV" role="3cqZAp">
         <node concept="2OqwBi" id="6tNWG4y8l3L" role="3clFbw">
@@ -216,7 +216,7 @@
                   <node concept="3CnSsL" id="6tNWG4y8mR6" role="3Coj4f">
                     <ref role="QkamJ" node="6tNWG4y8jYG" resolve="prop" />
                     <node concept="355D3s" id="6tNWG4y8mRq" role="3CoRuB">
-                      <ref role="355D3t" to="tcj4:6tNWG4y2fKv" resolve="EP_DeclarationRef" />
+                      <ref role="355D3t" to="tcj4:6tNWG4y2fKv" resolve="EP_EPDeclarationRef" />
                       <ref role="355D3u" to="tcj4:6tNWG4y2fJu" resolve="role" />
                     </node>
                   </node>
@@ -267,7 +267,7 @@
                   <node concept="3CnSsL" id="6tNWG4y8zX7" role="3Coj4f">
                     <ref role="QkamJ" node="6tNWG4y8ydW" resolve="childDecl" />
                     <node concept="359W_D" id="6tNWG4y8zXv" role="3CoRuB">
-                      <ref role="359W_E" to="tcj4:6tNWG4y2fKv" resolve="EP_DeclarationRef" />
+                      <ref role="359W_E" to="tcj4:6tNWG4y2fKv" resolve="EP_EPDeclarationRef" />
                       <ref role="359W_F" to="tcj4:6tNWG4y5aRS" resolve="cardinality" />
                     </node>
                   </node>
@@ -292,7 +292,7 @@
     </node>
     <node concept="1YaCAy" id="6tNWG4y8kIR" role="1YuTPh">
       <property role="TrG5h" value="epDRef" />
-      <ref role="1YaFvo" to="tcj4:6tNWG4y2fKv" resolve="EP_DeclarationRef" />
+      <ref role="1YaFvo" to="tcj4:6tNWG4y2fKv" resolve="EP_EPDeclarationRef" />
     </node>
   </node>
   <node concept="Q5z_Y" id="6tNWG4y8ycT">
@@ -339,7 +339,7 @@
   </node>
   <node concept="18kY7G" id="6tNWG4y9GWa">
     <property role="TrG5h" value="check_EP_EPNamedNodePointerRef" />
-    <property role="3GE5qa" value="declaration" />
+    <property role="3GE5qa" value="declaration.reference" />
     <node concept="3clFbS" id="6tNWG4y9GWb" role="18ibNy">
       <node concept="3clFbJ" id="6tNWG4y9GWq" role="3cqZAp">
         <node concept="2OqwBi" id="6tNWG4y9HvX" role="3clFbw">
@@ -396,7 +396,7 @@
                   <node concept="3CnSsL" id="6tNWG4y9JTD" role="3Coj4f">
                     <ref role="QkamJ" node="6tNWG4y8jYG" resolve="prop" />
                     <node concept="355D3s" id="6tNWG4y9K0Q" role="3CoRuB">
-                      <ref role="355D3t" to="tcj4:6tNWG4y57Cy" resolve="EP_EPNamedNodePointerRef" />
+                      <ref role="355D3t" to="tcj4:6tNWG4y57Cy" resolve="EP_EPReference_NamedNodePointerRef" />
                       <ref role="355D3u" to="tcj4:6tNWG4y2fJu" resolve="role" />
                     </node>
                   </node>
@@ -458,7 +458,7 @@
                   <node concept="3CnSsL" id="6tNWG4y9LJy" role="3Coj4f">
                     <ref role="QkamJ" node="6tNWG4y8ydW" resolve="childDecl" />
                     <node concept="359W_D" id="6tNWG4y9LJU" role="3CoRuB">
-                      <ref role="359W_E" to="tcj4:6tNWG4y57Cy" resolve="EP_EPNamedNodePointerRef" />
+                      <ref role="359W_E" to="tcj4:6tNWG4y57Cy" resolve="EP_EPReference_NamedNodePointerRef" />
                       <ref role="359W_F" to="tcj4:6tNWG4y5aRS" resolve="cardinality" />
                     </node>
                   </node>
@@ -471,7 +471,7 @@
     </node>
     <node concept="1YaCAy" id="6tNWG4y9GWd" role="1YuTPh">
       <property role="TrG5h" value="namedPointerRef" />
-      <ref role="1YaFvo" to="tcj4:6tNWG4y57Cy" resolve="EP_EPNamedNodePointerRef" />
+      <ref role="1YaFvo" to="tcj4:6tNWG4y57Cy" resolve="EP_EPReference_NamedNodePointerRef" />
     </node>
   </node>
 </model>

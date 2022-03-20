@@ -51,8 +51,8 @@
     </language>
   </registry>
   <node concept="13h7C7" id="21DO2Y8YRUj">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="13h7C2" to="tcj4:6tNWG4y2fJn" resolve="EP_Declaration" />
+    <property role="3GE5qa" value="declaration.defaultEP" />
+    <ref role="13h7C2" to="tcj4:6tNWG4y2fJn" resolve="EP_EPDeclaration" />
     <node concept="13hLZK" id="21DO2Y8YRUk" role="13h7CW">
       <node concept="3clFbS" id="21DO2Y8YRUl" role="2VODD2">
         <node concept="3clFbF" id="21DO2Y8YRUv" role="3cqZAp">

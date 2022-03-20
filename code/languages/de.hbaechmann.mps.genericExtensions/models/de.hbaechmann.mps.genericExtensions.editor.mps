@@ -178,8 +178,8 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6tNWG4y5c4x">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y2fJn" resolve="EP_Declaration" />
+    <property role="3GE5qa" value="declaration.defaultEP" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y2fJn" resolve="EP_EPDeclaration" />
     <node concept="3EZMnI" id="6tNWG4y5c4C" role="2wV5jI">
       <node concept="2iRkQZ" id="6tNWG4y5c4D" role="2iSdaV" />
       <node concept="3EZMnI" id="6tNWG4y5c4I" role="3EZMnx">
@@ -727,7 +727,7 @@
               <node concept="2OqwBi" id="21DO2Y8W3kp" role="3clFbG">
                 <node concept="pncrf" id="21DO2Y8W33M" role="2Oq$k0" />
                 <node concept="1BlSNk" id="21DO2Y8W3_Q" role="2OqNvi">
-                  <ref role="1BmUXE" to="tcj4:6tNWG4y2fJn" resolve="EP_Declaration" />
+                  <ref role="1BmUXE" to="tcj4:6tNWG4y2fJn" resolve="EP_EPDeclaration" />
                   <ref role="1Bn3mz" to="tcj4:6tNWG4y2fKn" resolve="properties" />
                 </node>
               </node>
@@ -926,7 +926,7 @@
   </node>
   <node concept="24kQdi" id="6tNWG4y71cC">
     <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y2fKs" resolve="IEP_EPDeclarationChild" />
     <node concept="1xolST" id="6tNWG4y71cE" role="2wV5jI">
       <property role="1xolSY" value="no editor defined" />
     </node>
@@ -938,8 +938,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6tNWG4y7aAP">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y2fKv" resolve="EP_DeclarationRef" />
+    <property role="3GE5qa" value="declaration.defaultEP" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y2fKv" resolve="EP_EPDeclarationRef" />
     <node concept="3EZMnI" id="6tNWG4y7aB3" role="2wV5jI">
       <node concept="2iRfu4" id="6tNWG4y7aB4" role="2iSdaV" />
       <node concept="3F0ifn" id="21DO2Y8X9eE" role="3EZMnx">
@@ -978,8 +978,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6tNWG4y8JQj">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y54vI" resolve="EP_EPNamedNodePointer" />
+    <property role="3GE5qa" value="declaration.reference" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y54vI" resolve="EP_EPReference_NamedNodePointer" />
     <node concept="3EZMnI" id="6tNWG4y8JQo" role="2wV5jI">
       <node concept="2iRfu4" id="6tNWG4y8JQp" role="2iSdaV" />
       <node concept="3F0ifn" id="21DO2Y8X6Bu" role="3EZMnx">
@@ -1042,7 +1042,7 @@
   </node>
   <node concept="PKFIW" id="6tNWG4y8JRy">
     <property role="TrG5h" value="ApplyIEP_Declaration_To_EC" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y2fKs" resolve="IEP_EPDeclaration" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y2fKs" resolve="IEP_EPDeclarationChild" />
     <node concept="3EZMnI" id="6tNWG4y8JRB" role="2wV5jI">
       <node concept="2iRfu4" id="6tNWG4y8JRC" role="2iSdaV" />
       <node concept="3F0ifn" id="6tNWG4y8JR$" role="3EZMnx">
@@ -1061,8 +1061,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6tNWG4y8JTV">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="tcj4:6tNWG4y57Cy" resolve="EP_EPNamedNodePointerRef" />
+    <property role="3GE5qa" value="declaration.reference" />
+    <ref role="1XX52x" to="tcj4:6tNWG4y57Cy" resolve="EP_EPReference_NamedNodePointerRef" />
     <node concept="3EZMnI" id="6tNWG4y8JU0" role="2wV5jI">
       <node concept="2iRfu4" id="6tNWG4y8JU1" role="2iSdaV" />
       <node concept="3F0ifn" id="6tNWG4y8JTX" role="3EZMnx">
