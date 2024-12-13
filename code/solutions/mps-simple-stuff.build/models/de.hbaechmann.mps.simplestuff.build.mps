@@ -254,7 +254,7 @@
       </node>
       <node concept="3_J27D" id="FgkhL35sns" role="m$_w8">
         <node concept="3Mxwew" id="FgkhL35snt" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="1.2" />
         </node>
       </node>
       <node concept="m$f5U" id="FgkhL35snu" role="m$_yh">
@@ -276,6 +276,9 @@
       </node>
       <node concept="m$_yC" id="3O7c8NnPod8" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:1jjxZP6JyD_" resolve="jetbrains.mps.console" />
+      </node>
+      <node concept="m$_yC" id="6D$If0rIOUO" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:1JaUSFUm4G_" resolve="jetbrains.mps.editor.contextActions" />
       </node>
     </node>
     <node concept="2G$12M" id="FgkhL35sno" role="3989C9">
@@ -718,6 +721,70 @@
         <node concept="1SiIV0" id="2n8Ma7VzMKL" role="3bR37C">
           <node concept="3bR9La" id="2n8Ma7VzMKM" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6D$If0rwMuE" role="2G$12L">
+        <property role="TrG5h" value="de.hbaechmann.mps.simplestuff.ide.statisticsTools" />
+        <property role="3LESm3" value="bd7d610f-3c8f-4bab-bbdc-5a4044ab554a" />
+        <property role="BnDLt" value="true" />
+        <node concept="398BVA" id="6D$If0rwMuA" role="3LF7KH">
+          <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+          <node concept="2Ry0Ak" id="6D$If0rwMuD" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6D$If0rwMuC" role="2Ry0An">
+              <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.ide.statisticsTools" />
+              <node concept="2Ry0Ak" id="6D$If0rwMuB" role="2Ry0An">
+                <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.ide.statisticsTools.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6D$If0rwMvq" role="3bR37C">
+          <node concept="3bR9La" id="6D$If0rwMvr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6D$If0rwMvs" role="3bR37C">
+          <node concept="3bR9La" id="6D$If0rwMvt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6D$If0rwMvu" role="3bR37C">
+          <node concept="3bR9La" id="6D$If0rwMvv" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6D$If0rwMvw" role="3bR37C">
+          <node concept="3bR9La" id="6D$If0rwMvx" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1JaUSFUm4WO" resolve="jetbrains.mps.editor.contextActionsTool.pluginSolution" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6D$If0rwMvy" role="3bR37C">
+          <node concept="3bR9La" id="6D$If0rwMvz" role="1SiIV1">
+            <ref role="3bR37D" node="FgkhL36e4j" resolve="de.hbaechmann.mps.simplestuff.util" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="6D$If0rwMvH" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="6D$If0rwMvI" role="1HemKq">
+            <node concept="398BVA" id="6D$If0rwMv$" role="3LXTmr">
+              <ref role="398BVh" node="FgkhL360lA" resolve="simplestuff.code" />
+              <node concept="2Ry0Ak" id="6D$If0rwMv_" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6D$If0rwMvA" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.hbaechmann.mps.simplestuff.ide.statisticsTools" />
+                  <node concept="2Ry0Ak" id="6D$If0rwMvB" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6D$If0rwMvJ" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
           </node>
         </node>
       </node>
